@@ -4,7 +4,7 @@ Build one standalone **Subject (AI Plus One)** book per genuine course scope. Us
 
 ## Browse all titles
 
-- [All 137 book candidates from existing materials](#137-book-candidates-from-existing-materials)
+- [All 134 book candidates from existing materials](#134-book-candidates-from-existing-materials)
 - [All 84 Fall 2026 and Spring 2027 syllabus blueprints](#84-fall-2026-and-spring-2027-syllabus-blueprints)
 
 The two lists overlap. Ten syllabus blueprints explicitly feed a book in the first list; other scopes marked for comparison may also overlap. Do not add the two counts to get a unique-book total. These are plans, not finished manuscripts.
@@ -30,9 +30,9 @@ GitHub source names are recorded as owner/repository where known. An unqualified
 
 Each approved replacement is public. Only confirmed superseded public **source book** repositories go private, after the new edition is reachable and affected links have been migrated. Private sources stay private. A course site, toolkit, lab companion or app is not retired merely because it contributed material. No deletion. No automatic publication of rough drafts.
 
-## 137 book candidates from existing materials
+## 134 book candidates from existing materials
 
-In working order: **36 ready to scope, 57 to compare, and 44 on hold**. The [working TSV](queue.tsv) gives the primary and related sources and the decision needed for every title. Where a syllabus blueprint already exists, it is linked below. Queue numbers are stable: former #70 was merged into #37.
+In working order: **36 ready to scope, 57 to compare, and 41 on hold**. The [working TSV](queue.tsv) gives the primary and related sources and the decision needed for every title. Where a syllabus blueprint already exists, it is linked below. Queue numbers are stable: former #70 was merged into #37, and former #100, #101 and #105 were folded into #9.
 
 | Order | Book | Track | Stage | Syllabus blueprint |
 | ---: | --- | --- | --- | --- |
@@ -44,7 +44,7 @@ In working order: **36 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 6 | Introductory Statistics (AI Plus One) | Business | Ready to scope |  |
 | 7 | Application Engineering and Development (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/09-application-engineering-and-development/) |
 | 8 | Building Virtual Environments (AI Plus One) | Computing | Ready to scope | [Open plan](syllabus-track/blueprints/08-building-virtual-environments/) |
-| 9 | Computational Finance (AI Plus One) | Business | Ready to scope |  |
+| 9 | [Computational Finance (AI Plus One)](computational-finance.md) | Business | Ready to scope |  |
 | 10 | Contemporary Mathematics (AI Plus One) | Business | Ready to scope |  |
 | 11 | Conducting AI (AI Plus One) | Computing | Compare sources |  |
 | 12 | Design Engineering (AI Plus One) | Priority | On hold | [Open plan](syllabus-track/blueprints/69-design-engineering/) |
@@ -134,12 +134,9 @@ In working order: **36 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 97 | Principles of Economics (AI Plus One) | Business | On hold |  |
 | 98 | Business Law (AI Plus One) | Business | On hold |  |
 | 99 | Introduction to Finance (AI Plus One) | Business | On hold |  |
-| 100 | Corporate Finance with Excel and Python (AI Plus One) | Business | On hold |  |
-| 101 | Computational Finance with Python (AI Plus One) | Business | On hold |  |
 | 102 | Computational Marketing (AI Plus One) | Business | On hold |  |
 | 103 | Economics of Happiness (AI Plus One) | Business | On hold |  |
 | 104 | Economics (AI Plus One) | Business | On hold |  |
-| 105 | Computational Finance Methods (AI Plus One) | Business | On hold |  |
 | 106 | Algebra (AI Plus One) | Business | On hold |  |
 | 107 | Animation with Blender (AI Plus One) | Computing | On hold |  |
 | 108 | Interactive Storytelling (AI Plus One) | Computing | On hold |  |

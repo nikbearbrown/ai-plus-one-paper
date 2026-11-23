@@ -335,7 +335,7 @@ history-us-history	review	candidate	Mapped source or related material	united-sta
 frictional-book	review	candidate	Unresolved inventory, no build		Frictional book candidate; not equated with software or earlier learning-struggle manuscript without evidence
 economics	review	candidate	Mapped source or related material	economics-ai-one	Economics title candidate; relation to MBA Economics not verified
 design-of-agentic-systems	review	candidate	Mapped source or related material	design-of-agentic-systems-ai-one	Agentic Systems manuscript candidate; relation to Design of Agentic Systems with Case Studies unverified
-computational-finance	review	candidate	Mapped source or related material	computational-finance-methods-ai-one	Computational Finance candidate; relationship to MBA title not verified
+computational-finance	review	candidate	Mapped source or related material	computational-finance-ai-one	Computational Finance candidate; relationship to MBA title not verified
 causal-reasoning	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal reasoning research-methods candidate; publication and repository contents not verified
 botspeak-nbb	other	candidate	Outside book queue		Botspeak variant indicated by slug; exact scope not verified
 biology-the-cell	review	candidate	Mapped source or related material	cell-biology-ai-one	Cell biology textbook candidate; rights and manuscript not verified
@@ -477,8 +477,8 @@ Journal-Bot	other	unrelated	Outside book queue		Bot project, no evidence of facu
 Getting-the-Data-Right	book	candidate	Mapped source or related material	data-science-engineering-ai-one	Data practice title; verify manuscript
 Confessions-of-an-Indie-Artist	book	candidate	Source discovery, not yet a distinct book		Indie artist writing title; AI education fit unverified
 Reinforcement-Learning-for-Agentic-AI-Theory-Practice-LLMs	book	candidate	Mapped source or related material	reinforcement-learning-ai-one	Theory/practice instructional title; verify against other RL repos
-Corporate-Finance-with-Excel-Python-and-LLMs	book	candidate	Mapped source or related material	corporate-finance-ai-one; corporate-finance-with-excel-and-python-ai-one	Instructional finance title; manuscript unverified
-Computational_Finance_with_Python	book-course	candidate	Mapped source or related material	computational-finance-with-python-ai-one	Computational finance/Python instructional line; inspect course materials
+Corporate-Finance-with-Excel-Python-and-LLMs	book	candidate	Mapped source or related material	corporate-finance-ai-one; computational-finance-ai-one	Instructional finance title; manuscript unverified
+Computational_Finance_with_Python	book-course	candidate	Mapped source or related material	computational-finance-ai-one	Student-authored Python course material; compare outcomes, but only reuse with explicit permission
 Educational-Freedom-Project	other	unrelated	Outside book queue		Education initiative, not individual course/book
 INFO-7375-Branding-and-AI	book-course	canonical	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one	Named INFO 7375 course, corroborated by local teaching materials and known assignment
 YouTube	other	unrelated	Outside book queue		YouTube/media container
