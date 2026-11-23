@@ -66,7 +66,7 @@ In working order: **37 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 28 | AI for Students (AI Plus One) | Education | Ready to scope |  |
 | 29 | Trust the Teacher (AI Plus One) | Education | Ready to scope |  |
 | 30 | NotebookLM (AI Plus One) | Education | Ready to scope |  |
-| 31 | NotebookLM for Education (AI Plus One) | Education | Ready to scope |  |
+| 31 | [Gemini Notebook for Education (formerly NotebookLM) (AI Plus One)](gemini-notebook-for-education.md) | Education | Ready to scope |  |
 | 32 | Claude for Education (AI Plus One) | Education | Ready to scope |  |
 | 33 | Claude Code for Teachers (AI Plus One) | Education | Ready to scope |  |
 | 34 | Claude Code for Students (AI Plus One) | Education | Ready to scope |  |
