@@ -1,0 +1,76 @@
+course code	named topic	display title or proposed scope	Fall 2026 CRNs	Spring 2027 CRNs	route	related existing queue rows	scope notes
+CSYE 6200		Object-Oriented Design (AI Plus One)	16348,16350,16352,23000	35332,35336,40001	verify-syllabus-first		Java Programming and Application Engineering: require demonstrated design-first scope
+CSYE 6220		Enterprise Software Design (AI Plus One)		35339	hold-no-document		Compare application engineering and systems design; emphasize software architecture and integration
+CSYE 6225		Computer Networks and Cloud Computing (AI Plus One)	16355,16356,16357,16359,22539	35340,35343,35344	verify-syllabus-first		Telecom Infrastructure and DevOps are neighboring scopes
+CSYE 6230		Operating Systems (AI Plus One)		35345	hold-no-document		Compare Fall Computer Systems; may be same scope
+CSYE 6300		Software Design Patterns (AI Plus One)	21172	37604,37605	verify-syllabus-first		Compare Object-Oriented Design; patterns and refactoring beyond introductory OOP
+CSYE 7105		High-Performance Machine Learning (AI Plus One)	16364	35348	verify-syllabus-first		Parallel training and accelerator/distributed compute; compare High-Performance Computing for AI
+CSYE 7200		Big Data Engineering with Scala (AI Plus One)	16366	35350	verify-syllabus-first		Use language specialization only if outcomes materially differ
+CSYE 7220		DevOps (AI Plus One)	24430	42560	verify-syllabus-first		Compare Cloud, Infrastructure Automation, and LLMOps for scope overlap
+CSYE 7230		Software Engineering (AI Plus One)		35353,42173	hold-no-document	59	General engineering lifecycle may differ from AI-assisted software engineering
+CSYE 7270		Building Virtual Environments (AI Plus One)	16373		existing-queue	8	Compare against existing course book first
+CSYE 7280		User Experience Design and Testing (AI Plus One)	16375,16376	35356	compare-scope	12;66	Test whether dedicated research and usability coverage merits separate book
+CSYE 7374	Cryptography	Cryptography (AI Plus One)		42112	verify-syllabus-first		Number theory may support prerequisites; keep exercises educational and defensive
+CSYE 7374	Infrastructure & DevOps w/LLMs	LLMOps (AI Plus One)	19915	35363,42114	verify-syllabus-first		Operationalizing language-model systems, not prompting or general DevOps
+CSYE 7374	Intro AI Agent Infrastructure	AI Agent Infrastructure (AI Plus One)	16382,24102	35362	hold-review-evidence	57	Compare distributed runtime/infrastructure emphasis with agent design and enterprise architecture
+CSYE 7374	ST: Introduction to Agentic AI	Design of Agentic Systems (AI Plus One)	22638,24510	37272	compare-scope	57	Compare goals, state, tools, tracing and stopping with existing scope before a separate book
+CSYE 7374	ST: Software Testing for Engrs	Software Testing (AI Plus One)	21963		verify-syllabus-first		Compare Software Quality Engineering and existing audit tool; defensive testing only
+CSYE 7380		Generative Modeling (AI Plus One)	16385,16386,16387,20134,22536	35365,35367,35369,42115	verify-syllabus-first		Model construction/evaluation, not user-level prompting; compare advanced LLMs and neural networks
+DAMG 6105		Data Science Engineering with Python (AI Plus One)	16393,16395,21964	35371,35372,40004	compare-scope	72;24	Test common data-workflow scope before allowing a language variant
+DAMG 6210		Database Design and Data Management (AI Plus One)	16397,16398,16399,16400,16403,16405,16406	35374,35377,35379,35383	verify-syllabus-first		Modeling, relational queries and database design
+DAMG 6300		Data Engineering for AI (AI Plus One)	21965		verify-syllabus-first		Combine with INFO 7375 Data Engineering for AI unless outcomes materially differ
+DAMG 6310		Knowledge Graphs and Generative AI (AI Plus One)	21970		syllabus-pilot	58	Verified Fall CRN 21970 in the targeted Newton audit; course info block says DAMG 6310 despite a DAMG 6300 heading. Distinct from agent graph search.
+DAMG 7245		Big Data Systems and Analytics (AI Plus One)	16411	35387	verify-syllabus-first		Compare Scala implementation course and Data Architecture
+DAMG 7250		Data Architecture and Governance (AI Plus One)		35392	hold-review-evidence		Governance and lifecycle rules distinct only if confirmed
+DAMG 7370		Data Architecture for Business Intelligence (AI Plus One)	16422,16423	35394,35395,35396	verify-syllabus-first		Compare general data architecture, emphasizing warehouse and BI use
+INFO 5001		Application Modeling and Design (AI Plus One)		35400	compare-scope	7	Check prerequisite design scope and possible overlap with OOP
+INFO 5100		Application Engineering and Development (AI Plus One)	16428,16430,16433,16435,16437,16438,16440,16442,20135	35409,35412,35413,35414,35415,35417,35418,35419	existing-queue	7	Use matching syllabus for scope against existing book
+INFO 6105		Data Science Engineering (AI Plus One)	16455,16458,16462,16464,16466,16467	35433,35437,35439,35444,35445,42103	existing-queue	72	Existing INFO_6105_Data_Science_Engineering_Methods is a course source; compare DAMG 6105 before a second book
+INFO 6106		Neural Modeling (AI Plus One)	16468		verify-syllabus-first		Check Fall archive-only context and compare Neural Networks and AI
+INFO 6150		Web Design and User Experience Engineering (AI Plus One)	16470,16471,16473,16474,16475	35447,35449,35451,35452	compare-scope	12;66	Compare existing design books and independently sourced Web Development syllabus
+INFO 6205		Algorithms (AI Plus One)	16480,16483,16486,16488,16489,16490,16492	35458,35460,35463,35464,35465,35466,35467,35468,35470	existing-queue	4	Use matching syllabus as coverage evidence for existing book
+INFO 6215		Business Analysis and Information Engineering (AI Plus One)	16495,16496,16500,16501,16502,16503,20111,22064,23007	35475,35476,35477,35479,40008,40009	verify-syllabus-first		Compare systems project management and business process engineering
+INFO 6245		Managing Information Systems Development (AI Plus One)		42369,42568	verify-syllabus-first		Adaptive delivery and project planning, not application coding
+INFO 6255		Software Quality Engineering (AI Plus One)	16520,16522,16523	35496,35497,35498	verify-syllabus-first		Compare Software Testing and general Software Engineering, keep distinct only as evidenced
+INFO 6350		Mobile Web Development (AI Plus One)	16524,16526	35500	verify-syllabus-first		Check against web development for distinct mobile constraints and learning outcomes
+INFO 6376	ST: AI Improving AI	Self-Improving AI (AI Plus One)		42675	hold-no-document		Compare INFO 7375 variant; keep proposals and experiments grounded
+INFO 6500		Operational Risk Engineering (AI Plus One)	19224	35502	verify-syllabus-first		Compare general risk management and software governance only if outcomes align
+INFO 7225		Accounting and Budgeting for Engineers (AI Plus One)		35503	hold-no-document	15	Use existing accounting scope if engineering examples alone are different
+INFO 7260		Business Process Engineering (AI Plus One)	16533,22366		verify-syllabus-first		Process measurement, design and improvement
+INFO 7374	Interdisc. Industry Proj Pract	Industry Project Practicum (AI Plus One)	19268	37229	verify-syllabus-first		Practicum may be activity format rather than standalone adoption scope; hold until substantive evidence
+INFO 7374	Machine Learning Med Devices	Machine Learning for Medical Devices (AI Plus One)	16540		hold-review-evidence		Expert review required; validate against Medical Device Software Engineering rather than merging by topic
+INFO 7374	ST: Adv Techniques With LLM	Advanced Language Models (AI Plus One)	16539,16544	35512,35516	compare-scope	2;57	Separate only if model training/adaptation and technical evaluation differ
+INFO 7374	ST: Cybersecure Audit & Comply	Cybersecurity Governance, Risk, and Compliance (AI Plus One)	16543		verify-syllabus-first		Compare Spring security GRC; defensive governance only
+INFO 7374	ST: Data Visualization	Data Visualization and Infographics (AI Plus One)	16541		existing-queue	69;71	Use relevant coverage, check programming variant
+INFO 7374	ST: Security GRC in the AI Era	Cybersecurity Governance, Risk, and Compliance (AI Plus One)		35515	verify-syllabus-first		Combine with Fall cybersecurity audit unless defensible specialized outcomes
+INFO 7374	ST: Trading System Engineering	Trading System Engineering (AI Plus One)	22537	42124,42718	compare-scope	9;105	Market data, simulation and system architecture if distinct; no live trading
+INFO 7374	UX Masterclass for Engineers	User Experience Design and Testing (AI Plus One)	16537		compare-scope	12;66	Compare with CSYE 7280 and Design Engineering
+INFO 7375	ST: Arch Enterprise AI Systems	Enterprise AI Architecture (AI Plus One)	25244,25295		compare-scope	57	Compare Spring INFO 7610 enterprise agent architecture and runtime infrastructure
+INFO 7375	ST: Branding and AI	Branding and AI (AI Plus One)	16549		existing-queue	67;50	One main course-derived book; check coauthor rights and duplicate 50/67
+INFO 7375	ST: Building AI Applications	Building AI Applications (AI Plus One)	16546	35519	compare-scope	57;7	Evaluate production-focused scope beyond agent theory or Java engineering
+INFO 7375	ST: Computational Skepticism	Validating AI (AI Plus One)	21966	40015	existing-queue	3	Use current title; existing rows 61/80 are overlap checks
+INFO 7375	ST: Data Engineering for AI	Data Engineering for AI (AI Plus One)	21971	38699,42126	compare-scope	72	Evaluate same scope as DAMG 6300; general Data Science Engineering not automatically equivalent
+INFO 7375	ST: Design Experience Engineer	Design Engineering (AI Plus One)		35521	compare-scope	12;66	Confirm topical label against known manuscript before assigning
+INFO 7375	ST: High Perf Computing for AI	High-Performance Computing for AI (AI Plus One)	20180,24437	35522	hold-review-evidence	79	Compare CSYE 7105; machine-learning-specific performance could fit, general HPC need not
+INFO 7375	ST: Neural Networks & AI	Neural Networks (AI Plus One)	16550	42127	verify-syllabus-first		Compare Deep Learning, Neural Modeling, and Generative Modeling before splitting
+INFO 7375	ST: Neurosymbolic AI Syst Engr	Neurosymbolic AI (AI Plus One)	25072		verify-syllabus-first		Compare Knowledge Graphs and Generative AI; explicit symbolic reasoning, learning, and integration need evidence
+INFO 7375	ST: Prompt Engr & Agentic AI	Prompt Engineering and Generative AI (AI Plus One)	16545	35517	existing-queue	2	Use current book; course codes in sources only
+INFO 7375	ST: Self-improving AI	Self-Improving AI (AI Plus One)	20181	35523,40011	hold-review-evidence		Compare INFO 6376, do not assume alternate labels are equivalent
+INFO 7375	ST: Semantic Intel in LLM	Semantic Intelligence in Language Models (AI Plus One)	22776	40012	verify-syllabus-first		Compare advanced LLMs and GraphRAG; document-grounded synthesis must be evidenced
+INFO 7375	ST: System Design in Age of AI	Systems Design (AI Plus One)	22278	42128	verify-syllabus-first		Architecture, workload, reliability and design tradeoffs, compare Enterprise Software Design
+INFO 7375	ST: User Exp in Era of Gen AI	User Experience Design for AI (AI Plus One)	16548		compare-scope	12;66	Compare general UX and applicable existing manuscript
+INFO 7385		Technical Communication for Engineers (AI Plus One)		35526	hold-no-document		Check scope relative to research writing and business cases
+INFO 7390		Advanced Data Science and Architecture (AI Plus One)		42129,42130	compare-scope	72	Existing INFO_7390_Art_and_Science_of_Data is a real course lead; verify Spring titled Advances Data Science and Architecture matches it before drafting
+INFO 7410		Medical Device Software Engineering (AI Plus One)		35529	hold-no-document		Domain and compliance expert required; no clinical claims inferred
+INFO 7610		Natural Language Engineering (AI Plus One)	16562		hold-review-evidence		Compare term and campus metadata; no draft without verified relevant evidence
+INFO 7610	Enterprise Agent AI Arch/Sec	Enterprise AI Architecture (AI Plus One)		42277	compare-scope	57	Compare INFO 7375 architecture; separate security depth only if evidenced
+TELE 5350		Telecommunications and Network Infrastructure (AI Plus One)	16567	35534	verify-syllabus-first		Compare CSYE 6225 and Internet Protocols
+TELE 5360		Internet Protocols and Architecture (AI Plus One)	16568		verify-syllabus-first		Compare Network Infrastructure; lower-level protocol depth may differ
+TELE 5600		Linux for Network Engineers (AI Plus One)	16569		verify-syllabus-first		Compare general Linux or research computing; networking-administration focus
+TELE 6300		Network Security (AI Plus One)	16570		verify-syllabus-first		Defense, threat modeling, isolation and mitigations; no exploit development
+TELE 6420		Infrastructure Automation (AI Plus One)	16572		verify-syllabus-first		Compare DevOps and LLMOps; distinct infrastructure scope if verified
+TELE 6500		Machine Learning for the Internet of Things (AI Plus One)	16573	42612	verify-syllabus-first		Compare Connected Devices and Embedded IoT; edge data/inference may qualify
+TELE 6530		Connected Devices (AI Plus One)	16576,16577	42569	verify-syllabus-first		Compare IoT Embedded Systems; avoid duplication from section/campus variants
+TELE 6550		Embedded Systems for the Internet of Things (AI Plus One)	16578		verify-syllabus-first		Verify hardware/software and timing outcomes vs Connected Devices
+TELE 7374	5G Comm, Networks & Services	5G Networks and Services (AI Plus One)	19054		verify-syllabus-first		Compare general telecommunications scope; standards claims need current primary evidence
+UNRESOLVED			21968		hold-no-identity		No scope inferred from the malformed section listing.

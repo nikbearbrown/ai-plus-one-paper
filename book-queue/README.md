@@ -7,6 +7,7 @@ Build one standalone **Subject (AI Plus One)** book per genuine course scope. Us
 - [Queue](queue.tsv): working order, title, target repository slug, sources to clone or access, and the decision that might stop a family.
 - [Source triage](source-triage.tsv): the remaining inventory candidates and exclusions, so overlapping books, separate course materials and uncertain sources are not lost.
 - [Codex handoff](../codex-handoff.md): workflow, output and release rules.
+- [Syllabus-led extension](syllabus-track/): Fall 2026 and Spring 2027 course evidence, scope mapping and a silent Blueprint route where no manuscript exists.
 
 The production queue is a plan, not a record of books already generated. Work from the top. Move to the next row when a family is waiting for access, rights, a scope decision or the expert's edit; return to the held row once it clears. Do not wait for a book's final approval to inspect the next family. A single row covers one coherent course, not one repository. A related source may help the writer but is not automatically eligible to retire.
 
