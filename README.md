@@ -7,7 +7,7 @@ An author-review draft about the existing AI+1 approach and a proposed extension
 - [Skill and evidence inventory](sources.md): what we can reuse and what still needs verification.
 - [Draft exports and design profiles](exports-and-design.md): what builds today, draft-proof checks, and default versus custom styling.
 - [Codex handoff for the other machine](codex-handoff.md): repo inputs, queue rules, draft production, and safe retirement of duplicate editions.
-- [AI One textbook queue](book-queue/): scope, source repositories and working order for the other Codex session.
+- [AI Plus One book catalog](book-queue/): all book possibilities by topic, with links to current materials.
 - [Local pilot receipt](pilot.md): one constructed chapter and what ARC's automatic check can and cannot establish.
 
 **Critique pass:** standardized the shared outputs, separated blinded chapter review from the audit-document review, and made the evidence-gain and error-floor criteria explicit. Power, rubric anchors, and feasible cost limits still need a pilot.

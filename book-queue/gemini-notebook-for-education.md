@@ -1,4 +1,4 @@
-# Gemini Notebook for Education (formerly NotebookLM)
+# Gemini Notebook for Education
 
 *AI Plus One · Revised opening and edition brief · Private draft for author review*
 

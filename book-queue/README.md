@@ -1,263 +1,302 @@
-# AI Plus One textbook production queue
+# AI Plus One book possibilities
 
-Build one standalone **Subject (AI Plus One)** book per genuine course scope. Use a subject title that tells a reader what the book teaches. Put university course identifiers in source references, not the title. For example, the INFO 7375 materials feed **Prompt Engineering and Generative AI (AI Plus One)** or **Validating AI (AI Plus One)**, and INFO 6205 feeds **Algorithms (AI Plus One)**. Keep “AI” when it belongs to the subject, as in **Conducting AI (AI Plus One)**. Use the target slug in the queue for GitHub, not the display title.
+**208 book possibilities**, grouped by topic and alphabetized within each topic. Each row links to what exists now: source material, a blueprint, or an editorial draft or brief. A source link is not a finished AI Plus One edition; some sources require GitHub access. Where material is local, the catalog says so rather than linking a planned repo.
 
-## Browse all titles
+The catalog combines 134 entries from the working queue and 84 syllabus blueprints. 10 blueprints are already matched to a queue entry and appear on the same row. Other titles under comparison remain separate possibilities until their scopes are checked.
 
-- [All 134 book candidates from existing materials](#134-book-candidates-from-existing-materials)
-- [All 84 Fall 2026 and Spring 2027 syllabus blueprints](#84-fall-2026-and-spring-2027-syllabus-blueprints)
+## Browse by topic
 
-The two lists overlap. Ten syllabus blueprints explicitly feed a book in the first list; other scopes marked for comparison may also overlap. Do not add the two counts to get a unique-book total. These are plans, not finished manuscripts.
+- [AI and agent systems](#ai-and-agent-systems) (28)
+- [Biology, medicine, and health](#biology-medicine-and-health) (19)
+- [Business, economics, and law](#business-economics-and-law) (15)
+- [Computer science and software engineering](#computer-science-and-software-engineering) (20)
+- [Data, statistics, and research methods](#data-statistics-and-research-methods) (20)
+- [Design and visualization](#design-and-visualization) (9)
+- [Education and learning](#education-and-learning) (19)
+- [Engineering, networks, and security](#engineering-networks-and-security) (15)
+- [Finance and accounting](#finance-and-accounting) (10)
+- [Games, animation, film, and music](#games-animation-film-and-music) (9)
+- [Humanities and social sciences](#humanities-and-social-sciences) (6)
+- [Marketing and branding](#marketing-and-branding) (8)
+- [Mathematics](#mathematics) (11)
+- [Physics, chemistry, and quantum science](#physics-chemistry-and-quantum-science) (19)
 
-## What to run
+For drafting: [production order and source details](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). Working IDs stay stable after merges. A hold is planning only; neither a source nor a blueprint implies rights clearance or release approval.
 
-- [Queue](queue.tsv): working order, title, target repository slug, sources to clone or access, and the decision that might stop a family.
-- [Source triage](source-triage.tsv): the remaining inventory candidates and exclusions, so overlapping books, separate course materials and uncertain sources are not lost.
-- [Codex handoff](../codex-handoff.md): workflow, output and release rules.
-- [Syllabus-led extension](syllabus-track/): Fall 2026 and Spring 2027 course evidence, scope mapping and a silent Blueprint route where no manuscript exists.
+## AI and agent systems
 
-The production queue is a plan, not a record of books already generated. Work from the top. Move to the next row when a family is waiting for access, rights, a scope decision or the expert's edit; return to the held row once it clears. Do not wait for a book's final approval to inspect the next family. A single row covers one coherent course, not one repository. A related source may help the writer but is not automatically eligible to retire.
+| Book | Status | Available material |
+| --- | --- | --- |
+| Advanced Language Models (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/63-advanced-language-models/) |
+| Agentic Search and Graphs (AI Plus One) | Compare sources | [agents-as-graphs-book](https://github.com/nikbearbrown/agents-as-graphs-book) |
+| AI Agent Infrastructure (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/71-ai-agent-infrastructure/) |
+| AI in Everyday Life (AI Plus One) | On hold | [ai-in-everyday-life](https://github.com/nikbearbrown/ai-in-everyday-life) |
+| AI Systems Validation (AI Plus One) | Compare sources | [validating-output-from-ai-systems](https://github.com/nikbearbrown/validating-output-from-ai-systems) |
+| Building AI Applications (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/66-building-ai-applications/) |
+| Conducting AI (AI Plus One) | Compare sources | [info-7375-conducting-ai](https://github.com/nikbearbrown/info-7375-conducting-ai) |
+| Deep Learning (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/78-deep-learning/) |
+| Design of Agentic Systems (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/58-design-of-agentic-systems/) · [design-of-agentic-systems-with-case-studies](https://github.com/nikbearbrown/design-of-agentic-systems-with-case-studies) |
+| Enterprise AI Architecture (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/65-enterprise-ai-architecture/) |
+| Foundations of Artificial Intelligence (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/17-foundations-of-artificial-intelligence/) |
+| Foundations of Trustworthy AI (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/56-foundations-of-trustworthy-ai/) |
+| Generative Modeling (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/04-generative-modeling/) |
+| High-Performance Computing for AI (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/74-high-performance-computing-for-ai/) |
+| High-Performance Machine Learning (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/03-high-performance-machine-learning/) |
+| Intelligence (AI Plus One) | Compare sources | [intelligence](https://github.com/nikbearbrown/intelligence) |
+| Knowledge Graphs and Generative AI (AI Plus One) | Blueprint; private local pilot | [Blueprint](syllabus-track/blueprints/01-knowledge-graphs-and-generative-ai/) |
+| LLMOps (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/05-llmops/) |
+| Natural Language Engineering (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/75-natural-language-engineering/) |
+| Neural Modeling (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/28-neural-modeling/) |
+| Neural Networks (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/36-neural-networks/) |
+| Neurosymbolic AI (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/37-neurosymbolic-ai/) |
+| Prompt Engineering and Generative AI (AI Plus One) | Ready to scope | [Blueprint](syllabus-track/blueprints/14-prompt-engineering-and-generative-ai/) · [prompt-engineering](https://github.com/nikbearbrown/prompt-engineering) · [info-7375-prompt-engineering-for-generative-ai](https://github.com/nikbearbrown/info-7375-prompt-engineering-for-generative-ai) |
+| Reinforcement Learning (AI Plus One) | Compare sources | [Reinforcement-Learning-for-Agentic-AI](https://github.com/nikbearbrown/Reinforcement-Learning-for-Agentic-AI) |
+| Self-Improving AI (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/72-self-improving-ai/) |
+| Semantic Intelligence in Language Models (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/38-semantic-intelligence-in-language-models/) |
+| Validating AI (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/13-validating-ai/) · [computational-skepticism-for-ai](https://github.com/nikbearbrown/computational-skepticism-for-ai) |
+| Validating AI Output (AI Plus One) | Compare sources | [validating-output-from-ai-systems](https://github.com/nikbearbrown/validating-output-from-ai-systems) |
 
-## Interpret each row
+## Biology, medicine, and health
 
-| State | Action |
-| --- | --- |
-| Ready | Start the source inventory and blueprint. This is permission to scope work, not rights clearance or permission to publish. |
-| Compare | Inspect overlapping editions or course scope first. Use the most complete rights-cleared manuscript as a base. Do not guess or create a rival book if the scope is unresolved. |
-| Hold | Plan only until access, manuscript maturity, author rights, or domain review is resolved. Continue with other rows. |
+| Book | Status | Available material |
+| --- | --- | --- |
+| Anatomy and Physiology (AI Plus One) | Compare sources | [biology-anatomy-physiology](https://github.com/nikbearbrown/biology-anatomy-physiology) |
+| Animal Physiology (AI Plus One) | On hold | [biology-animal-physiology](https://github.com/nikbearbrown/biology-animal-physiology) |
+| Biology (AI Plus One) | On hold | [biology](https://github.com/nikbearbrown/biology) |
+| Cancer Biology (AI Plus One) | On hold | [cancer-biology](https://github.com/nikbearbrown/cancer-biology) |
+| Cancer Biology and Therapeutics (AI Plus One) | On hold | [Cancer-Biology-and-Therapeutics](https://github.com/nikbearbrown/Cancer-Biology-and-Therapeutics) |
+| Cancer Medicine (AI Plus One) | On hold | [cancer-medicine](https://github.com/nikbearbrown/cancer-medicine) |
+| Cancer Nanomedicine (AI Plus One) | On hold | [cancer-nanomedicine](https://github.com/nikbearbrown/cancer-nanomedicine) |
+| Cancer Research (AI Plus One) | On hold | [cancer-research](https://github.com/nikbearbrown/cancer-research) |
+| Cancer: Foundations to Therapy (AI Plus One) | On hold | [medhavi-cancer](https://github.com/Medhavy/medhavi-cancer) |
+| Cell Biology (AI Plus One) | On hold | [biology-the-cell](https://github.com/nikbearbrown/biology-the-cell) |
+| Computational Cancer Biology (AI Plus One) | On hold | [Cancer-Biology-with-LLMs](https://github.com/nikbearbrown/Cancer-Biology-with-LLMs) |
+| Diversity of Life (AI Plus One) | Compare sources | [biology-diversity-of-life](https://github.com/nikbearbrown/biology-diversity-of-life) |
+| Evolution of Intelligence (AI Plus One) | Compare sources | [biology-evolution-of-intelligence](https://github.com/nikbearbrown/biology-evolution-of-intelligence) |
+| Genetics and Evolution (AI Plus One) | On hold | [biology-genetics-and-evolution](https://github.com/nikbearbrown/biology-genetics-and-evolution) |
+| Global Perspectives on Discrimination and Health (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/80-global-perspectives-on-discrimination-and-health/) |
+| Imaging in Cancer and Nanomedicine (AI Plus One) | On hold | [imaging-in-cancer-and-nanomedicine](https://github.com/nikbearbrown/imaging-in-cancer-and-nanomedicine) |
+| Machine Learning for Medical Devices (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/73-machine-learning-for-medical-devices/) |
+| Medical Device Software Engineering (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/86-medical-device-software-engineering/) |
+| Microbiology (AI Plus One) | On hold | [biology-microbiology](https://github.com/nikbearbrown/biology-microbiology) |
 
-GitHub source names are recorded as owner/repository where known. An unqualified source means the personal `nikbearbrown` account. A `local:` reference means that the initial inventory located a Mac manuscript rather than a verified cloneable upstream; obtain an authorized copy on the other machine before using it. Check current access and pin the actual revisions. Never merge the course's grades, answer keys, student work, credentials or private history into the new repository.
+## Business, economics, and law
 
-Each approved replacement is public. Only confirmed superseded public **source book** repositories go private, after the new edition is reachable and affected links have been migrated. Private sources stay private. A course site, toolkit, lab companion or app is not retired merely because it contributed material. No deletion. No automatic publication of rough drafts.
+| Book | Status | Available material |
+| --- | --- | --- |
+| Business Analysis and Information Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/29-business-analysis-and-information-engineering/) |
+| Business Case Analysis (AI Plus One) | Compare sources | [mba-case-studies](https://github.com/nikbearbrown/mba-case-studies) |
+| Business Ethics (AI Plus One) | Compare sources | [mba-business-ethics](https://github.com/nikbearbrown/mba-business-ethics) |
+| Business Law (AI Plus One) | On hold | [mba-business-law](https://github.com/nikbearbrown/mba-business-law) |
+| Business Process Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/33-business-process-engineering/) |
+| Causal Modeling for Business Decisions (AI Plus One) | Ready to scope | [Living-Models](https://github.com/nikbearbrown/Living-Models) |
+| Economics (AI Plus One) | On hold | [economics](https://github.com/nikbearbrown/economics) |
+| Economics of Happiness (AI Plus One) | On hold | [The_Economics_of_Happiness](https://github.com/nikbearbrown/The_Economics_of_Happiness) |
+| Intellectual Property (AI Plus One) | Compare sources | [mba-intellectual-property](https://github.com/nikbearbrown/mba-intellectual-property) |
+| Introduction to Intellectual Property (AI Plus One) | Ready to scope | [mba-intellectual-property](https://github.com/nikbearbrown/mba-intellectual-property) |
+| Managerial Economics (AI Plus One) | Compare sources | [mba-economics](https://github.com/nikbearbrown/mba-economics) |
+| Managing Information Systems Development (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/53-managing-information-systems-development/) |
+| Operational Risk Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/32-operational-risk-engineering/) |
+| Principles of Economics (AI Plus One) | On hold | [mba-economics](https://github.com/nikbearbrown/mba-economics) · [principles-economics-bundle](https://github.com/nikbearbrown/principles-economics-bundle) |
+| Principles of Management (AI Plus One) | Ready to scope | [mba-management](https://github.com/nikbearbrown/mba-management) |
 
-## 134 book candidates from existing materials
+## Computer science and software engineering
 
-In working order: **36 ready to scope, 57 to compare, and 41 on hold**. The [working TSV](queue.tsv) gives the primary and related sources and the decision needed for every title. Where a syllabus blueprint already exists, it is linked below. Queue numbers are stable: former #70 was merged into #37, and former #100, #101 and #105 were folded into #9.
+| Book | Status | Available material |
+| --- | --- | --- |
+| AI-Assisted Software Engineering (AI Plus One) | Compare sources | [ai-for-coding-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-coding-a-practitioners-guide) |
+| Algorithms (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/07-algorithms/) · [Coursera_INFO_6205_Algorithms](https://github.com/nikbearbrown/Coursera_INFO_6205_Algorithms) · [info-6205-algorithms](https://github.com/nikbearbrown/info-6205-algorithms) |
+| Application Engineering and Development (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/09-application-engineering-and-development/) · [info-5100-application-engineering-and-development](https://github.com/nikbearbrown/info-5100-application-engineering-and-development) |
+| Application Modeling and Design (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/68-application-modeling-and-design/) |
+| Coding Agents and Local Project Workflows (AI Plus One) | Compare sources | [cli-agnostic-ai-tooling-for-local-project-workflows](https://github.com/nikbearbrown/cli-agnostic-ai-tooling-for-local-project-workflows) |
+| Compilers (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/77-compilers/) |
+| Computer Systems (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/18-computer-systems/) |
+| Designing Scalable and Reliable Software Services (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/06-systems-design/) |
+| DevOps (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/23-devops/) |
+| Distributed Systems (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/16-distributed-systems/) |
+| Engentic Web Development (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/55-web-development/) |
+| Enterprise Software Design (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/81-enterprise-software-design/) |
+| Introduction to Program Design and Implementation (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/54-introduction-to-program-design-and-implementation/) |
+| Mobile App Development (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/31-mobile-app-development-with-swift/) |
+| Object-Oriented Design and Design Patterns (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/19-object-oriented-design-and-design-patterns/) |
+| Operating Systems (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/82-operating-systems/) |
+| Python Programming (AI Plus One) | Ready to scope | [python-programming](https://github.com/nikbearbrown/python-programming) |
+| Software Engineering (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/83-software-engineering/) |
+| Software Quality Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/30-software-quality-engineering/) |
+| Software Testing (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/24-software-testing/) |
 
-| Order | Book | Track | Stage | Syllabus blueprint |
-| ---: | --- | --- | --- | --- |
-| 1 | Corporate Finance (AI Plus One) | Priority | Compare sources |  |
-| 2 | Prompt Engineering and Generative AI (AI Plus One) | Priority | Ready to scope | [Open plan](syllabus-track/blueprints/14-prompt-engineering-and-generative-ai/) |
-| 3 | Validating AI (AI Plus One) | Priority | Compare sources | [Open plan](syllabus-track/blueprints/13-validating-ai/) |
-| 4 | Algorithms (AI Plus One) | Priority | Compare sources | [Open plan](syllabus-track/blueprints/07-algorithms/) |
-| 5 | Principles of Finance (AI Plus One) | Business | Ready to scope |  |
-| 6 | Introductory Statistics (AI Plus One) | Business | Ready to scope |  |
-| 7 | Application Engineering and Development (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/09-application-engineering-and-development/) |
-| 8 | Building Virtual Environments (AI Plus One) | Computing | Ready to scope | [Open plan](syllabus-track/blueprints/08-building-virtual-environments/) |
-| 9 | [Computational Finance (AI Plus One)](computational-finance.md) | Business | Ready to scope |  |
-| 10 | Contemporary Mathematics (AI Plus One) | Business | Ready to scope |  |
-| 11 | Conducting AI (AI Plus One) | Computing | Compare sources |  |
-| 12 | Design Engineering (AI Plus One) | Priority | On hold | [Open plan](syllabus-track/blueprints/69-design-engineering/) |
-| 13 | Game AI (AI Plus One) | Priority | Compare sources |  |
-| 14 | Game Reinforcement Learning (AI Plus One) | Priority | On hold |  |
-| 15 | Principles of Accounting (AI Plus One) | Business | Ready to scope |  |
-| 16 | Principles of Management (AI Plus One) | Business | Ready to scope |  |
-| 17 | Principles of Marketing (AI Plus One) | Business | Ready to scope |  |
-| 18 | Introduction to Intellectual Property (AI Plus One) | Business | Ready to scope |  |
-| 19 | MBA Math (AI Plus One) | Business | Ready to scope |  |
-| 20 | Prealgebra (AI Plus One) | Business | Ready to scope |  |
-| 21 | College Algebra (AI Plus One) | Business | Ready to scope |  |
-| 22 | Calculus (AI Plus One) | Business | Ready to scope |  |
-| 23 | Mathematics for Physics Volume 2 (AI Plus One) | Business | Ready to scope |  |
-| 24 | Python Programming (AI Plus One) | Computing | Ready to scope |  |
-| 25 | Causal Modeling for Business Decisions (AI Plus One) | Computing | Ready to scope |  |
-| 26 | Figma Design with AI (AI Plus One) | Computing | Ready to scope |  |
-| 27 | AI for Teachers (AI Plus One) | Education | Ready to scope |  |
-| 28 | AI for Students (AI Plus One) | Education | Ready to scope |  |
-| 29 | Trust the Teacher (AI Plus One) | Education | Ready to scope |  |
-| 30 | NotebookLM (AI Plus One) | Education | Ready to scope |  |
-| 31 | [Gemini Notebook for Education (formerly NotebookLM) (AI Plus One)](gemini-notebook-for-education.md) | Education | Ready to scope |  |
-| 32 | Claude for Education (AI Plus One) | Education | Ready to scope |  |
-| 33 | Claude Code for Teachers (AI Plus One) | Education | Ready to scope |  |
-| 34 | Claude Code for Students (AI Plus One) | Education | Ready to scope |  |
-| 35 | Codex for Students (AI Plus One) | Education | Ready to scope |  |
-| 36 | GitHub Copilot CLI for Students (AI Plus One) | Education | Ready to scope |  |
-| 37 | [Designing Educational Slide Decks with AI (AI Plus One)](designing-educational-slide-decks-with-ai.md) | Education | Compare sources |  |
-| 38 | AI for Infographics (AI Plus One) | Education | Ready to scope |  |
-| 39 | Research Writing (AI Plus One) | Education | Ready to scope |  |
-| 40 | Quantum Mechanics, Volume 1: Foundations (AI Plus One) | Science | Ready to scope |  |
-| 41 | Quantum Mechanics, Volume 2: Formalism and the Three-Dimensional Atom (AI Plus One) | Science | Ready to scope |  |
-| 42 | Quantum Mechanics, Volume 3: Approximation Methods and Real Systems (AI Plus One) | Science | Ready to scope |  |
-| 43 | Quantum Mechanics, Volume 4: Information, Measurement, and Open Systems (AI Plus One) | Science | Ready to scope |  |
-| 44 | Quantum Mechanics, Volume 5: Math for Quantum Physics (AI Plus One) | Science | Ready to scope |  |
-| 45 | Quantum Mechanics: A Companion Guide (AI Plus One) | Science | Ready to scope |  |
-| 46 | Business Ethics (AI Plus One) | Business | Compare sources |  |
-| 47 | Business Case Analysis (AI Plus One) | Business | Compare sources |  |
-| 48 | Verified Finance with Agents (AI Plus One) | Business | Compare sources |  |
-| 49 | Investing in Quantum (AI Plus One) | Business | Compare sources |  |
-| 50 | Branding and Marketing (AI Plus One) | Business | Compare sources |  |
-| 51 | Social Media Marketing (AI Plus One) | Business | Compare sources |  |
-| 52 | Social Media Marketing Platforms (AI Plus One) | Business | Compare sources |  |
-| 53 | Healthcare Marketing (AI Plus One) | Business | Compare sources |  |
-| 54 | Causal Inference in Pharmaceutical Marketing (AI Plus One) | Business | Compare sources |  |
-| 55 | Bayesian Probability (AI Plus One) | Business | Compare sources |  |
-| 56 | Mathematics for Physics Volume 1 (AI Plus One) | Business | Compare sources |  |
-| 57 | Design of Agentic Systems (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/58-design-of-agentic-systems/) |
-| 58 | Agentic Search and Graphs (AI Plus One) | Computing | Compare sources |  |
-| 59 | AI-Assisted Software Engineering (AI Plus One) | Computing | Compare sources |  |
-| 60 | Coding Agents and Local Project Workflows (AI Plus One) | Computing | Compare sources |  |
-| 61 | AI Systems Validation (AI Plus One) | Computing | Compare sources |  |
-| 62 | Intelligence (AI Plus One) | Computing | Compare sources |  |
-| 63 | Reinforcement Learning (AI Plus One) | Computing | Compare sources |  |
-| 64 | Generative AI for Game Development (AI Plus One) | Computing | Compare sources |  |
-| 65 | Agentic Filmmaking (AI Plus One) | Computing | Compare sources |  |
-| 66 | Creative Engineering (AI Plus One) | Computing | Compare sources |  |
-| 67 | Branding and AI (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/12-branding-and-ai/) |
-| 68 | Creative Direction (AI Plus One) | Computing | Compare sources |  |
-| 69 | Data Visualization and Infographics (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/11-data-visualization-and-infographics/) |
-| 71 | Interactive Visualization with D3 (AI Plus One) | Computing | Compare sources |  |
-| 72 | Data Science Engineering (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/10-data-science-engineering/) |
-| 73 | Research Methods in AI (AI Plus One) | Computing | Compare sources |  |
-| 74 | Programmable Logic Controller Design (AI Plus One) | Computing | Compare sources |  |
-| 75 | AI for Course Design (AI Plus One) | Education | Compare sources |  |
-| 76 | Learning Experience Design (AI Plus One) | Education | Compare sources |  |
-| 77 | When to Use AI for Learning (AI Plus One) | Education | Compare sources |  |
-| 78 | AI for Writing (AI Plus One) | Education | Compare sources |  |
-| 79 | Research Computing (AI Plus One) | Education | Compare sources |  |
-| 80 | Validating AI Output (AI Plus One) | Education | Compare sources |  |
-| 81 | Irreducibly Human (AI Plus One) | Education | Compare sources |  |
-| 82 | Statistics with AI (AI Plus One) | Education | Compare sources |  |
-| 83 | Managerial Economics (AI Plus One) | Education | Compare sources |  |
-| 84 | Intellectual Property (AI Plus One) | Education | Compare sources |  |
-| 85 | University Physics (AI Plus One) | Science | Compare sources |  |
-| 86 | Classical Mechanics (AI Plus One) | Science | Compare sources |  |
-| 87 | Electromagnetism (AI Plus One) | Science | Compare sources |  |
-| 88 | Modern Physics (AI Plus One) | Science | Compare sources |  |
-| 89 | Optics (AI Plus One) | Science | Compare sources |  |
-| 90 | Thermodynamics (AI Plus One) | Science | Compare sources |  |
-| 91 | Astronomy (AI Plus One) | Science | Compare sources |  |
-| 92 | Quantum Mechanics: Interactive Simulations (AI Plus One) | Science | Compare sources |  |
-| 93 | Evolution of Intelligence (AI Plus One) | Science | Compare sources |  |
-| 94 | Diversity of Life (AI Plus One) | Science | Compare sources |  |
-| 95 | Anatomy and Physiology (AI Plus One) | Science | Compare sources |  |
-| 96 | Programmable Logic Controllers and Industrial Automation (AI Plus One) | Science | Compare sources |  |
-| 97 | Principles of Economics (AI Plus One) | Business | On hold |  |
-| 98 | Business Law (AI Plus One) | Business | On hold |  |
-| 99 | Introduction to Finance (AI Plus One) | Business | On hold |  |
-| 102 | Computational Marketing (AI Plus One) | Business | On hold |  |
-| 103 | Economics of Happiness (AI Plus One) | Business | On hold |  |
-| 104 | Economics (AI Plus One) | Business | On hold |  |
-| 106 | Algebra (AI Plus One) | Business | On hold |  |
-| 107 | Animation with Blender (AI Plus One) | Computing | On hold |  |
-| 108 | Interactive Storytelling (AI Plus One) | Computing | On hold |  |
-| 109 | AI in Everyday Life (AI Plus One) | Computing | On hold |  |
-| 110 | College Success (AI Plus One) | Education | On hold |  |
-| 111 | The Learning Engineer (AI Plus One) | Education | On hold |  |
-| 112 | Codex for Teachers (AI Plus One) | Education | On hold |  |
-| 113 | GitHub Copilot CLI for Teachers (AI Plus One) | Education | On hold |  |
-| 114 | Figma for Educational AI (AI Plus One) | Education | On hold |  |
-| 115 | Work and AI (AI Plus One) | Education | On hold |  |
-| 116 | Causal Inference (AI Plus One) | Education | On hold |  |
-| 117 | World History (AI Plus One) | Education | On hold |  |
-| 118 | United States History (AI Plus One) | Education | On hold |  |
-| 119 | American Government (AI Plus One) | Education | On hold |  |
-| 120 | Psychology (AI Plus One) | Education | On hold |  |
-| 121 | Music, Imitation, and AI (AI Plus One) | Education | On hold |  |
-| 122 | College Physics: Mechanics and Waves (AI Plus One) | Science | On hold |  |
-| 123 | Quantum Computing (AI Plus One) | Science | On hold |  |
-| 124 | Biology (AI Plus One) | Science | On hold |  |
-| 125 | Cell Biology (AI Plus One) | Science | On hold |  |
-| 126 | Genetics and Evolution (AI Plus One) | Science | On hold |  |
-| 127 | Animal Physiology (AI Plus One) | Science | On hold |  |
-| 128 | Microbiology (AI Plus One) | Science | On hold |  |
-| 129 | Cancer Biology (AI Plus One) | Science | On hold |  |
-| 130 | Computational Cancer Biology (AI Plus One) | Science | On hold |  |
-| 131 | Cancer Biology and Therapeutics (AI Plus One) | Science | On hold |  |
-| 132 | Cancer Medicine (AI Plus One) | Science | On hold |  |
-| 133 | Cancer Nanomedicine (AI Plus One) | Science | On hold |  |
-| 134 | Cancer Research (AI Plus One) | Science | On hold |  |
-| 135 | Imaging in Cancer and Nanomedicine (AI Plus One) | Science | On hold |  |
-| 136 | Cancer: Foundations to Therapy (AI Plus One) | Science | On hold |  |
-| 137 | Electron Microscopy (AI Plus One) | Science | On hold |  |
-| 138 | Organic Chemistry (AI Plus One) | Science | On hold |  |
+## Data, statistics, and research methods
 
-## 84 Fall 2026 and Spring 2027 syllabus blueprints
+| Book | Status | Available material |
+| --- | --- | --- |
+| AI for Writing (AI Plus One) | Compare sources | [ai-for-writing-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-writing-a-practitioners-guide) |
+| Bayesian Probability (AI Plus One) | Compare sources | [math-bayesian-probability](https://github.com/nikbearbrown/math-bayesian-probability) |
+| Big Data Engineering with Scala (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/22-big-data-engineering-with-scala/) |
+| Big Data Systems and Analytics (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/26-big-data-systems-and-analytics/) |
+| Causal Inference (AI Plus One) | On hold | [causal-inference-with-case-studies](https://github.com/nikbearbrown/causal-inference-with-case-studies) · [Causal-Inference](https://github.com/nikbearbrown/Causal-Inference) · [causal-reasoning](https://github.com/nikbearbrown/causal-reasoning) |
+| Computational Network Science (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/42-computational-network-science/) |
+| Data and Context Engineering for Agentic AI (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/70-data-and-context-engineering-for-agentic-ai/) |
+| Data Architecture and Governance (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/76-data-architecture-and-governance/) |
+| Data Architecture for Business Intelligence (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/27-data-architecture-for-business-intelligence/) |
+| Data Engineering for AI (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/02-data-engineering-for-ai/) |
+| Data Science Engineering (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/10-data-science-engineering/) · [INFO_6105_Data_Science_Engineering_Methods](https://github.com/nikbearbrown/INFO_6105_Data_Science_Engineering_Methods) · [INFO_7390_Art_and_Science_of_Data](https://github.com/nikbearbrown/INFO_7390_Art_and_Science_of_Data) |
+| Data Science Engineering with Python (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/59-data-science-engineering-with-python/) |
+| Database Design and Data Management (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/25-database-design-and-data-management/) |
+| Introductory Statistics (AI Plus One) | Ready to scope | [math-statistics](https://github.com/nikbearbrown/math-statistics) |
+| Research Computing (AI Plus One) | Compare sources | [hpc-aicr](https://github.com/nikbearbrown/hpc-aicr) |
+| Research Methods in AI (AI Plus One) | Compare sources | [CSYE_INFO_7374_Research_Methods_in_AI](https://github.com/nikbearbrown/CSYE_INFO_7374_Research_Methods_in_AI) · [the-research-paper-recipe](https://github.com/nikbearbrown/the-research-paper-recipe) |
+| Research Methods in Design and Media (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/61-research-methods-in-design-and-media/) |
+| Research Writing (AI Plus One) | Ready to scope | [the-research-paper-recipe](https://github.com/nikbearbrown/the-research-paper-recipe) |
+| Statistics with AI (AI Plus One) | Compare sources | [math-statistics](https://github.com/nikbearbrown/math-statistics) |
+| Technical Communication for Engineers (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/85-technical-communication-for-engineers/) |
 
-Click any title to read its blueprint, including the chapter outline and source notes. A candidate for a private draft still needs source and rights checks; a hold is not permission to draft. See [scope and consolidation notes](syllabus-track/blueprints/merge-log.md). Gaps in the blueprint IDs are from merged plans.
+## Design and visualization
 
-| ID | Book and blueprint | Drafting route | Planned chapters |
-| ---: | --- | --- | ---: |
-| 1 | [Knowledge Graphs and Generative AI (AI Plus One)](syllabus-track/blueprints/01-knowledge-graphs-and-generative-ai/) | Reuse the private pilot | 7 |
-| 2 | [Data Engineering for AI (AI Plus One)](syllabus-track/blueprints/02-data-engineering-for-ai/) | Compare with related books | 6 |
-| 3 | [High-Performance Machine Learning (AI Plus One)](syllabus-track/blueprints/03-high-performance-machine-learning/) | Candidate for a private draft | 6 |
-| 4 | [Generative Modeling (AI Plus One)](syllabus-track/blueprints/04-generative-modeling/) | Candidate for a private draft | 6 |
-| 5 | [LLMOps (AI Plus One)](syllabus-track/blueprints/05-llmops/) | On hold pending source or scope | 4 |
-| 6 | [Designing Scalable and Reliable Software Services (AI Plus One)](syllabus-track/blueprints/06-systems-design/) | Candidate for a private draft | 5 |
-| 7 | [Algorithms (AI Plus One)](syllabus-track/blueprints/07-algorithms/) | Use the existing book plan | 6 |
-| 8 | [Building Virtual Environments (AI Plus One)](syllabus-track/blueprints/08-building-virtual-environments/) | Use the existing book plan | 5 |
-| 9 | [Application Engineering and Development (AI Plus One)](syllabus-track/blueprints/09-application-engineering-and-development/) | Use the existing book plan | 5 |
-| 10 | [Data Science Engineering (AI Plus One)](syllabus-track/blueprints/10-data-science-engineering/) | Use the existing book plan | 6 |
-| 11 | [Data Visualization and Infographics (AI Plus One)](syllabus-track/blueprints/11-data-visualization-and-infographics/) | Use the existing book plan | 5 |
-| 12 | [Branding and AI (AI Plus One)](syllabus-track/blueprints/12-branding-and-ai/) | Use the existing book plan | 5 |
-| 13 | [Validating AI (AI Plus One)](syllabus-track/blueprints/13-validating-ai/) | Use the existing book plan | 5 |
-| 14 | [Prompt Engineering and Generative AI (AI Plus One)](syllabus-track/blueprints/14-prompt-engineering-and-generative-ai/) | Use the existing book plan | 5 |
-| 15 | [Discrete Structures (AI Plus One)](syllabus-track/blueprints/15-discrete-structures/) | Candidate for a private draft | 5 |
-| 16 | [Distributed Systems (AI Plus One)](syllabus-track/blueprints/16-distributed-systems/) | Candidate for a private draft | 5 |
-| 17 | [Foundations of Artificial Intelligence (AI Plus One)](syllabus-track/blueprints/17-foundations-of-artificial-intelligence/) | Candidate for a private draft | 5 |
-| 18 | [Computer Systems (AI Plus One)](syllabus-track/blueprints/18-computer-systems/) | Candidate for a private draft | 5 |
-| 19 | [Object-Oriented Design and Design Patterns (AI Plus One)](syllabus-track/blueprints/19-object-oriented-design-and-design-patterns/) | Candidate for a private draft | 9 |
-| 20 | [Computer Networks and Cloud Computing (AI Plus One)](syllabus-track/blueprints/20-computer-networks-and-cloud-computing/) | Candidate for a private draft | 5 |
-| 22 | [Big Data Engineering with Scala (AI Plus One)](syllabus-track/blueprints/22-big-data-engineering-with-scala/) | Candidate for a private draft | 5 |
-| 23 | [DevOps (AI Plus One)](syllabus-track/blueprints/23-devops/) | On hold pending source or scope | 4 |
-| 24 | [Software Testing (AI Plus One)](syllabus-track/blueprints/24-software-testing/) | On hold pending source or scope | 4 |
-| 25 | [Database Design and Data Management (AI Plus One)](syllabus-track/blueprints/25-database-design-and-data-management/) | Candidate for a private draft | 5 |
-| 26 | [Big Data Systems and Analytics (AI Plus One)](syllabus-track/blueprints/26-big-data-systems-and-analytics/) | On hold pending source or scope | 4 |
-| 27 | [Data Architecture for Business Intelligence (AI Plus One)](syllabus-track/blueprints/27-data-architecture-for-business-intelligence/) | Candidate for a private draft | 5 |
-| 28 | [Neural Modeling (AI Plus One)](syllabus-track/blueprints/28-neural-modeling/) | Candidate for a private draft | 5 |
-| 29 | [Business Analysis and Information Engineering (AI Plus One)](syllabus-track/blueprints/29-business-analysis-and-information-engineering/) | Candidate for a private draft | 5 |
-| 30 | [Software Quality Engineering (AI Plus One)](syllabus-track/blueprints/30-software-quality-engineering/) | Candidate for a private draft | 5 |
-| 31 | [Mobile App Development (AI Plus One)](syllabus-track/blueprints/31-mobile-app-development-with-swift/) | On hold pending source or scope | 5 |
-| 32 | [Operational Risk Engineering (AI Plus One)](syllabus-track/blueprints/32-operational-risk-engineering/) | Candidate for a private draft | 4 |
-| 33 | [Business Process Engineering (AI Plus One)](syllabus-track/blueprints/33-business-process-engineering/) | Candidate for a private draft | 4 |
-| 34 | [Industry Project Practicum (AI Plus One)](syllabus-track/blueprints/34-industry-project-practicum/) | Candidate for a private draft | 4 |
-| 35 | [Cybersecurity Governance, Risk, and Compliance (AI Plus One)](syllabus-track/blueprints/35-cybersecurity-governance-risk-and-compliance/) | Candidate for a private draft | 4 |
-| 36 | [Neural Networks (AI Plus One)](syllabus-track/blueprints/36-neural-networks/) | On hold pending source or scope | 5 |
-| 37 | [Neurosymbolic AI (AI Plus One)](syllabus-track/blueprints/37-neurosymbolic-ai/) | Candidate for a private draft | 4 |
-| 38 | [Semantic Intelligence in Language Models (AI Plus One)](syllabus-track/blueprints/38-semantic-intelligence-in-language-models/) | Candidate for a private draft | 4 |
-| 39 | [Number Theory (AI Plus One)](syllabus-track/blueprints/39-number-theory/) | Candidate for a private draft | 9 |
-| 41 | [Elliptic Curves and Modular Forms (AI Plus One)](syllabus-track/blueprints/41-elliptic-curves-and-modular-forms/) | Candidate for a private draft | 5 |
-| 42 | [Computational Network Science (AI Plus One)](syllabus-track/blueprints/42-computational-network-science/) | Candidate for a private draft | 5 |
-| 43 | [Telecommunications and Network Infrastructure (AI Plus One)](syllabus-track/blueprints/43-telecommunications-and-network-infrastructure/) | Candidate for a private draft | 4 |
-| 44 | [Internet Protocols and Architecture (AI Plus One)](syllabus-track/blueprints/44-internet-protocols-and-architecture/) | On hold pending source or scope | 5 |
-| 45 | [Linux for Network Engineers (AI Plus One)](syllabus-track/blueprints/45-linux-for-network-engineers/) | Candidate for a private draft | 5 |
-| 46 | [Network Security (AI Plus One)](syllabus-track/blueprints/46-network-security/) | On hold pending source or scope | 5 |
-| 47 | [Infrastructure Automation (AI Plus One)](syllabus-track/blueprints/47-infrastructure-automation/) | On hold pending source or scope | 5 |
-| 48 | [Machine Learning for the Internet of Things (AI Plus One)](syllabus-track/blueprints/48-machine-learning-for-the-internet-of-things/) | On hold pending source or scope | 5 |
-| 49 | [Connected Devices (AI Plus One)](syllabus-track/blueprints/49-connected-devices/) | Candidate for a private draft | 5 |
-| 50 | [Embedded Systems for the Internet of Things (AI Plus One)](syllabus-track/blueprints/50-embedded-systems-for-the-internet-of-things/) | Candidate for a private draft | 5 |
-| 51 | [5G Networks and Services (AI Plus One)](syllabus-track/blueprints/51-5g-networks-and-services/) | On hold pending source or scope | 5 |
-| 52 | [Cryptography (AI Plus One)](syllabus-track/blueprints/52-cryptography/) | Candidate for a private draft | 5 |
-| 53 | [Managing Information Systems Development (AI Plus One)](syllabus-track/blueprints/53-managing-information-systems-development/) | Candidate for a private draft | 5 |
-| 54 | [Introduction to Program Design and Implementation (AI Plus One)](syllabus-track/blueprints/54-introduction-to-program-design-and-implementation/) | Compare with related books | 4 |
-| 55 | [Engentic Web Development (AI Plus One)](syllabus-track/blueprints/55-web-development/) | Compare with related books | 5 |
-| 56 | [Foundations of Trustworthy AI (AI Plus One)](syllabus-track/blueprints/56-foundations-of-trustworthy-ai/) | Compare with related books | 5 |
-| 57 | [User Experience Design and Testing (AI Plus One)](syllabus-track/blueprints/57-user-experience-design-and-testing/) | Compare with related books | 5 |
-| 58 | [Design of Agentic Systems (AI Plus One)](syllabus-track/blueprints/58-design-of-agentic-systems/) | Use the existing book plan | 5 |
-| 59 | [Data Science Engineering with Python (AI Plus One)](syllabus-track/blueprints/59-data-science-engineering-with-python/) | Compare with related books | 5 |
-| 60 | [Designing and Prototyping Optical Systems (AI Plus One)](syllabus-track/blueprints/60-designing-and-prototyping-optical-systems/) | Compare with related books | 5 |
-| 61 | [Research Methods in Design and Media (AI Plus One)](syllabus-track/blueprints/61-research-methods-in-design-and-media/) | Compare with related books | 5 |
-| 62 | [Web Design and User Experience Engineering (AI Plus One)](syllabus-track/blueprints/62-web-design-and-user-experience-engineering/) | Compare with related books | 5 |
-| 63 | [Advanced Language Models (AI Plus One)](syllabus-track/blueprints/63-advanced-language-models/) | Compare with related books | 5 |
-| 64 | [Trading System Engineering (AI Plus One)](syllabus-track/blueprints/64-trading-system-engineering/) | Compare with related books | 5 |
-| 65 | [Enterprise AI Architecture (AI Plus One)](syllabus-track/blueprints/65-enterprise-ai-architecture/) | Compare with related books | 5 |
-| 66 | [Building AI Applications (AI Plus One)](syllabus-track/blueprints/66-building-ai-applications/) | Compare with related books | 5 |
-| 67 | [User Experience Design for AI (AI Plus One)](syllabus-track/blueprints/67-user-experience-design-for-ai/) | Compare with related books | 5 |
-| 68 | [Application Modeling and Design (AI Plus One)](syllabus-track/blueprints/68-application-modeling-and-design/) | Compare with related books | 5 |
-| 69 | [Design Engineering (AI Plus One)](syllabus-track/blueprints/69-design-engineering/) | Use the existing book plan | 5 |
-| 70 | [Data and Context Engineering for Agentic AI (AI Plus One)](syllabus-track/blueprints/70-data-and-context-engineering-for-agentic-ai/) | Compare with related books | 5 |
-| 71 | [AI Agent Infrastructure (AI Plus One)](syllabus-track/blueprints/71-ai-agent-infrastructure/) | On hold pending source or scope | 4 |
-| 72 | [Self-Improving AI (AI Plus One)](syllabus-track/blueprints/72-self-improving-ai/) | On hold pending source or scope | 4 |
-| 73 | [Machine Learning for Medical Devices (AI Plus One)](syllabus-track/blueprints/73-machine-learning-for-medical-devices/) | On hold pending source or scope | 4 |
-| 74 | [High-Performance Computing for AI (AI Plus One)](syllabus-track/blueprints/74-high-performance-computing-for-ai/) | On hold pending source or scope | 4 |
-| 75 | [Natural Language Engineering (AI Plus One)](syllabus-track/blueprints/75-natural-language-engineering/) | On hold pending source or scope | 4 |
-| 76 | [Data Architecture and Governance (AI Plus One)](syllabus-track/blueprints/76-data-architecture-and-governance/) | On hold pending source or scope | 4 |
-| 77 | [Compilers (AI Plus One)](syllabus-track/blueprints/77-compilers/) | Candidate for a private draft | 5 |
-| 78 | [Deep Learning (AI Plus One)](syllabus-track/blueprints/78-deep-learning/) | Compare with related books | 5 |
-| 79 | [Fintech and Financial Innovation (AI Plus One)](syllabus-track/blueprints/79-fintech-and-financial-innovation/) | On hold pending source or scope | 4 |
-| 80 | [Global Perspectives on Discrimination and Health (AI Plus One)](syllabus-track/blueprints/80-global-perspectives-on-discrimination-and-health/) | On hold pending source or scope | 4 |
-| 81 | [Enterprise Software Design (AI Plus One)](syllabus-track/blueprints/81-enterprise-software-design/) | On hold pending source or scope | 4 |
-| 82 | [Operating Systems (AI Plus One)](syllabus-track/blueprints/82-operating-systems/) | On hold pending source or scope | 4 |
-| 83 | [Software Engineering (AI Plus One)](syllabus-track/blueprints/83-software-engineering/) | On hold pending source or scope | 4 |
-| 84 | [Accounting and Budgeting for Engineers (AI Plus One)](syllabus-track/blueprints/84-accounting-and-budgeting-for-engineers/) | On hold pending source or scope | 4 |
-| 85 | [Technical Communication for Engineers (AI Plus One)](syllabus-track/blueprints/85-technical-communication-for-engineers/) | On hold pending source or scope | 4 |
-| 86 | [Medical Device Software Engineering (AI Plus One)](syllabus-track/blueprints/86-medical-device-software-engineering/) | On hold pending source or scope | 4 |
+| Book | Status | Available material |
+| --- | --- | --- |
+| AI for Infographics (AI Plus One) | Ready to scope | [ai-for-infographics-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-infographics-a-practitioners-guide) |
+| Creative Engineering (AI Plus One) | Compare sources | [the-creative-engineer](https://github.com/nikbearbrown/the-creative-engineer) |
+| Data Visualization and Infographics (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/11-data-visualization-and-infographics/) · [ai-for-infographics-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-infographics-a-practitioners-guide) · [ai-for-graphs-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-graphs-a-practitioners-guide) |
+| Design Engineering (AI Plus One) | On hold | [Blueprint](syllabus-track/blueprints/69-design-engineering/) · Local material (no GitHub copy linked) |
+| Figma Design with AI (AI Plus One) | Ready to scope | [brutalist-figma-claude](https://github.com/nikbearbrown/brutalist-figma-claude) |
+| Interactive Visualization with D3 (AI Plus One) | Compare sources | [brutalist-d3-x-claude](https://github.com/nikbearbrown/brutalist-d3-x-claude) |
+| User Experience Design and Testing (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/57-user-experience-design-and-testing/) |
+| User Experience Design for AI (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/67-user-experience-design-for-ai/) |
+| Web Design and User Experience Engineering (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/62-web-design-and-user-experience-engineering/) |
+
+## Education and learning
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| AI for Course Design (AI Plus One) | Compare sources | [ai-readiness](https://github.com/nikbearbrown/ai-readiness) |
+| AI for Students (AI Plus One) | Ready to scope | [ai-for-students-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-students-a-practitioners-guide) |
+| AI for Teachers (AI Plus One) | Ready to scope | [ai-for-teachers-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-teachers-a-practitioners-guide) |
+| Claude Code for Students (AI Plus One) | Ready to scope | [claude-code-for-students](https://github.com/nikbearbrown/claude-code-for-students) |
+| Claude Code for Teachers (AI Plus One) | Ready to scope | [claude-code-for-teachers](https://github.com/nikbearbrown/claude-code-for-teachers) |
+| Claude for Education (AI Plus One) | Ready to scope | [claude-for-education-a-practitioners-guide](https://github.com/nikbearbrown/claude-for-education-a-practitioners-guide) |
+| Codex for Students (AI Plus One) | Ready to scope | [codex-for-students](https://github.com/nikbearbrown/codex-for-students) |
+| Codex for Teachers (AI Plus One) | On hold | [codex-for-teachers](https://github.com/nikbearbrown/codex-for-teachers) |
+| College Success (AI Plus One) | On hold | [college-success-bundle-with-llms](https://github.com/nikbearbrown/college-success-bundle-with-llms) |
+| Designing Educational Slide Decks with AI (AI Plus One) | Compare sources | [Consolidated scope](designing-educational-slide-decks-with-ai.md) · [ai-for-slides-a-practitioners-guide](https://github.com/nikbearbrown/ai-for-slides-a-practitioners-guide) · [brutalist-using-d3-and-html-to-make-slide-decks](https://github.com/nikbearbrown/brutalist-using-d3-and-html-to-make-slide-decks) |
+| Figma for Educational AI (AI Plus One) | On hold | [figma-for-educational-ai](https://github.com/nikbearbrown/figma-for-educational-ai) |
+| Gemini Notebook for Education (AI Plus One) | Ready to scope | [Revised opening and plan](gemini-notebook-for-education.md) · [notebook-lm-for-education-a-practitioners-guide](https://github.com/nikbearbrown/notebook-lm-for-education-a-practitioners-guide) |
+| GitHub Copilot CLI for Students (AI Plus One) | Ready to scope | [github-copilot-cli-for-students](https://github.com/nikbearbrown/github-copilot-cli-for-students) |
+| GitHub Copilot CLI for Teachers (AI Plus One) | On hold | [github-copilot-cli-for-teachers](https://github.com/nikbearbrown/github-copilot-cli-for-teachers) |
+| Learning Experience Design (AI Plus One) | Compare sources | [learning-experience-design-lxd](https://github.com/nikbearbrown/learning-experience-design-lxd) · [ai-for-learning-experience-design](https://github.com/nikbearbrown/ai-for-learning-experience-design) |
+| NotebookLM (AI Plus One) | Ready to scope | [notebooklm-a-practitioners-guide](https://github.com/nikbearbrown/notebooklm-a-practitioners-guide) |
+| The Learning Engineer (AI Plus One) | On hold | [the-learning-engineer](https://github.com/nikbearbrown/the-learning-engineer) |
+| Trust the Teacher (AI Plus One) | Ready to scope | [trust-the-teacher](https://github.com/nikbearbrown/trust-the-teacher) |
+| When to Use AI for Learning (AI Plus One) | Compare sources | [learning-when-to-use-and-when-not-to-use-ai](https://github.com/nikbearbrown/learning-when-to-use-and-when-not-to-use-ai) |
+
+## Engineering, networks, and security
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| 5G Networks and Services (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/51-5g-networks-and-services/) |
+| Computer Networks and Cloud Computing (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/20-computer-networks-and-cloud-computing/) |
+| Connected Devices (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/49-connected-devices/) |
+| Cryptography (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/52-cryptography/) |
+| Cybersecurity Governance, Risk, and Compliance (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/35-cybersecurity-governance-risk-and-compliance/) |
+| Embedded Systems for the Internet of Things (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/50-embedded-systems-for-the-internet-of-things/) |
+| Industry Project Practicum (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/34-industry-project-practicum/) |
+| Infrastructure Automation (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/47-infrastructure-automation/) |
+| Internet Protocols and Architecture (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/44-internet-protocols-and-architecture/) |
+| Linux for Network Engineers (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/45-linux-for-network-engineers/) |
+| Machine Learning for the Internet of Things (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/48-machine-learning-for-the-internet-of-things/) |
+| Network Security (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/46-network-security/) |
+| Programmable Logic Controller Design (AI Plus One) | Compare sources | [agentic-plc-design](https://github.com/nikbearbrown/agentic-plc-design) |
+| Programmable Logic Controllers and Industrial Automation (AI Plus One) | Compare sources | [agentic-plc-design](https://github.com/nikbearbrown/agentic-plc-design) |
+| Telecommunications and Network Infrastructure (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/43-telecommunications-and-network-infrastructure/) |
+
+## Finance and accounting
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| Accounting and Budgeting for Engineers (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/84-accounting-and-budgeting-for-engineers/) |
+| Computational Finance (AI Plus One) | Ready to scope | [Consolidated scope](computational-finance.md) · [mba-computational-finance](https://github.com/nikbearbrown/mba-computational-finance) |
+| Corporate Finance (AI Plus One) | Compare sources | [mba-corporate-finance](https://github.com/nikbearbrown/mba-corporate-finance) · [corporate-finance-with-ai](https://github.com/nikbearbrown/corporate-finance-with-ai) |
+| Fintech and Financial Innovation (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/79-fintech-and-financial-innovation/) |
+| Introduction to Finance (AI Plus One) | On hold | [intro-finance-with-llms](https://github.com/nikbearbrown/intro-finance-with-llms) |
+| Investing in Quantum (AI Plus One) | Compare sources | [investing-in-quantum](https://github.com/nikbearbrown/investing-in-quantum) |
+| Principles of Accounting (AI Plus One) | Ready to scope | [mba-accounting](https://github.com/nikbearbrown/mba-accounting) |
+| Principles of Finance (AI Plus One) | Ready to scope | [mba-finance](https://github.com/nikbearbrown/mba-finance) |
+| Trading System Engineering (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/64-trading-system-engineering/) |
+| Verified Finance with Agents (AI Plus One) | Compare sources | [mycroft](https://github.com/nikbearbrown/mycroft) |
+
+## Games, animation, film, and music
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| Agentic Filmmaking (AI Plus One) | Compare sources | [agentic-filmmaking-book](https://github.com/nikbearbrown/agentic-filmmaking-book) · [ai-filmmaking](https://github.com/nikbearbrown/ai-filmmaking) |
+| Animation with Blender (AI Plus One) | On hold | Local material (no GitHub copy linked) |
+| Building Virtual Environments (AI Plus One) | Ready to scope | [Blueprint](syllabus-track/blueprints/08-building-virtual-environments/) · [csye-7270-building-virtual-environments](https://github.com/nikbearbrown/csye-7270-building-virtual-environments) |
+| Creative Direction (AI Plus One) | Compare sources | [agentic-creative-direction](https://github.com/nikbearbrown/agentic-creative-direction) |
+| Game AI (AI Plus One) | Compare sources | [game-ai](https://github.com/nikbearbrown/game-ai) · Local material (no GitHub copy linked) |
+| Game Reinforcement Learning (AI Plus One) | On hold | Local material (no GitHub copy linked) |
+| Generative AI for Game Development (AI Plus One) | Compare sources | Local material (no GitHub copy linked) |
+| Interactive Storytelling (AI Plus One) | On hold | [AI-in-Interactive-Storytelling](https://github.com/nikbearbrown/AI-in-Interactive-Storytelling) |
+| Music, Imitation, and AI (AI Plus One) | On hold | [Musical-Imitation-Game](https://github.com/nikbearbrown/Musical-Imitation-Game) · [Musical-Endogeneity](https://github.com/nikbearbrown/Musical-Endogeneity) |
+
+## Humanities and social sciences
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| American Government (AI Plus One) | On hold | [american-government-with-llms](https://github.com/nikbearbrown/american-government-with-llms) |
+| Irreducibly Human (AI Plus One) | Compare sources | [irreducibly-human-book](https://github.com/nikbearbrown/irreducibly-human-book) · [irreducibly-human-vol1](https://github.com/nikbearbrown/irreducibly-human-vol1) |
+| Psychology (AI Plus One) | On hold | [psychology-with-llms](https://github.com/nikbearbrown/psychology-with-llms) |
+| United States History (AI Plus One) | On hold | [us-history-with-llms](https://github.com/nikbearbrown/us-history-with-llms) |
+| Work and AI (AI Plus One) | On hold | [a-new-shape-for-work](https://github.com/nikbearbrown/a-new-shape-for-work) |
+| World History (AI Plus One) | On hold | [world-history-with-llms](https://github.com/nikbearbrown/world-history-with-llms) |
+
+## Marketing and branding
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| Branding and AI (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/12-branding-and-ai/) · [branding-and-ai](https://github.com/nikbearbrown/branding-and-ai) |
+| Branding and Marketing (AI Plus One) | Compare sources | [branding-and-ai](https://github.com/nikbearbrown/branding-and-ai) |
+| Causal Inference in Pharmaceutical Marketing (AI Plus One) | Compare sources | [pharma-rep-visit-data-as-an-untapped-causal-dataset](https://github.com/nikbearbrown/pharma-rep-visit-data-as-an-untapped-causal-dataset) |
+| Computational Marketing (AI Plus One) | On hold | [Computational_Marketing_and_Ad_Tech_with_Python](https://github.com/nikbearbrown/Computational_Marketing_and_Ad_Tech_with_Python) |
+| Healthcare Marketing (AI Plus One) | Compare sources | [ai-driven-programmatic-hcp-marketing](https://github.com/nikbearbrown/ai-driven-programmatic-hcp-marketing) |
+| Principles of Marketing (AI Plus One) | Ready to scope | [mba-marketing](https://github.com/nikbearbrown/mba-marketing) |
+| Social Media Marketing (AI Plus One) | Compare sources | [social-media-marketing-plus-one](https://github.com/nikbearbrown/social-media-marketing-plus-one) |
+| Social Media Marketing Platforms (AI Plus One) | Compare sources | [social-media-marketing-platform-edition](https://github.com/nikbearbrown/social-media-marketing-platform-edition) |
+
+## Mathematics
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| Algebra (AI Plus One) | On hold | [math-algebra](https://github.com/nikbearbrown/math-algebra) |
+| Calculus (AI Plus One) | Ready to scope | [math-calculus](https://github.com/nikbearbrown/math-calculus) |
+| College Algebra (AI Plus One) | Ready to scope | [math-college-algebra](https://github.com/nikbearbrown/math-college-algebra) |
+| Contemporary Mathematics (AI Plus One) | Ready to scope | [math-contemporary-mathematics](https://github.com/nikbearbrown/math-contemporary-mathematics) |
+| Discrete Structures (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/15-discrete-structures/) |
+| Elliptic Curves and Modular Forms (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/41-elliptic-curves-and-modular-forms/) |
+| Mathematics for Physics Volume 1 (AI Plus One) | Compare sources | [math-for-physics](https://github.com/nikbearbrown/math-for-physics) |
+| Mathematics for Physics Volume 2 (AI Plus One) | Ready to scope | [math-for-physics-vol-2](https://github.com/nikbearbrown/math-for-physics-vol-2) |
+| MBA Math (AI Plus One) | Ready to scope | [mba-math](https://github.com/nikbearbrown/mba-math) |
+| Number Theory (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/39-number-theory/) |
+| Prealgebra (AI Plus One) | Ready to scope | [math-prealgebra](https://github.com/nikbearbrown/math-prealgebra) |
+
+## Physics, chemistry, and quantum science
+
+| Book | Status | Available material |
+| --- | --- | --- |
+| Astronomy (AI Plus One) | Compare sources | [physics-astronomy](https://github.com/nikbearbrown/physics-astronomy) |
+| Classical Mechanics (AI Plus One) | Compare sources | [physics-classical-mechanics](https://github.com/nikbearbrown/physics-classical-mechanics) |
+| College Physics: Mechanics and Waves (AI Plus One) | On hold | [physics-vol-1](https://github.com/Medhavy/physics-vol-1) |
+| Designing and Prototyping Optical Systems (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/60-designing-and-prototyping-optical-systems/) |
+| Electromagnetism (AI Plus One) | Compare sources | [physics-electromagnetism](https://github.com/nikbearbrown/physics-electromagnetism) |
+| Electron Microscopy (AI Plus One) | On hold | [electron-microscopy](https://github.com/nikbearbrown/electron-microscopy) |
+| Modern Physics (AI Plus One) | Compare sources | [physics-modern-physics](https://github.com/nikbearbrown/physics-modern-physics) |
+| Optics (AI Plus One) | Compare sources | [physics-optics](https://github.com/nikbearbrown/physics-optics) |
+| Organic Chemistry (AI Plus One) | On hold | [organic-chemistry](https://github.com/nikbearbrown/organic-chemistry) |
+| Quantum Computing (AI Plus One) | On hold | [Quantum-Computing](https://github.com/nikbearbrown/Quantum-Computing) |
+| Quantum Mechanics, Volume 1: Foundations (AI Plus One) | Ready to scope | [quantum-mechanics-vol1](https://github.com/nikbearbrown/quantum-mechanics-vol1) |
+| Quantum Mechanics, Volume 2: Formalism and the Three-Dimensional Atom (AI Plus One) | Ready to scope | [quantum-mechanics-vol2](https://github.com/nikbearbrown/quantum-mechanics-vol2) |
+| Quantum Mechanics, Volume 3: Approximation Methods and Real Systems (AI Plus One) | Ready to scope | [quantum-mechanics-vol3](https://github.com/nikbearbrown/quantum-mechanics-vol3) |
+| Quantum Mechanics, Volume 4: Information, Measurement, and Open Systems (AI Plus One) | Ready to scope | [quantum-mechanics-vol4](https://github.com/nikbearbrown/quantum-mechanics-vol4) |
+| Quantum Mechanics, Volume 5: Math for Quantum Physics (AI Plus One) | Ready to scope | [quantum-mechanics-vol5](https://github.com/nikbearbrown/quantum-mechanics-vol5) |
+| Quantum Mechanics: A Companion Guide (AI Plus One) | Ready to scope | [quantum-mechanics-a-companion-guide](https://github.com/nikbearbrown/quantum-mechanics-a-companion-guide) |
+| Quantum Mechanics: Interactive Simulations (AI Plus One) | Compare sources | [physics-quantum-mechanics](https://github.com/nikbearbrown/physics-quantum-mechanics) |
+| Thermodynamics (AI Plus One) | Compare sources | [physics-thermodynamics](https://github.com/nikbearbrown/physics-thermodynamics) |
+| University Physics (AI Plus One) | Compare sources | [university-physics-bundle-with-llms](https://github.com/nikbearbrown/university-physics-bundle-with-llms) |
