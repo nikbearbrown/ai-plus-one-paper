@@ -2,7 +2,7 @@
 
 **Private Blueprint only. Draft route: `compare-scope`. Evidence: `matched-source`. No sign-off.**
 
-Check catalog scope, adoption level, and existing manuscript outcomes before creating a separate edition.
+Design AI interactions that communicate uncertainty and let users recover. Students use a Figma prototype as their baseline, ask an agent through Figma MCP to inspect a permissioned frame, then verify proposed changes with a human walkthrough. Keep the evidence and the design review separate from agent suggestions. Compare existing manuscripts before creating a new edition.
 
 No new repository is assigned or created here. Input source-queue row IDs: 67 (physical data rows in the earlier syllabus queue).
 

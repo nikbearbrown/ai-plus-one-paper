@@ -29,7 +29,7 @@ existing	Prompt Engineering and Generative AI (AI Plus One)	existing-queue	2	INF
 20	Neural Modeling (AI Plus One)	verify-syllabus-first		INFO 6106 / Fall: 16468 / Spring: none
 21	Business Analysis and Information Engineering (AI Plus One)	verify-syllabus-first		INFO 6215 / Fall: 16495,16496,16500,16501,16502,16503,20111,22064,23007 / Spring: 35475,35476,35477,35479,40008,40009
 22	Software Quality Engineering (AI Plus One)	verify-syllabus-first		INFO 6255 / Fall: 16520,16522,16523 / Spring: 35496,35497,35498
-23	Mobile Web Development (AI Plus One)	verify-syllabus-first		INFO 6350 / Fall: 16524,16526 / Spring: 35500
+23	Mobile App Development (AI Plus One)	verify-syllabus-first		INFO 6350 / Fall: 16524,16526 / Spring: 35500
 24	Operational Risk Engineering (AI Plus One)	verify-syllabus-first		INFO 6500 / Fall: 19224 / Spring: 35502
 25	Business Process Engineering (AI Plus One)	verify-syllabus-first		INFO 7260 / Fall: 16533,22366 / Spring: none
 26	Industry Project Practicum (AI Plus One)	verify-syllabus-first		INFO 7374 [Interdisc. Industry Proj Pract] / Fall: 19268 / Spring: 37229
@@ -53,7 +53,7 @@ existing	Prompt Engineering and Generative AI (AI Plus One)	existing-queue	2	INF
 44	Cryptography (AI Plus One)	verify-syllabus-first		CSYE 7374 [Cryptography] / Fall: none / Spring: 42112
 45	Managing Information Systems Development (AI Plus One)	verify-syllabus-first		INFO 6245 / Fall: none / Spring: 42369,42568
 46	Introduction to Program Design and Implementation (AI Plus One)	compare-scope	7;24	CS2000 [Khoury, Fall 2026]
-47	Web Development (AI Plus One)	compare-scope	12	CS4550/CS5610 [Khoury, Fall 2026]
+47	Engentic Web Development (AI Plus One)	compare-scope	12	CS4550/CS5610 [Khoury, Fall 2026]
 48	Foundations of Trustworthy AI (AI Plus One)	compare-scope	3	CS7180/CS7880 [Khoury, Fall 2026]
 49	User Experience Design and Testing (AI Plus One)	compare-scope	12;66	CSYE 7280 / Fall: 16375,16376 / Spring: 35356; INFO 7374 [UX Masterclass for Engineers] / Fall: 16537 / Spring: none
 50	Design of Agentic Systems (AI Plus One)	compare-scope	57	CSYE 7374 [ST: Introduction to Agentic AI] / Fall: 22638,24510 / Spring: 37272

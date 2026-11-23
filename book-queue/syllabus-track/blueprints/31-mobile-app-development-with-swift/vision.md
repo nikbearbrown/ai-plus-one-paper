@@ -10,10 +10,10 @@ See [source register](sources.tsv) for confirmed, tentative and unavailable inpu
 
 ## Editorial proposal
 
-Build and test a native iOS application that keeps its state predictable across navigation, data changes, and interruptions.
+Design an accessible mobile flow in Figma, express its behavior without tying it to a language, then implement and test it on one chosen platform.
 
-**Reader and prerequisites:** Learners with one prior programming course; introduce Swift syntax and object/value distinctions before native UI work.
+**Reader and prerequisites:** Learners with one prior programming course. No particular language is assumed. Provide a short implementation primer for a learner’s chosen route.
 
-**Comparable scope:** Retitle provisionally to Native iOS Application Development; the queue's Mobile Web label contradicts the sole usable section. Keep separate from row 7 Java and row 12 Design Engineering; obtain a second clean section to prove broad identity.
+**Comparable scope:** Keep mobile behavior and device testing distinct from general Design Engineering and general web development. The iOS syllabus can inform an optional Swift route; it does not establish Android or cross-platform coverage. Figma is part of the shared design workflow. Keep INFO 6350 section equivalence unresolved.
 
 **Validation before adoption:** [NEEDS HUMAN INPUT] Confirm audience, depth, accessibility and intended adoption setting. No demand, competitive ranking, or instructor approval is established here.

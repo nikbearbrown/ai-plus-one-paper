@@ -1,10 +1,8 @@
-# Web Development (AI Plus One)
+# Engentic Web Development (AI Plus One)
 
 **Private Blueprint only. Draft route: `compare-scope`. Evidence: `matched-source`. No sign-off.**
 
-Check catalog scope, adoption level, and existing manuscript outcomes before creating a separate edition.
-
-No new repository is assigned or created here. Input source-queue row IDs: 55 (physical data rows in the earlier syllabus queue).
+Develop one accessible full-stack feature by directing a coding agent: inspect the repository and its constraints, define acceptance tests, delegate small changes, review diffs, verify behavior independently, and decide whether the feature is ready for release. The learner owns the decision at every step.
 
 - [Project brief](book.md)
 - [Vision and positioning](vision.md)
@@ -14,4 +12,4 @@ No new repository is assigned or created here. Input source-queue row IDs: 55 (p
 - [Risks and open decisions](risks.md)
 - [Source register](sources.tsv)
 
-Use the existing book first where applicable. When the syllabus evidence is tentative, treat it as a lead only and verify it before incorporating anything. This planning packet does not authorize publication, outside access, or use of restricted teaching materials.
+The syllabus establishes full-stack subject coverage. Human-directed agent development is the editorial proposal for this book, not a claim about the source course. Compare with the existing Design Engineering book before drafting. No repository, preview, production release, or access to restricted teaching materials is authorized here.

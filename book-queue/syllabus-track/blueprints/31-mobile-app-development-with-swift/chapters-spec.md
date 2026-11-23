@@ -4,30 +4,37 @@
 
 Each entry is a proposed chapter, not drafted prose.
 
-## 1. Swift values and native app structure
+## 1. Define a mobile task and device constraints
 
-- **Observable capability:** Model an app's data and trace an event to its handler.
-- **Teaching blocks:** Swift types; optionals; value and reference semantics; project organization.
-- **Original worked example to write:** Model shuttle route and departure records with missing-times handling.
-- **Assessable practice:** Implement records and a parser that rejects malformed intervals visibly.
+- **Observable capability:** Describe a single task and its success, empty, error and offline outcomes.
+- **Teaching blocks:** Small-screen constraints, orientation, touch, accessibility and intermittent connectivity.
+- **Original worked example to write:** A rider needs the next shuttle departure while walking between campus buildings.
+- **Assessable practice:** Specify the task when the timetable is fresh, missing or stale.
 
-## 2. Views, navigation and accessibility
+## 2. Prototype and hand off in Figma
 
-- **Observable capability:** Create a native UI that exposes an understandable path through a task.
-- **Teaching blocks:** Native layout; navigation stack; focus and accessibility labels; orientation.
-- **Original worked example to write:** Build a route list and a detail screen with a VoiceOver-readable stop summary.
-- **Assessable practice:** Demonstrate the task on two simulator sizes and write an accessibility receipt.
+- **Observable capability:** Make a testable prototype and convert it to an implementation brief.
+- **Teaching blocks:** Reusable components and variants, adaptive layout, navigation, state annotations and accessibility intent.
+- **Original worked example to write:** Prototype route search, stop details and a stale timetable indicator.
+- **Assessable practice:** Walk the happy path and a failure path; hand off states, labels, expected navigation and acceptance checks. Treat prototype accessibility notes as requirements to test in the actual app.
 
-## 3. State, persistence and lifecycle
+## 3. Implement the flow in a chosen stack
 
-- **Observable capability:** Keep user choices coherent after navigation, suspension and relaunch.
-- **Teaching blocks:** State ownership; validation; persistence boundary; lifecycle callbacks.
-- **Original worked example to write:** Preserve saved route preferences after app restart without duplicating entries.
-- **Assessable practice:** Use a reproducible test to demonstrate restored data and a safe empty-state reset.
+- **Observable capability:** Implement the Figma flow using the same acceptance checks in one stack.
+- **Teaching blocks:** Screen composition, platform navigation, events and state ownership; Swift/iOS, Kotlin/Android or a cross-platform path as optional implementation choices.
+- **Original worked example to write:** Translate route-list and route-detail components into views and map state consistently across them.
+- **Assessable practice:** Direct an agent to build one bounded interaction. Review its changes and demonstrate the same user task on two screen sizes. Do not require parallel implementations.
 
-## 4. Asynchronous data and release evidence
+## 4. Manage state, data, and interruptions
 
-- **Observable capability:** Show actionable loading, failure and retry behavior in a tested native build.
-- **Teaching blocks:** Asynchronous requests; cancellation; fixtures; simulator end-to-end checks.
-- **Original worked example to write:** Model an outdated shuttle timetable and recover when an offline fixture returns.
-- **Assessable practice:** Prove navigation away cancels work and that a second attempt retains valid cached data.
+- **Observable capability:** Preserve user choices and show truthful loading, cached and error states.
+- **Teaching blocks:** Persistence boundary, asynchronous requests, cancellation, lifecycle, fixtures and offline policy.
+- **Original worked example to write:** Preserve saved routes after relaunch, and show cached departures as stale during an outage.
+- **Assessable practice:** Test restart, navigation away during a request and retry against synthetic fixtures.
+
+## 5. Verify accessibility, offline behavior, and release readiness
+
+- **Observable capability:** Demonstrate that the runnable build meets the intent documented in Figma.
+- **Teaching blocks:** Simulator/device checks, text scaling, accessible names, screen-reader order, regression evidence and release limits.
+- **Original worked example to write:** Verify route selection and the offline alert on two different device configurations.
+- **Assessable practice:** Submit the Figma prototype, implementation, and a reproducible evidence checklist. Distinguish local build evidence from platform certification or store release.

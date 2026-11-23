@@ -4,17 +4,15 @@
 
 ## Proposed measurable outcomes
 
-- Implement a small native screen hierarchy.
-- validate and persist app state.
-- trace asynchronous data and lifecycle events.
-- verify accessibility and core behavior on a simulator.
+- Prototype a mobile task in Figma with reusable states for success, loading, empty and error.
+- Hand off the prototype as a language-neutral interaction and state specification.
+- Build the same behavior in one chosen stack; explain what the platform handles and what the app must own.
+- Demonstrate accessibility, new and restored state, and recovery when the network fails.
 
 ## Sequencing and final artifact
 
-Establish Swift and UI behavior; build navigation, state and data; apply to a verified transit companion or a similarly bounded native app.
+Follow a fictional shuttle app from a user task to a Figma prototype, then to one runnable implementation. The final artifacts are an inspectable Figma file, an editable app in the learner’s chosen stack, and reproducible test evidence. Swift/iOS is an optional path alongside Kotlin/Android or a cross-platform implementation. The prototype describes intent; the runnable app proves behavior.
 
 ## Assessment and AI Plus One practice
 
-Implement two interactions independently before asking AI to critique architecture. Grade simulator evidence, state correctness, recoverability, accessible interactions and explanation of tradeoffs.
-
-Require a first attempt without AI; document any bounded AI assistance and independently check consequential outputs against evidence. These are original assessment recommendations, not institutional assignments or grading policy.
+The learner defines state and acceptance cases first. An agent can draft a view or persistence routine in the selected stack, but the learner checks the diff against the Figma handoff and tests the result independently. Apply the same behavior rubric across stacks. Grade accessible interaction, correct state and recovery rather than fidelity to one toolkit.

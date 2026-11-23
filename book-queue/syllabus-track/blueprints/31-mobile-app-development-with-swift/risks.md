@@ -2,8 +2,7 @@
 
 **Private Blueprint only. Draft route: `hold-source`. Evidence: `matched-source`. No sign-off.**
 
-- [NEEDS HUMAN INPUT] Confirm the title and section scope before drafting.
-- only one corroborated section available. Confirm toolkit versions, UIKit versus newer framework choices, and design a simulator-first route.
-- **Overlap rule:** Retitle provisionally to Native iOS Application Development; the queue's Mobile Web label contradicts the sole usable section. Keep separate from row 7 Java and row 12 Design Engineering; obtain a second clean section to prove broad identity.
-- **Course data and rights:** Keep only factual scope signals; do not republish the syllabus, its assignments, or term and instructor details. Use original examples; check technical assertions against independent primary sources at the drafting stage.
-- **Draft hold:** [NEEDS HUMAN INPUT] Obtain a matching, substantive syllabus or comparable authorized scope source before drafting. Every objective and chapter below is an editorial proposal, not a reconstruction of the class.
+- The one usable section supports an iOS route only. Do not infer that the class taught Figma or any other platform from this syllabus.
+- **Draft hold:** Verify sources for the wider curriculum and the design workflow before drafting. Do not present this Blueprint as an equivalent to all INFO 6350 sections.
+- **Implementation:** Choose one stack with available test hardware or simulators. Record what was actually tested and distinguish platform-specific behaviors from shared concepts. Do not make a Figma prototype stand in for runtime accessibility testing.
+- **Boundary:** Teach mobile product behavior and implementation, not a general UX course or a browser-first web book. Keep personal data out of design files and test fixtures; use synthetic data and rights-cleared assets.

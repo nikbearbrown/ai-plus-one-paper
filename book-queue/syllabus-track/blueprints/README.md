@@ -48,7 +48,7 @@
 | 28 | [Neural Modeling (AI Plus One)](28-neural-modeling/) | `ready-for-draft-review` | matched-source |  |
 | 29 | [Business Analysis and Information Engineering (AI Plus One)](29-business-analysis-and-information-engineering/) | `ready-for-draft-review` | matched-source |  |
 | 30 | [Software Quality Engineering (AI Plus One)](30-software-quality-engineering/) | `ready-for-draft-review` | matched-source |  |
-| 31 | [Mobile App Development with Swift (AI Plus One)](31-mobile-app-development-with-swift/) | `hold-source` | matched-source |  |
+| 31 | [Mobile App Development (AI Plus One)](31-mobile-app-development-with-swift/) | `hold-source` | matched-source |  |
 | 32 | [Operational Risk Engineering (AI Plus One)](32-operational-risk-engineering/) | `ready-for-draft-review` | matched-source |  |
 | 33 | [Business Process Engineering (AI Plus One)](33-business-process-engineering/) | `ready-for-draft-review` | matched-source |  |
 | 34 | [Industry Project Practicum (AI Plus One)](34-industry-project-practicum/) | `ready-for-draft-review` | matched-source |  |
@@ -71,7 +71,7 @@
 | 52 | [Cryptography (AI Plus One)](52-cryptography/) | `ready-for-draft-review` | matched-source |  |
 | 53 | [Managing Information Systems Development (AI Plus One)](53-managing-information-systems-development/) | `ready-for-draft-review` | matched-source |  |
 | 54 | [Introduction to Program Design and Implementation (AI Plus One)](54-introduction-to-program-design-and-implementation/) | `compare-scope` | matched-source |  |
-| 55 | [Web Development (AI Plus One)](55-web-development/) | `compare-scope` | matched-source |  |
+| 55 | [Engentic Web Development (AI Plus One)](55-web-development/) | `compare-scope` | matched-source |  |
 | 56 | [Foundations of Trustworthy AI (AI Plus One)](56-foundations-of-trustworthy-ai/) | `compare-scope` | matched-source |  |
 | 57 | [User Experience Design and Testing (AI Plus One)](57-user-experience-design-and-testing/) | `compare-scope` | matched-source |  |
 | 58 | [Design of Agentic Systems (AI Plus One)](58-design-of-agentic-systems/) | `existing-book` | matched-source | 57 |

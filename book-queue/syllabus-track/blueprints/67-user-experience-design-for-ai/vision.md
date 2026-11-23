@@ -12,6 +12,8 @@ See [source register](sources.tsv) for confirmed, tentative and unavailable inpu
 
 Design AI interfaces that help users see uncertainty, recover from mistakes, and stay in control.
 
+**Proposed tool practice:** Begin in Figma without an agent. Then use optional Figma MCP access to inspect an approved frame, draft annotations and prepare a handoff; compare what this adds to the baseline, not what it claims about users. Human validation remains required. Nothing in the source establishes MCP instruction.
+
 **Reader and prerequisites:** Interaction designers familiar with task flows and usability testing.
 
 **Comparable scope:** First compare Design Engineering for shared user flows and AI boundaries; split only for specialized human-AI interaction evaluation.

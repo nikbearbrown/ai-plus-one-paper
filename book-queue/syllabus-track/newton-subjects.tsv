@@ -32,7 +32,7 @@ INFO 6205		Algorithms (AI Plus One)	16480,16483,16486,16488,16489,16490,16492	35
 INFO 6215		Business Analysis and Information Engineering (AI Plus One)	16495,16496,16500,16501,16502,16503,20111,22064,23007	35475,35476,35477,35479,40008,40009	verify-syllabus-first		Compare systems project management and business process engineering
 INFO 6245		Managing Information Systems Development (AI Plus One)		42369,42568	verify-syllabus-first		Adaptive delivery and project planning, not application coding
 INFO 6255		Software Quality Engineering (AI Plus One)	16520,16522,16523	35496,35497,35498	verify-syllabus-first		Compare Software Testing and general Software Engineering, keep distinct only as evidenced
-INFO 6350		Mobile Web Development (AI Plus One)	16524,16526	35500	verify-syllabus-first		Check against web development for distinct mobile constraints and learning outcomes
+INFO 6350		Mobile App Development (AI Plus One)	16524,16526	35500	verify-syllabus-first		Earlier label was Mobile Web Development; one usable Fall section teaches Swift/iOS. Figma and the multi-platform scope are editorial, not attributed to the syllabus.
 INFO 6376	ST: AI Improving AI	Self-Improving AI (AI Plus One)		42675	hold-no-document		Compare INFO 7375 variant; keep proposals and experiments grounded
 INFO 6500		Operational Risk Engineering (AI Plus One)	19224	35502	verify-syllabus-first		Compare general risk management and software governance only if outcomes align
 INFO 7225		Accounting and Budgeting for Engineers (AI Plus One)		35503	hold-no-document	15	Use existing accounting scope if engineering examples alone are different

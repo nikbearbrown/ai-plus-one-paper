@@ -10,4 +10,6 @@
 
 **Consolidation decision:** Check catalog scope, adoption level, and existing manuscript outcomes before creating a separate edition. First compare Design Engineering for shared user flows and AI boundaries; split only for specialized human-AI interaction evaluation.
 
+**Proposed practice:** Compare a manual Figma baseline with a bounded Figma MCP-assisted inspection, suggested annotations and handoff. Learners choose what to delegate, verify uncertain, refusal and recovery states with a human walkthrough, and use a manual fallback when access is unavailable. This is editorial design, not source evidence of MCP instruction.
+
 Read the [Blueprint files](README.md) before drafting.

@@ -206,7 +206,7 @@ Click any title to read its blueprint, including the chapter outline and source 
 | 28 | [Neural Modeling (AI Plus One)](syllabus-track/blueprints/28-neural-modeling/) | Candidate for a private draft | 5 |
 | 29 | [Business Analysis and Information Engineering (AI Plus One)](syllabus-track/blueprints/29-business-analysis-and-information-engineering/) | Candidate for a private draft | 5 |
 | 30 | [Software Quality Engineering (AI Plus One)](syllabus-track/blueprints/30-software-quality-engineering/) | Candidate for a private draft | 5 |
-| 31 | [Mobile App Development with Swift (AI Plus One)](syllabus-track/blueprints/31-mobile-app-development-with-swift/) | On hold pending source or scope | 4 |
+| 31 | [Mobile App Development (AI Plus One)](syllabus-track/blueprints/31-mobile-app-development-with-swift/) | On hold pending source or scope | 5 |
 | 32 | [Operational Risk Engineering (AI Plus One)](syllabus-track/blueprints/32-operational-risk-engineering/) | Candidate for a private draft | 4 |
 | 33 | [Business Process Engineering (AI Plus One)](syllabus-track/blueprints/33-business-process-engineering/) | Candidate for a private draft | 4 |
 | 34 | [Industry Project Practicum (AI Plus One)](syllabus-track/blueprints/34-industry-project-practicum/) | Candidate for a private draft | 4 |
@@ -229,7 +229,7 @@ Click any title to read its blueprint, including the chapter outline and source 
 | 52 | [Cryptography (AI Plus One)](syllabus-track/blueprints/52-cryptography/) | Candidate for a private draft | 5 |
 | 53 | [Managing Information Systems Development (AI Plus One)](syllabus-track/blueprints/53-managing-information-systems-development/) | Candidate for a private draft | 5 |
 | 54 | [Introduction to Program Design and Implementation (AI Plus One)](syllabus-track/blueprints/54-introduction-to-program-design-and-implementation/) | Compare with related books | 4 |
-| 55 | [Web Development (AI Plus One)](syllabus-track/blueprints/55-web-development/) | Compare with related books | 5 |
+| 55 | [Engentic Web Development (AI Plus One)](syllabus-track/blueprints/55-web-development/) | Compare with related books | 5 |
 | 56 | [Foundations of Trustworthy AI (AI Plus One)](syllabus-track/blueprints/56-foundations-of-trustworthy-ai/) | Compare with related books | 5 |
 | 57 | [User Experience Design and Testing (AI Plus One)](syllabus-track/blueprints/57-user-experience-design-and-testing/) | Compare with related books | 5 |
 | 58 | [Design of Agentic Systems (AI Plus One)](syllabus-track/blueprints/58-design-of-agentic-systems/) | Use the existing book plan | 5 |
