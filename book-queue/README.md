@@ -60,7 +60,7 @@ In working order: **37 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 22 | Calculus (AI Plus One) | Business | Ready to scope |  |
 | 23 | Mathematics for Physics Volume 2 (AI Plus One) | Business | Ready to scope |  |
 | 24 | Python Programming (AI Plus One) | Computing | Ready to scope |  |
-| 25 | Living Models (AI Plus One) | Computing | Ready to scope |  |
+| 25 | Causal Modeling for Business Decisions (AI Plus One) | Computing | Ready to scope |  |
 | 26 | Figma Design with AI (AI Plus One) | Computing | Ready to scope |  |
 | 27 | AI for Teachers (AI Plus One) | Education | Ready to scope |  |
 | 28 | AI for Students (AI Plus One) | Education | Ready to scope |  |
