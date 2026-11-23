@@ -1,4 +1,4 @@
-# Systems Design (AI Plus One)
+# Designing Scalable and Reliable Software Services (AI Plus One)
 
 **Private Blueprint only. Draft route: `ready-for-draft-review`. Evidence: `matched-source`. No sign-off.**
 

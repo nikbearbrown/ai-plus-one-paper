@@ -182,7 +182,7 @@ Click any title to read its blueprint, including the chapter outline and source 
 | 3 | [High-Performance Machine Learning (AI Plus One)](syllabus-track/blueprints/03-high-performance-machine-learning/) | Candidate for a private draft | 6 |
 | 4 | [Generative Modeling (AI Plus One)](syllabus-track/blueprints/04-generative-modeling/) | Candidate for a private draft | 6 |
 | 5 | [LLMOps (AI Plus One)](syllabus-track/blueprints/05-llmops/) | On hold pending source or scope | 4 |
-| 6 | [Systems Design (AI Plus One)](syllabus-track/blueprints/06-systems-design/) | Candidate for a private draft | 5 |
+| 6 | [Designing Scalable and Reliable Software Services (AI Plus One)](syllabus-track/blueprints/06-systems-design/) | Candidate for a private draft | 5 |
 | 7 | [Algorithms (AI Plus One)](syllabus-track/blueprints/07-algorithms/) | Use the existing book plan | 6 |
 | 8 | [Building Virtual Environments (AI Plus One)](syllabus-track/blueprints/08-building-virtual-environments/) | Use the existing book plan | 5 |
 | 9 | [Application Engineering and Development (AI Plus One)](syllabus-track/blueprints/09-application-engineering-and-development/) | Use the existing book plan | 5 |

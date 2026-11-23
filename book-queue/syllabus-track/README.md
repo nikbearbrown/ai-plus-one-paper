@@ -23,7 +23,7 @@ Start from these groups when the earlier queue is moving. The evidence column id
 | 3 | High-Performance Machine Learning (AI Plus One) | Fall CSYE 7105, 16364; compare Spring 35348 and general high-performance computing before creating a second book. |
 | 4 | Generative Modeling (AI Plus One) | CSYE 7380, multiple terms. Verify a common modeling scope across usable sections. Compare the specialized advanced language-model and neural-network candidates. |
 | 5 | LLMOps (AI Plus One) | CSYE 7374 named Infrastructure and DevOps with LLMs. Verify the Spring syllabus or inspect the authoritative Fall link; no reuse of meeting-access material. |
-| 6 | Systems Design (AI Plus One) | INFO 7375 named System Design in the Age of AI. Compare 22278 and 42128. Assess architectural tradeoffs as the core, distinct from agent tool use and experience design. |
+| 6 | Designing Scalable and Reliable Software Services (AI Plus One) | INFO 7375 named System Design in the Age of AI. Compare 22278 and 42128. Assess architectural tradeoffs as the core, distinct from agent tool use and experience design. |
 
 For all other candidates, follow the additional run order in the TSV and skip any row that is not actionable. The mapping uses the earliest term and course code as stable tie-breakers. `existing-queue` means feed the existing manuscript, `compare-scope` means check overlap first, and `verify-syllabus-first` means investigate a possible new scope, not that the section has already been validated. `hold` routes do not start drafting. Preserve unsuccessful leads for future checks.
 

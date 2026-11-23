@@ -57,7 +57,7 @@ INFO 7375	ST: Neurosymbolic AI Syst Engr	Neurosymbolic AI (AI Plus One)	25072		v
 INFO 7375	ST: Prompt Engr & Agentic AI	Prompt Engineering and Generative AI (AI Plus One)	16545	35517	existing-queue	2	Use current book; course codes in sources only
 INFO 7375	ST: Self-improving AI	Self-Improving AI (AI Plus One)	20181	35523,40011	hold-review-evidence		Compare INFO 6376, do not assume alternate labels are equivalent
 INFO 7375	ST: Semantic Intel in LLM	Semantic Intelligence in Language Models (AI Plus One)	22776	40012	verify-syllabus-first		Compare advanced LLMs and GraphRAG; document-grounded synthesis must be evidenced
-INFO 7375	ST: System Design in Age of AI	Systems Design (AI Plus One)	22278	42128	verify-syllabus-first		Architecture, workload, reliability and design tradeoffs, compare Enterprise Software Design
+INFO 7375	ST: System Design in Age of AI	Designing Scalable and Reliable Software Services (AI Plus One)	22278	42128	verify-syllabus-first		Architecture, workload, reliability and design tradeoffs, compare Enterprise Software Design
 INFO 7375	ST: User Exp in Era of Gen AI	User Experience Design for AI (AI Plus One)	16548		compare-scope	12;66	Compare general UX and applicable existing manuscript
 INFO 7385		Technical Communication for Engineers (AI Plus One)		35526	hold-no-document		Check scope relative to research writing and business cases
 INFO 7390		Advanced Data Science and Architecture (AI Plus One)		42129,42130	compare-scope	72	Existing INFO_7390_Art_and_Science_of_Data is a real course lead; verify Spring titled Advances Data Science and Architecture matches it before drafting

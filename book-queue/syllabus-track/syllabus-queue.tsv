@@ -4,7 +4,7 @@ additional run order	book title or proposed scope	route	related existing queue r
 3	High-Performance Machine Learning (AI Plus One)	verify-syllabus-first		CSYE 7105 / Fall: 16364 / Spring: 35348
 4	Generative Modeling (AI Plus One)	verify-syllabus-first		CSYE 7380 / Fall: 16385,16386,16387,20134,22536 / Spring: 35365,35367,35369,42115
 5	LLMOps (AI Plus One)	verify-syllabus-first		CSYE 7374 [Infrastructure & DevOps w/LLMs] / Fall: 19915 / Spring: 35363,42114
-6	Systems Design (AI Plus One)	verify-syllabus-first		INFO 7375 [ST: System Design in Age of AI] / Fall: 22278 / Spring: 42128
+6	Designing Scalable and Reliable Software Services (AI Plus One)	verify-syllabus-first		INFO 7375 [ST: System Design in Age of AI] / Fall: 22278 / Spring: 42128
 existing	Algorithms (AI Plus One)	existing-queue	4	CS3000 [Khoury, Fall 2026]; INFO 6205 / Fall: 16480,16483,16486,16488,16489,16490,16492 / Spring: 35458,35460,35463,35464,35465,35466,35467,35468,35470
 existing	Building Virtual Environments (AI Plus One)	existing-queue	8	CSYE 7270 / Fall: 16373 / Spring: none
 existing	Application Engineering and Development (AI Plus One)	existing-queue	7	INFO 5100 / Fall: 16428,16430,16433,16435,16437,16438,16440,16442,20135 / Spring: 35409,35412,35413,35414,35415,35417,35418,35419

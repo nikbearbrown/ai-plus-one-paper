@@ -24,7 +24,7 @@
 | 3 | [High-Performance Machine Learning (AI Plus One)](03-high-performance-machine-learning/) | `ready-for-draft-review` | matched-source |  |
 | 4 | [Generative Modeling (AI Plus One)](04-generative-modeling/) | `ready-for-draft-review` | matched-source |  |
 | 5 | [LLMOps (AI Plus One)](05-llmops/) | `hold-source` | no-usable-source |  |
-| 6 | [Systems Design (AI Plus One)](06-systems-design/) | `ready-for-draft-review` | matched-source |  |
+| 6 | [Designing Scalable and Reliable Software Services (AI Plus One)](06-systems-design/) | `ready-for-draft-review` | matched-source |  |
 | 7 | [Algorithms (AI Plus One)](07-algorithms/) | `existing-book` | matched-source | 4 |
 | 8 | [Building Virtual Environments (AI Plus One)](08-building-virtual-environments/) | `existing-book` | tentative-source | 8 |
 | 9 | [Application Engineering and Development (AI Plus One)](09-application-engineering-and-development/) | `existing-book` | matched-source | 7 |
