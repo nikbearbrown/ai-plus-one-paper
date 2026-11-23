@@ -1,6 +1,6 @@
-# AI One textbook production queue
+# AI Plus One textbook production queue
 
-Build one standalone **Subject AI One** book per genuine course scope. University course identifiers are useful source labels, not titles. For example, the INFO 7375 materials feed **Prompt Engineering and Generative AI One** or **Computational Skepticism AI One**, and INFO 6205 feeds **Algorithms AI One**. Titles that already end in “AI” do not repeat it when adding “One.”
+Build one standalone **Subject (AI Plus One)** book per genuine course scope. Use a subject title that tells a reader what the book teaches. Put university course identifiers in source references, not the title. For example, the INFO 7375 materials feed **Prompt Engineering and Generative AI (AI Plus One)** or **Validating AI (AI Plus One)**, and INFO 6205 feeds **Algorithms (AI Plus One)**. Keep “AI” when it belongs to the subject, as in **Conducting AI (AI Plus One)**. Use the target slug in the queue for GitHub, not the display title.
 
 ## What to run
 
@@ -28,15 +28,15 @@ The queue has **138 planned book families**: 37 ready for blueprint work, 57 to 
 
 | Order | Book | Start with | Stage |
 | --- | --- | --- | --- |
-| 1 | **Corporate Finance AI One** | `nikbearbrown/mba-corporate-finance`, `nikbearbrown/corporate-finance-with-ai` | compare |
-| 2 | **Prompt Engineering and Generative AI One** | `nikbearbrown/prompt-engineering`, `nikbearbrown/info-7375-prompt-engineering-for-generative-ai` | ready |
-| 3 | **Computational Skepticism AI One** | `nikbearbrown/computational-skepticism-for-ai` | compare |
-| 4 | **Algorithms AI One** | `nikbearbrown/Coursera_INFO_6205_Algorithms`, `nikbearbrown/info-6205-algorithms` | compare |
-| 5 | **Principles of Finance AI One** | `nikbearbrown/mba-finance` | ready |
-| 6 | **Introductory Statistics AI One** | `nikbearbrown/math-statistics` | ready |
-| 7 | **Application Engineering and Development AI One** | `nikbearbrown/info-5100-application-engineering-and-development` | compare |
-| 8 | **Building Virtual Environments AI One** | `nikbearbrown/csye-7270-building-virtual-environments` | ready |
-| 9 | **Computational Finance AI One** | `nikbearbrown/mba-computational-finance` | ready |
-| 10 | **Contemporary Mathematics AI One** | `nikbearbrown/math-contemporary-mathematics` | ready |
-| 11 | **Conducting AI One** | `nikbearbrown/info-7375-conducting-ai` | compare |
-| 12 | **Design Engineering AI One** | `local:design-engineering` | hold |
+| 1 | **Corporate Finance (AI Plus One)** | `nikbearbrown/mba-corporate-finance`, `nikbearbrown/corporate-finance-with-ai` | compare |
+| 2 | **Prompt Engineering and Generative AI (AI Plus One)** | `nikbearbrown/prompt-engineering`, `nikbearbrown/info-7375-prompt-engineering-for-generative-ai` | ready |
+| 3 | **Validating AI (AI Plus One)** | `nikbearbrown/computational-skepticism-for-ai` | compare |
+| 4 | **Algorithms (AI Plus One)** | `nikbearbrown/Coursera_INFO_6205_Algorithms`, `nikbearbrown/info-6205-algorithms` | compare |
+| 5 | **Principles of Finance (AI Plus One)** | `nikbearbrown/mba-finance` | ready |
+| 6 | **Introductory Statistics (AI Plus One)** | `nikbearbrown/math-statistics` | ready |
+| 7 | **Application Engineering and Development (AI Plus One)** | `nikbearbrown/info-5100-application-engineering-and-development` | compare |
+| 8 | **Building Virtual Environments (AI Plus One)** | `nikbearbrown/csye-7270-building-virtual-environments` | ready |
+| 9 | **Computational Finance (AI Plus One)** | `nikbearbrown/mba-computational-finance` | ready |
+| 10 | **Contemporary Mathematics (AI Plus One)** | `nikbearbrown/math-contemporary-mathematics` | ready |
+| 11 | **Conducting AI (AI Plus One)** | `nikbearbrown/info-7375-conducting-ai` | compare |
+| 12 | **Design Engineering (AI Plus One)** | `local:design-engineering` | hold |

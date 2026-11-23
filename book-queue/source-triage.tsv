@@ -11,7 +11,7 @@ the-juniors-curve	paper	draft	Mapped source or related material	work-and-ai-one	
 critique	skill	canonical	Mapped source or related material	ai-systems-validation-ai-one; research-methods-in-ai-one; research-writing-ai-one; validating-ai-output-ai-one	CRITIQ reviewer and manuscript workbench; root SKILL.
 walker	skill	canonical	Mapped source or related material	animation-with-blender-ai-one; building-virtual-environments-ai-one; generative-ai-for-game-development-ai-one	Walker framework instructions and tools for game-building agents.
 mycroft	book	canonical	Mapped source or related material	verified-finance-with-agents-ai-one	Mycroft verified-finance manuscript with book.md and numbered chapters plus working case-study recipes.
-info-7375-computational-skepticism-for-ai	book-course	canonical	Mapped source or related material	computational-skepticism-ai-one	Course layer with syllabus, chapters, delivery manifest and course configuration.
+info-7375-computational-skepticism-for-ai	book-course	canonical	Mapped source or related material	validating-ai-one	Course layer with syllabus, chapters, delivery manifest and course configuration.
 ai-readiness	skill	canonical	Mapped source or related material	ai-for-course-design-ai-one; ai-for-teachers-ai-one; conducting-ai-one	University course audit, assessment redesign and coding-agent implementation briefs.
 ai-filmmaking	book-course	draft	Mapped source or related material	agentic-filmmaking-ai-one	Self-paced course plan for trained filmmakers with a screenplay; published lessons not established.
 agentic-filmmaking-book	book-course	draft	Mapped source or related material	agentic-filmmaking-ai-one; interactive-storytelling-ai-one	Book/course blueprint, chapter specs and skills catalog; not a completed manuscript.
@@ -46,8 +46,8 @@ the-creative-engineer	book	canonical	Mapped source or related material	conductin
 physics-quantum-mechanics-bak	book	backup	Backup, no new book	quantum-mechanics-interactive-simulations-ai-one	Backup-named repository; do not count as an independent work.
 songbook	book	canonical	Source discovery, not yet a distinct book		Songbook manuscript with chapters; creative anthology, not a university STEM textbook.
 quantum-mechanics-a-companion-guide-bak	book	backup	Backup, no new book	quantum-mechanics-companion-guide-ai-one	Backup-named repository; do not count as an independent work.
-skepticism-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Backup-named repository; do not count as an independent work.
-skepticism-ai	book	duplicate	Edition or alias, reconcile with main source	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Legacy similarly titled book master and drafts; current course and public book are separate.
+skepticism-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; validating-ai-one; validating-ai-output-ai-one	Backup-named repository; do not count as an independent work.
+skepticism-ai	book	duplicate	Edition or alias, reconcile with main source	ai-systems-validation-ai-one; validating-ai-one; validating-ai-output-ai-one	Legacy similarly titled book master and drafts; current course and public book are separate.
 songbook-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
 quantum-mechanics-with-llms	book	companion	Mapped source or related material	quantum-mechanics-interactive-simulations-ai-one	Public reading copy of the Quantum Mechanics+1 simulation companion; fuller edition remains private; do not count the two as separate works.
 quantum-mechanics-vol5	book	canonical	Mapped source or related material	quantum-mechanics-vol-5-math-ai-one	Quantum Mechanics Vol. 5: Math for Quantum Physics; manuscript and chapters.
@@ -61,7 +61,7 @@ physics-quantum-mechanics	book	canonical	Mapped source or related material	quant
 math-bayesian-probability	book	canonical	Mapped source or related material	bayesian-probability-ai-one	Bayesian Probability manuscript and chapter tree.
 figma-for-educational-ai	book-course	draft	Mapped source or related material	figma-design-ai-one; figma-for-educational-ai-one	Book, workshop and playlist project with book directory; release status unverified.
 brutalist-figma-claude	book	canonical	Mapped source or related material	creative-direction-ai-one; figma-design-ai-one; figma-for-educational-ai-one	Brutalist Figma + Claude README, book master and chapters; separate from packaged Figma design skills.
-computational-skepticism-for-ai	book	canonical	Mapped source or related material	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Computational Skepticism for AI manuscript and chapters; separate from course delivery.
+computational-skepticism-for-ai	book	canonical	Mapped source or related material	ai-systems-validation-ai-one; validating-ai-one; validating-ai-output-ai-one	Computational Skepticism for AI manuscript and chapters; separate from course delivery.
 cancer-research	book	canonical	Mapped source or related material	cancer-research-ai-one	Cancer Research book master and chapters; repository labels draft.
 cancer-nanomedicine	book	canonical	Mapped source or related material	cancer-nanomedicine-ai-one	Cancer Nanomedicine book master and chapters; repository labels draft.
 cancer-medicine	book	canonical	Mapped source or related material	cancer-biology-and-therapeutics-ai-one; cancer-medicine-ai-one	Cancer Medicine book master and chapters; repository labels draft.
@@ -190,7 +190,7 @@ design-of-agentic-systems-bak	book	backup	Backup, no new book	design-of-agentic-
 design-of-agentic-systems-with-case-studies-bak	book	backup	Backup, no new book	design-of-agentic-systems-ai-one	Named case-studies edition backup.
 conducting-ai-bak	book	backup	Backup, no new book	ai-in-everyday-life-ai-one; conducting-ai-one	Named book backup; course source separate.
 Computational-Skepticism-bak	book	backup	Backup, no new book		Backup of exact-case title; do not silently merge variants.
-computational-skepticism-for-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Backup of book variant; course source separate.
+computational-skepticism-for-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; validating-ai-one; validating-ai-output-ai-one	Backup of book variant; course source separate.
 codex-for-teachers-bak	book	backup	Backup, no new book	codex-for-teachers-ai-one	Named teacher guide backup.
 codex-for-students-bak	book	backup	Backup, no new book	ai-assisted-software-engineering-ai-one; codex-for-students-ai-one	Named student guide backup.
 cli-agnostic-ai-tooling-for-local-project-workflows-bak	book	backup	Backup, no new book	coding-agents-and-local-project-workflows-ai-one	Backup of README-confirmed book draft.
@@ -214,7 +214,7 @@ zebonastic.com	other	unrelated	Outside book queue		Domain-named Zebonastic site;
 claude.humanitarians.ai	other	candidate	Outside book queue		README describes research-tool discovery and ranking app; not an authored paper or user-installable skill on this evidence.
 tldr.talk	other	unrelated	Outside book queue		Domain-named site; no education artifact verified.
 free-ai	other	unrelated	Outside book queue		GitHub reports repository empty.
-INFO-7375-Computational-Skepticism-and-AI	book-course	companion	Mapped source or related material	computational-skepticism-ai-one	README is book-style INFO 7375 outline; keep as legacy course variant, not main course evidence.
+INFO-7375-Computational-Skepticism-and-AI	book-course	companion	Mapped source or related material	validating-ai-one	README is book-style INFO 7375 outline; keep as legacy course variant, not main course evidence.
 medhavy-youtube	other	companion	Outside book queue		Education media/workflow companion, not a tested Medhavy course catalog or paper.
 INFO_7390_Art_and_Science_of_Data	book-course	canonical	Mapped source or related material	data-science-engineering-ai-one	Local README provides INFO 7390 course topics; canonical for this course.
 embedded-ai	book	draft	Source discovery, not yet a distinct book		README explicitly stub with placeholders; not release-ready.
@@ -431,7 +431,7 @@ nina_harris_co	other	unrelated	Outside book queue		Personal website project
 mycroft_me	other	unrelated	Outside book queue		Mycroft website/service companion, not book
 moctardatt_com	other	unrelated	Outside book queue		Website repository indicated by slug; no textbook evidence
 boondoggling_ai	other	candidate	Outside book queue		Boondoggling variant/project; no separate textbook evidence
-Computational-Skepticism-for-AI-Notes	other	companion	Outside book queue	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Notes companion by designation, not a separate manuscript
+Computational-Skepticism-for-AI-Notes	other	companion	Outside book queue	ai-systems-validation-ai-one; validating-ai-one; validating-ai-output-ai-one	Notes companion by designation, not a separate manuscript
 v0-chef-animation	other	unrelated	Outside book queue		Chef animation web prototype
 musinique_com	other	unrelated	Outside book queue		Musinique website, not textbook
 brutalist-ai	other	candidate	Outside book queue		Brutalist-branded historical repo; relationship to current toolkit unverified
