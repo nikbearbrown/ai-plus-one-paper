@@ -35,6 +35,10 @@ Suggested next families for **verification** before selection:
 - **Principles of Finance:** compare `nikbearbrown/mba-finance` and `nikbearbrown/principles-finance-with-llms`. Keep separate from Corporate Finance.
 - **Computational Finance:** compare `nikbearbrown/mba-computational-finance` and `nikbearbrown/computational-finance-with-ai` (private). Keep the separately scoped `nikbearbrown/computational-finance` out until its scope is confirmed.
 
+- **Introductory Statistics:** compare `nikbearbrown/math-statistics` and `nikbearbrown/introductory-statistics-bundle-with-llms`; confirm the matching chapter names are the same course scope.
+- **Contemporary Mathematics:** compare `nikbearbrown/math-contemporary-mathematics` and `nikbearbrown/contemporary-mathematics-with-llms`.
+- **Algorithms:** compare `nikbearbrown/algorithms-vol1` against `nikbearbrown/algorithms-vol1-with-llms`, and Vol. 2 against `nikbearbrown/algorithms-vol2-with-llms`. Decide separately whether Vols. 1 and 2 are distinct course scopes. Keep the INFO 6205 course material separate unless confirmed otherwise.
+
 ## Making confirmed old repos private is the last step
 
 Do not change source repo visibility during discovery, drafting, or waiting for sign-off. First verify the approved replacement is reachable to its intended users, identify affected GitHub Pages/custom domains/forks/collaborators and inbound syllabus, catalog and website links, record exact old repo names and current visibility, migrate affected links and preserve Git history. Show Nik one exact retirement list and obtain any required confirmations before making **only those confirmed superseded book repositories** private. Never change visibility on unrelated courses, platform/tool repos, clients, companions, organization/shared repos or unresolved editions. Do not delete, rename, force-push or mirror private history into new public repos. Verify the replacement URL and final visibility, report the actual actions, and continue with the next family independently.
