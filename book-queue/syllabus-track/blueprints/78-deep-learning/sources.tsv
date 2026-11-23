@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+78	CS7150		fall-2026	unusable	https://cs7150.baulab.info/		indexed	no
+78	CS7150		fall-2026	public-term-outline	https://cs7150.baulab.info/		Instructor public Fall 2026 syllabus captured in indexed view on 2026-11-23; live root redirects by term. Evidence sections: Topic Map and Concept List.	yes

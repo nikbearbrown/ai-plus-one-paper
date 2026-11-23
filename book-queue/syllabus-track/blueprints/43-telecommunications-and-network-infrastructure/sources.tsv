@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+43	TELE 5350	16567	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16567.pdf	6149171165544532e020fe69f5657a471ed78830adeb0c33021d16e5c6a406a9	Fall 2026 string; same CRN string; independent scope verification pending	yes
+43	TELE 5350	35534	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35534.pdf	08724d4cecd1cc3e59521b0e0d3f8c2c606c1406693c58975898524b91dcc141	term confirmed; CRN confirmed; course code found; archive: pdfs/tele-5350-35534.pdf	yes

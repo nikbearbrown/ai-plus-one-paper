@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+48	TELE 6500	16573	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/16573.pdf	206b04fd40809de5ae4b0a6a7a6f413474d855c0c3a88b584f48823ef26deea5	Fall 2026 string; not confirmed by basic text check; independent scope verification pending	yes
+48	TELE 6500	42612	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42612.pdf		http-error; HTTP 404	no

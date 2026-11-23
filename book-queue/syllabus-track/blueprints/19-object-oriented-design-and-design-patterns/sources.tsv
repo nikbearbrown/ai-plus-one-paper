@@ -1,0 +1,11 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+19	CSYE 6200	16348	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16348.pdf	8f1ca1822b9391bb190ae6988b79bfc54e5e2267ba9a5e6b6c603c4373d6e5c9	Fall 2026 string; same CRN string; independent scope verification pending	yes
+19	CSYE 6200	16350	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16350.pdf	141058bde83622c4bd18082a3cd52dafbf4b0b54def6e5414f986370019a909e	Fall 2026 string; same CRN string; independent scope verification pending	yes
+19	CSYE 6200	16352	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16352.pdf	80103c55dd07602ddaa9d84cc2cf617fb057712abb80628328d36b332a73eda6	Fall 2026 string; same CRN string; independent scope verification pending	yes
+19	CSYE 6200	23000	fall-2026	link-only-access-review	http://newton.northeastern.edu:8080/syllabusrepo/23000.pdf	8824554da34207e0dd2610b0d752442bd758196fde9ddb4f1064b1d5bb85ba36	not used	no
+19	CSYE 6200	35332	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35332.pdf	0d6f1bb2bb3bf3a1db6919d742a5377bb0670cfeec1937fca29e805e14045037	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-6200-35332.pdf	yes
+19	CSYE 6200	35336	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35336.pdf		http-error; HTTP 404	no
+19	CSYE 6200	40001	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/40001.pdf		http-error; HTTP 404	no
+21	CSYE 6300	21172	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/21172.pdf	9739fe34361861f11dc50168f4a93ba07710174ba6ff619ff12cbdb7a5381d2e	Fall 2026 string; same CRN string; independent scope verification pending	yes
+21	CSYE 6300	37604	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/37604.pdf	c3b844abb60043fc55f5c73d81203984bef075c0a49386e928f0a96bb1338797	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-6300-37604.pdf	yes
+21	CSYE 6300	37605	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/37605.pdf	d49f98f27234b6f461de79ae6f7bb7a3b16daa8234738bf6adb73b4aa9f10a0f	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-6300-37605.pdf	yes

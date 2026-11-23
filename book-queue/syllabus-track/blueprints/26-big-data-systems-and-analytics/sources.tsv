@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+26	DAMG 7245	16411	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/16411.pdf	be53a42f6273a7d8d1eecba781dbbe61b419c5d127fe30ff72f78091e163a106	Fall 2026 string; not confirmed by basic text check; independent scope verification pending	yes
+26	DAMG 7245	35387	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35387.pdf		http-error; HTTP 404	no

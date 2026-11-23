@@ -1,0 +1,5 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+63	INFO 7374	16539	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/16539.pdf	b52c393f1fba76fb6a4a4db5433a6efe5d5484917abcf85b11b1e9d5eb256a82	Fall 2026 PDF; archive: syllabi/fall-2026/info-7374-16539.pdf	yes
+63	INFO 7374	16544	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/16544.pdf	059dd138b88b8f3e736f4df0b60885c427c310b35c35a58d70a64204f59100b8	Fall 2026 PDF; archive: syllabi/fall-2026/info-7374-16544.pdf	yes
+63	INFO 7374	35512	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35512.pdf		http-error; HTTP 404	no
+63	INFO 7374	35516	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35516.pdf		http-error; HTTP 404	no

@@ -34,7 +34,7 @@ Use the [ordered book queue](book-queue/) and its [machine-readable TSV](book-qu
 
 ## Syllabus-only subjects from Fall 2026 and Spring 2027
 
-Use the [syllabus track](book-queue/syllabus-track/) as additional scope evidence and as the next candidate pool. Map each group to an existing manuscript or course first. If only a usable syllabus is available, create an original scope brief, run Blueprint `/scaffold silent`, then write the first draft in a private workspace and run the normal fact-check, AI Readiness, revision, figures and proof sequence. Silent mode skips conversational intake, not human release approval. Do not create one book per CRN, republish syllabi or claim drafting from a title alone. Log holds and keep going with the next eligible group.
+Use the [84 completed syllabus Blueprints](book-queue/syllabus-track/blueprints/) as the next candidate pool after the existing queue. Start from the existing-book mapping, compare routes, and source holds there rather than rerunning every Blueprint. Use the [syllabus track](book-queue/syllabus-track/) for provenance and the original inventory. Map each group to an existing manuscript or course first. If only a usable syllabus is available, create an original scope brief, run Blueprint `/scaffold silent`, then write the first draft in a private workspace and run the normal fact-check, AI Readiness, revision, figures and proof sequence. Silent mode skips conversational intake, not human release approval. Do not create one book per CRN, republish syllabi or claim drafting from a title alone. Log holds and keep going with the next eligible group.
 
 ## Publish AI Plus One, then make the superseded source books private
 

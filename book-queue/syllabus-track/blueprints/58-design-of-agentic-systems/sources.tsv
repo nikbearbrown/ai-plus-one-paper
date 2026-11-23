@@ -1,0 +1,4 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+58	CSYE 7374	22638	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/22638.pdf	9e30c3ce8a8b1c654ef6d8f54d7341b9176e42d1f020fad7ad9fc2a4cf41ac18	Fall 2026 PDF; archive: syllabi/fall-2026/csye-7374-22638.pdf	yes
+58	CSYE 7374	24510	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/24510.pdf	0be4bec2e089769d55b4cf68277a21ce2634a3bd0b93289c1ea6ca032df9c396	Fall 2026 PDF; archive: syllabi/fall-2026/csye-7374-24510.pdf; Index course cell malformed; mapped via earlier Banner audit; not inferred from meeting time.	yes
+58	CSYE 7374	37272	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/37272.pdf	b99bfb1221ad00a6d1b99688fad415aa5ff81d6fedb9fca60e83e05a6160118b	archived-metadata-conflict; term conflict; CRN confirmed; course code not-found; archive: metadata-conflicts/csye-7374-37272.pdf	no

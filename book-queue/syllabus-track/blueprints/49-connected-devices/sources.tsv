@@ -1,0 +1,4 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+49	TELE 6530	16576	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/16576.pdf		http-error; HTTP 404	no
+49	TELE 6530	16577	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16577.pdf	8afb5349a7e08cb4abad0b9ec62cbae3bd00bbbd827e3e7e65ba1c875e14c129	Fall 2026 string; same CRN string; independent scope verification pending	yes
+49	TELE 6530	42569	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42569.pdf		http-error; HTTP 404	no

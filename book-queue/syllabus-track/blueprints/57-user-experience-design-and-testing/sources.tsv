@@ -1,0 +1,5 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+57	CSYE 7280	16375	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/16375.pdf	0da27287365984647053a9d71fa6f6b275e77410351788356a6a5201073d6cf8	not confirmed by basic text check; same CRN string; independent scope verification pending	yes
+57	CSYE 7280	16376	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16376.pdf	a2b8cdf813fb29cddcec3b17e0b5d82e637453f510ed1253dfcba09132e5a2fc	Fall 2026 string; same CRN string; independent scope verification pending	yes
+57	CSYE 7280	35356	spring-2027	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/35356.pdf	5950dadb2e043798b16cf8d69ad09b5c99cb59b41a9fb30f20f6343547087cfe	term not-stated; CRN confirmed; course code found; archive: pdfs/csye-7280-35356.pdf	yes
+57	INFO 7374	16537	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16537.pdf	c9f3423efca4bf9ff5c18f2fe9034032b756994bbe9fcae669b053af0827fb0f	Fall 2026 string; same CRN string; independent scope verification pending	yes

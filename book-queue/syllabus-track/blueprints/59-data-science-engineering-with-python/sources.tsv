@@ -1,0 +1,7 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+59	DAMG 6105	16393	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16393.pdf	2ecbea63c0e6838a9943f466aa62917ead9dae5c606a18523734fbdfe03f557c	Fall 2026 string; same CRN string; independent scope verification pending	yes
+59	DAMG 6105	16395	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16395.pdf	ebdcf372024c8ed634549149fda1c19a8bcc86b5c7718112ef9221e2d2a93ef8	Fall 2026 string; same CRN string; independent scope verification pending	yes
+59	DAMG 6105	21964	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/21964.pdf	f43d0901a88381072d8929128fbe08d8d637b0ec5748f1414659fe56f8a28f01	Fall 2026 string; same CRN string; independent scope verification pending	yes
+59	DAMG 6105	35371	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35371.pdf	62e79d26672e96902fe60f7046de368603d49386a3c769db2d6db5586d816f1f	term confirmed; CRN confirmed; course code found; archive: pdfs/damg-6105-35371.pdf	yes
+59	DAMG 6105	35372	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35372.pdf		http-error; HTTP 404	no
+59	DAMG 6105	40004	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/40004.pdf		http-error; HTTP 404	no

@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+22	CSYE 7200	16366	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16366.pdf	83b306fe7585df0eb0bea60828cd49f5860b61edea6ce6380b664035bbf8196f	Fall 2026 string; same CRN string; independent scope verification pending	yes
+22	CSYE 7200	35350	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35350.pdf	3714e2a989645a39d4412a018a8bb81290ed1f24a96a2bf59b8f37494b6a2102	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-7200-35350.pdf	yes

@@ -1,0 +1,16 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+29	INFO 6215	16495	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16495.pdf	d4c87be2eda85640e326a05b9c1d8b99e6c3a5a0a35fb900448103328737abb3	Fall 2026 string; same CRN string; independent scope verification pending	yes
+29	INFO 6215	16496	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/16496.pdf	88d85424fede21d707d673abc5632e0128c85418e4666b7d2a32b90ba27b8bfb	not confirmed by basic text check; not confirmed by basic text check; independent scope verification pending	yes
+29	INFO 6215	16500	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16500.pdf	dde4126ce91b652a471bafe7da06bf86388f930d79c50834b2a5479295904cff	Fall 2026 string; same CRN string; independent scope verification pending	yes
+29	INFO 6215	16501	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16501.pdf	af81a9b57ff3000f6e9cc6c4d4c9761ea3e9c0ac9d137c2cbb28e8d3a57eafa2	Fall 2026 string; same CRN string; independent scope verification pending	yes
+29	INFO 6215	16502	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16502.pdf	03acc135f36bc3356c845ef4c9a8e0136c668e70a37e6414c2eb1eac0ee90e4c	Fall 2026 string; same CRN string; independent scope verification pending	yes
+29	INFO 6215	16503	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/16503.pdf		http-error; HTTP 404	no
+29	INFO 6215	20111	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/20111.pdf	b461ef3aedd3b155eb6522cb43482b2cc7acb09477d27b75a3b5eed040b0359e	Fall 2026 string; same CRN string; independent scope verification pending	yes
+29	INFO 6215	22064	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/22064.pdf	31c6dcd98d2049c9d8ed83422d161095dcb7b4328c9ed9d0785a0495bb5cb18e	Fall 2026 string; not confirmed by basic text check; independent scope verification pending	no
+29	INFO 6215	23007	fall-2026	link-only-access-review	http://newton.northeastern.edu:8080/syllabusrepo/23007.pdf	74811765ad546cbb3f8a6537b855ce8206dca3e435a89a2f70f23e9281eb3c94	not used	no
+29	INFO 6215	35475	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35475.pdf		http-error; HTTP 404	no
+29	INFO 6215	35476	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35476.pdf		http-error; HTTP 404	no
+29	INFO 6215	35477	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35477.pdf	a7d108f6e75b6cc0b82aa6375882aadb246800946b4a82e925124471d8399202	link-only; term confirmed; CRN confirmed; course code found	no
+29	INFO 6215	35479	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35479.pdf	7376d1fbbc9fc36b6269d8c0461bec30ce877d481c15580461dbebaa81b26acc	archived-metadata-conflict; term conflict; CRN not-stated; course code not-found; archive: metadata-conflicts/info-6215-35479.pdf	no
+29	INFO 6215	40008	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/40008.pdf		http-error; HTTP 404	no
+29	INFO 6215	40009	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/40009.pdf		http-error; HTTP 404	no

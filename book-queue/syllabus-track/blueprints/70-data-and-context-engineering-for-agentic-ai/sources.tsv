@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+70	INFO 7390	42129	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/42129.pdf	7299d563ec4fa514e06f4fca3431d57f044368396e4aae6de7abf550a5b5061e	term confirmed; CRN confirmed; course code found; archive: pdfs/info-7390-42129.pdf	yes
+70	INFO 7390	42130	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42130.pdf		http-error; HTTP 404	no

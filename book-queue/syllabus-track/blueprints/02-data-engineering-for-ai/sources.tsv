@@ -1,0 +1,5 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+2	DAMG 6300	21965	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/21965.pdf	41a03527e5a8a400691482eaa5b86b7d00f0750f5a41eb34a40e08bec1c080f8	Fall 2026 PDF; archive: syllabi/fall-2026/damg-6300-21965.pdf	yes
+2	INFO 7375	21971	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/21971.pdf	09afc24fac38e3eb628a4f70734d6cdd6c488fcd6d3dd7f0ef433f0d0cd4ea0a	prior-review; Section syllabus PDF	no
+2	INFO 7375	38699	spring-2027	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/38699.pdf	9be722af74418a06a59d6124627a879397a8731a93d662641d323e8918f738e6	term not-stated; CRN not-stated; course code found; archive: pdfs/info-7375-38699.pdf	yes
+2	INFO 7375	42126	spring-2027	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/42126.pdf	9be722af74418a06a59d6124627a879397a8731a93d662641d323e8918f738e6	term not-stated; CRN not-stated; course code found; archive: pdfs/info-7375-42126.pdf	no

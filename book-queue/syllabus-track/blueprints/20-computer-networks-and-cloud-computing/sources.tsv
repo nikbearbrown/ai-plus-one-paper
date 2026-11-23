@@ -1,0 +1,9 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+20	CSYE 6225	16355	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16355.pdf	de6dfe4d8d8dd1999d9df9e3728f24cf176a4ae6396d4c844eedbfb334e57c9a	Fall 2026 string; same CRN string; independent scope verification pending	yes
+20	CSYE 6225	16356	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16356.pdf	cc4dfeecb15866fc9992079b51b04fca02cf3219a3ef29d894ec909fd1e3c5f2	Fall 2026 string; same CRN string; independent scope verification pending	yes
+20	CSYE 6225	16357	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/16357.pdf	d38dc078c2cb5e23ce30fd08e3eecd62c27d6a8721733bb72d7c42bda8bc538c	fall-link-only-review; Fall 2026 string; same CRN string; independent scope verification pending	no
+20	CSYE 6225	16359	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16359.pdf	193442cf4eafeb07942db083b9fd8e9795b8c02deb8edf492319a05b9071de6f	Fall 2026 string; same CRN string; independent scope verification pending	yes
+20	CSYE 6225	22539	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/22539.pdf	8245a03a4a7040fa6b2250a9a9034e8348a891ce9837136a0d89cfd387c85bdd	Fall 2026 string; same CRN string; independent scope verification pending	yes
+20	CSYE 6225	35340	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35340.pdf		http-error; HTTP 404	no
+20	CSYE 6225	35343	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35343.pdf	537c2e32968b18283c19bc0dfd3ae11dce851eccc16619f288eb77bec87eab20	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-6225-35343.pdf	yes
+20	CSYE 6225	35344	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35344.pdf		http-error; HTTP 404	no

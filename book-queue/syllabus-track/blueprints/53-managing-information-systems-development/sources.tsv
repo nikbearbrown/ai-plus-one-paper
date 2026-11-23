@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+53	INFO 6245	42369	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/42369.pdf	6e76e20d509ddaff7533dd16771752ed4ab78d1c732b2ae8f1ca3d2ea2a75fb7	term confirmed; CRN confirmed; course code found; archive: pdfs/info-6245-42369.pdf	yes
+53	INFO 6245	42568	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/42568.pdf	2d14f22f1f896a812fbdfa93e730f898d68275dc1256d5896b37b0542d0fe8b9	term confirmed; CRN confirmed; course code found; archive: pdfs/info-6245-42568.pdf	yes

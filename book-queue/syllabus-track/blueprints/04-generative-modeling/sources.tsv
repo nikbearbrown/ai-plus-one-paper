@@ -1,0 +1,10 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+4	CSYE 7380	16385	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/16385.pdf	c878a0ac927f4b541120143b39f0db82c79ed91ede7e5934b957d285a6b922fc	Fall 2026 PDF; archive: syllabi/fall-2026/csye-7380-16385.pdf	yes
+4	CSYE 7380	16386	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/16386.pdf	61b8a23a6f336f904b7ae99ad7be3e23647540604d0e38819749cdd7b62be83b	Fall 2026 PDF; archive: syllabi/fall-2026/csye-7380-16386.pdf	yes
+4	CSYE 7380	16387	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16387.pdf	ddc1cd1155ce12361b5fefba70600f8f7de2b352d800bfce2ef2d360917f4245	Conflicting term in PDF; archive: syllabi/fall-2026/metadata-conflicts/csye-7380-16387.pdf	yes
+4	CSYE 7380	20134	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/20134.pdf	3f1c18b08da01d4100d97c01103399c6fb910c9b9a31083452b7a33466716b84	Conflicting term in PDF; archive: syllabi/fall-2026/metadata-conflicts/csye-7380-20134.pdf; Index course cell malformed; mapped via earlier Banner audit; not inferred from meeting time.	yes
+4	CSYE 7380	22536	fall-2026	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/22536.pdf	39428e9e3fe7b2c30a74fa77ff395016ab3623491870e1da67ac559de6fe8b7f	Fall 2026 PDF; archive: syllabi/fall-2026/csye-7380-22536.pdf	yes
+4	CSYE 7380	35365	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35365.pdf		http-error; HTTP 404	no
+4	CSYE 7380	35367	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35367.pdf	1730eab0a01a5633bb0cf315fbabedd592f1e344c277f0f070745f79f847c8ff	term confirmed; CRN confirmed; course code found; archive: pdfs/csye-7380-35367.pdf	yes
+4	CSYE 7380	35369	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35369.pdf		http-error; HTTP 404	no
+4	CSYE 7380	42115	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42115.pdf		http-error; HTTP 404	no

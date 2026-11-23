@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+13	INFO 7375	21966	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/21966.pdf	ac1d86445333612b168706b4e7d6cc0584603275d3f311034f817914ad8980c8	prior-review; Fall 2026 syllabus PDF; archive: syllabi/fall-2026/info-7375-21966.pdf	no
+13	INFO 7375	40015	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/40015.pdf	76be1c12c4d60735a53839280b642758ade9019b5c59b18a21fc463fdaa94ff4	term confirmed; CRN confirmed; course code found; archive: pdfs/info-7375-40015.pdf	yes

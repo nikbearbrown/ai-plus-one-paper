@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+23	CSYE 7220	24430	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/24430.pdf	92e169cf8cf410cd20a5be30fda293a37ac24cf3ac2d3cce4f0d52119087a035	Fall 2026 string; not confirmed by basic text check; independent scope verification pending	yes
+23	CSYE 7220	42560	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42560.pdf		http-error; HTTP 404	no

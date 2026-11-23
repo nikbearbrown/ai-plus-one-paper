@@ -1,0 +1,3 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+33	INFO 7260	16533	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16533.pdf	4748667a31ff3f219703c32267545569445171f9c3249d7cd898b01413edafdf	Fall 2026 string; same CRN string; independent scope verification pending	yes
+33	INFO 7260	22366	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/22366.pdf	29e226f990a8970edded93cee22b0d6fe7881dca33b3d880a54f3ea62dd5cf76	Fall 2026 string; same CRN string; independent scope verification pending	yes

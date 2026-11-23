@@ -1,0 +1,10 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+62	INFO 6150	16470	fall-2026	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/16470.pdf	4b38273593e8de619d593a8e433d0542dbbb14c61dd85ab65d3d2419ce07829c	not confirmed by basic text check; same CRN string; independent scope verification pending	yes
+62	INFO 6150	16471	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16471.pdf	0ed6e4ffe00528548e9a629ccc0579459dd5257b831edd57bca9fd5158a18393	Fall 2026 string; same CRN string; independent scope verification pending	yes
+62	INFO 6150	16473	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16473.pdf	9294f4047ad5e3a9f77b4f246a83d752d728d33c9054d8a1a6df7a901e0b8121	Fall 2026 string; same CRN string; independent scope verification pending	yes
+62	INFO 6150	16474	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16474.pdf	99ac3437e7039505fc31a98b8e35398c9449d9ca626d85252389c11495958d79	Fall 2026 string; same CRN string; independent scope verification pending	yes
+62	INFO 6150	16475	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16475.pdf	8d0060fb5a1574226d6ac3f6581b1fb7dfe75eade1a4a295971a1a2b4f1539ac	Fall 2026 string; same CRN string; independent scope verification pending	yes
+62	INFO 6150	35447	spring-2027	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/35447.pdf	bd4737b7f71f54941a40af780a948318e66b5d1a426b7c91ac317e6dede80a1e	term not-stated; CRN confirmed; course code found; archive: pdfs/info-6150-35447.pdf	yes
+62	INFO 6150	35449	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35449.pdf		http-error; HTTP 404	no
+62	INFO 6150	35451	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35451.pdf		http-error; HTTP 404	no
+62	INFO 6150	35452	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35452.pdf		http-error; HTTP 404	no

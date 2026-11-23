@@ -1,0 +1,5 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+72	INFO 6376	42675	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42675.pdf		http-error; HTTP 404	no
+72	INFO 7375	20181	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/20181.pdf		prior-review; Archive link returns 404	no
+72	INFO 7375	35523	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35523.pdf		http-error; HTTP 404	no
+72	INFO 7375	40011	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/40011.pdf		http-error; HTTP 404	no

@@ -1,0 +1,4 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+5	CSYE 7374	19915	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/19915.pdf	1e6c14aa3c3080700cc670ab2af0f1013a2d00c27c78db50765f58aa3fb6c2ec	prior-verified; Fall 2026 PDF	no
+5	CSYE 7374	35363	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35363.pdf		http-error; HTTP 404	no
+5	CSYE 7374	42114	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42114.pdf		http-error; HTTP 404	no

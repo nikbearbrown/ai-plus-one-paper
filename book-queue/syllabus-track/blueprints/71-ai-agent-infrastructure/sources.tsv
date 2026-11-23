@@ -1,0 +1,4 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+71	CSYE 7374	16382	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/16382.pdf	2193d833470a80b69889f07a7257556e71794bc56fadf750e7dce6725e8c48ad	prior-review; Wrong term/CRN in PDF; archive: syllabi/fall-2026/metadata-conflicts/csye-7374-16382.pdf	no
+71	CSYE 7374	24102	fall-2026	unusable	http://newton.northeastern.edu:8080/syllabusrepo/24102.pdf	2193d833470a80b69889f07a7257556e71794bc56fadf750e7dce6725e8c48ad	prior-review; Wrong term/CRN in PDF; archive: syllabi/fall-2026/metadata-conflicts/csye-7374-24102.pdf; Index course cell malformed; mapped via earlier Banner audit; not inferred from meeting time.	no
+71	CSYE 7374	35362	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35362.pdf		http-error; HTTP 404	no

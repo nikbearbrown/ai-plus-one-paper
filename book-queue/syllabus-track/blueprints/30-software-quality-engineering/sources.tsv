@@ -1,0 +1,7 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+30	INFO 6255	16520	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16520.pdf	4828e50e28ceaf5a684b4bdc9cacb9b33ba36a62b351e0c91b5a35c1b245f35c	Fall 2026 string; same CRN string; independent scope verification pending	yes
+30	INFO 6255	16522	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16522.pdf	5cd6cf9cda3728ac1111eed64db1dccd672e63e2cc1e885c88b5cf90923b0cfd	Fall 2026 string; same CRN string; independent scope verification pending	yes
+30	INFO 6255	16523	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16523.pdf	84e788520561de835facb758bc64135a1a9be403f6620b6a565ae4d2f5ddf4a7	Fall 2026 string; same CRN string; independent scope verification pending	yes
+30	INFO 6255	35496	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35496.pdf	ae7881ca439b5a441f0d694c5f7627cb2631a5216bf8321fcfd0734c30266d16	term confirmed; CRN confirmed; course code found; archive: pdfs/info-6255-35496.pdf	yes
+30	INFO 6255	35497	spring-2027	verified-section	http://newton.northeastern.edu:8080/syllabusrepo/35497.pdf	b14d4bc0275c7a98680ff38ed6974c5abd1281b90ccf1d623595ca1d143a5335	term confirmed; CRN confirmed; course code found; archive: pdfs/info-6255-35497.pdf	yes
+30	INFO 6255	35498	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35498.pdf		http-error; HTTP 404	no

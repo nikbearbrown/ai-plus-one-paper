@@ -1,0 +1,13 @@
+id	course	CRN	term	evidence class	source URL	SHA256	status note	used extract
+10	INFO 6105	16455	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16455.pdf	642d8a5cee5ab8a7706d5d14bacf46b9a2d4788a23cf8ccfdea140c7451a7490	Fall 2026 string; same CRN string; independent scope verification pending	yes
+10	INFO 6105	16458	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16458.pdf	eef91b3c9178126f7b9d5627ed87484da21f0cb0aea6f1379c48000532fac002	Fall 2026 string; same CRN string; independent scope verification pending	yes
+10	INFO 6105	16462	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16462.pdf	344da094aa7e6386c27230d8f135f621a8e18b677eeafb3c4f5e29ea2589a257	Fall 2026 string; same CRN string; independent scope verification pending	yes
+10	INFO 6105	16464	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16464.pdf	de9b93cd74343f8b01fb3cf861fa9fa57dc31461169cf64c4bfd0458211d6303	Fall 2026 string; same CRN string; independent scope verification pending	yes
+10	INFO 6105	16466	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16466.pdf	705f344570d2b402b5d06fcce55b98ed76660a5abe51dc2240f94910b1f80621	Fall 2026 string; same CRN string; independent scope verification pending	yes
+10	INFO 6105	16467	fall-2026	verified-index-match	http://newton.northeastern.edu:8080/syllabusrepo/16467.pdf	093ae1b8aca14e4b2e83e4332919dcaf14c6fc0581b7f1016819b9293753178c	Fall 2026 string; same CRN string; independent scope verification pending	no
+10	INFO 6105	35433	spring-2027	provisional-section	http://newton.northeastern.edu:8080/syllabusrepo/35433.pdf	649f68694819f05f196fa2fcd2bbcfbe32d522871b8457ed7586d239bbdeeeab	term not-stated; CRN not-stated; course code found; archive: pdfs/info-6105-35433.pdf	yes
+10	INFO 6105	35437	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35437.pdf		http-error; HTTP 404	no
+10	INFO 6105	35439	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35439.pdf		http-error; HTTP 404	no
+10	INFO 6105	35444	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35444.pdf		http-error; HTTP 404	no
+10	INFO 6105	35445	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/35445.pdf		http-error; HTTP 404	no
+10	INFO 6105	42103	spring-2027	unusable	http://newton.northeastern.edu:8080/syllabusrepo/42103.pdf		http-error; HTTP 404	no
