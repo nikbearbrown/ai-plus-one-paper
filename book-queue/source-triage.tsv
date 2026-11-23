@@ -1,0 +1,582 @@
+Source	Inventory category	Inventory disposition	Plan action	AI One family / related family	Reason
+info-7375-prompt-engineering-for-generative-ai	book-course	canonical	Mapped source or related material	prompt-engineering-and-generative-ai-one	Course syllabus, chapters and Canvas-oriented course kit; not a generic prompt engineering book mirror.
+irreducibly-human-work-lexicon	paper	draft	Mapped source or related material	irreducibly-human-ai-one; work-and-ai-one	Public research and dataset repository with a standalone working manuscript in Papers; not an accepted publication.
+the-juniors-curve-coding-agents	paper	draft	Outside book queue		README identifies standalone working paper and study design; publication not established.
+the-juniors-curve-employer-demand	paper	draft	Outside book queue		README identifies standalone employer-demand working paper and study design; publication not established.
+frictional	skill	canonical	Outside book queue		Read-only STEM evidence audit with agent skill and CLI; not a grading or authorship tool.
+ai-jobs	other	companion	Outside book queue		Job-board collector and public exploration data; not the manuscript.
+csye-7270-building-virtual-environments	book-course	canonical	Mapped source or related material	building-virtual-environments-ai-one; generative-ai-for-game-development-ai-one	Book master, chapters, Canvas and classroom bundle for CSYE 7270.
+a-new-shape-for-work	paper	draft	Mapped source or related material	work-and-ai-one	Research umbrella with data, methods/code and prototype; not publication evidence.
+the-juniors-curve	paper	draft	Mapped source or related material	work-and-ai-one	Research-in-progress hub for the early-career inquiry; distinct from standalone study manuscripts.
+critique	skill	canonical	Mapped source or related material	ai-systems-validation-ai-one; research-methods-in-ai-one; research-writing-ai-one; validating-ai-output-ai-one	CRITIQ reviewer and manuscript workbench; root SKILL.
+walker	skill	canonical	Mapped source or related material	animation-with-blender-ai-one; building-virtual-environments-ai-one; generative-ai-for-game-development-ai-one	Walker framework instructions and tools for game-building agents.
+mycroft	book	canonical	Mapped source or related material	verified-finance-with-agents-ai-one	Mycroft verified-finance manuscript with book.md and numbered chapters plus working case-study recipes.
+info-7375-computational-skepticism-for-ai	book-course	canonical	Mapped source or related material	computational-skepticism-ai-one	Course layer with syllabus, chapters, delivery manifest and course configuration.
+ai-readiness	skill	canonical	Mapped source or related material	ai-for-course-design-ai-one; ai-for-teachers-ai-one; conducting-ai-one	University course audit, assessment redesign and coding-agent implementation briefs.
+ai-filmmaking	book-course	draft	Mapped source or related material	agentic-filmmaking-ai-one	Self-paced course plan for trained filmmakers with a screenplay; published lessons not established.
+agentic-filmmaking-book	book-course	draft	Mapped source or related material	agentic-filmmaking-ai-one; interactive-storytelling-ai-one	Book/course blueprint, chapter specs and skills catalog; not a completed manuscript.
+game-artificial-intelligence	skill	canonical	Mapped source or related material	game-ai-one	Local README and skills tree verify separate Godot-first behavior planning skill; remote default tree not established.
+agentic-filmmaking	skill	canonical	Mapped source or related material	agentic-filmmaking-ai-one	Agentic Filmmaking workflow, root SKILL and nested production skills; distinct from book.
+irreducibly-human-book	book	canonical	Mapped source or related material	irreducibly-human-ai-one	Irreducibly Human authored book master and chapters; separately linked course layer.
+investing-in-quantum	book	canonical	Mapped source or related material	investing-in-quantum-ai-one	Investing in Quantum authored book master and chapters; practitioner/finance shelf.
+math-for-physics	book	canonical	Mapped source or related material	mathematics-for-physics-vol-1-ai-one; mathematics-for-physics-vol-2-ai-one; quantum-mechanics-vol-5-math-ai-one	Master title Mathematics for Physics; conflicting README/metadata say University Physics: with LLMs; contents are math methods.
+physics	other	companion	Outside book queue		Physics Plus One umbrella; use substantive subject volumes as separate entries, not umbrella as an additional book.
+physics-astronomy	book	canonical	Mapped source or related material	astronomy-ai-one	Standalone Physics +1 astronomy volume source; title generic in README; confirm display title from chapter scope.
+physics-classical-mechanics	book	canonical	Mapped source or related material	classical-mechanics-ai-one; college-physics-mechanics-and-waves-ai-one	Standalone classical mechanics volume with manuscript and chapters.
+physics-electromagnetism	book	canonical	Mapped source or related material	electromagnetism-ai-one	Standalone electromagnetism volume with manuscript and chapters.
+physics-modern-physics	book	canonical	Mapped source or related material	modern-physics-ai-one	Standalone modern physics volume with manuscript and chapters.
+physics-optics	book	canonical	Mapped source or related material	optics-ai-one	Standalone optics volume with manuscript and chapters.
+physics-thermodynamics	book	canonical	Mapped source or related material	thermodynamics-ai-one	Standalone thermodynamics volume with manuscript and chapters.
+ai1-cli-bak	other	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+cancer-biology-bak	book	backup	Backup, no new book	cancer-biology-ai-one; cancer-biology-and-therapeutics-ai-one; computational-cancer-biology-ai-one	Backup-named repository; do not count as an independent work.
+cancer-medicine-bak	book	backup	Backup, no new book	cancer-biology-and-therapeutics-ai-one; cancer-medicine-ai-one	Backup-named repository; do not count as an independent work.
+cancer-nanomedicine-bak	book	backup	Backup, no new book	cancer-nanomedicine-ai-one	Backup-named repository; do not count as an independent work.
+cancer-research-bak	book	backup	Backup, no new book	cancer-research-ai-one	Backup-named repository; do not count as an independent work.
+imaging-in-cancer-and-nanomedicine-github-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+intelligence-bak	book	backup	Backup, no new book	intelligence-ai-one	Backup-named repository; do not count as an independent work.
+investing-in-quantum-github-bak	book	backup	Backup, no new book	investing-in-quantum-ai-one	Backup-named repository; do not count as an independent work.
+irreducibly-human-book-bak	book	backup	Backup, no new book	irreducibly-human-ai-one	Backup-named repository; do not count as an independent work.
+madison-bak	other	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+musinique-suno-bak	other	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+mycroft-bak	other	backup	Backup, no new book	verified-finance-with-agents-ai-one	Backup-named repository; do not count as an independent work.
+notebooklm-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+the-reallocation-engine	book	canonical	Source discovery, not yet a distinct book		The Reallocation Engine manuscript at book/chapters; career practitioner guide, explicit book/software license split.
+papers-bak	paper	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+the-creative-engineer	book	canonical	Mapped source or related material	conducting-ai-one; creative-direction-ai-one; creative-engineering-ai-one; design-engineering-ai-one	The Creative Engineer authored book master and chapters, with optional Canvas build.
+physics-quantum-mechanics-bak	book	backup	Backup, no new book	quantum-mechanics-interactive-simulations-ai-one	Backup-named repository; do not count as an independent work.
+songbook	book	canonical	Source discovery, not yet a distinct book		Songbook manuscript with chapters; creative anthology, not a university STEM textbook.
+quantum-mechanics-a-companion-guide-bak	book	backup	Backup, no new book	quantum-mechanics-companion-guide-ai-one	Backup-named repository; do not count as an independent work.
+skepticism-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Backup-named repository; do not count as an independent work.
+skepticism-ai	book	duplicate	Edition or alias, reconcile with main source	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Legacy similarly titled book master and drafts; current course and public book are separate.
+songbook-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+quantum-mechanics-with-llms	book	companion	Mapped source or related material	quantum-mechanics-interactive-simulations-ai-one	Public reading copy of the Quantum Mechanics+1 simulation companion; fuller edition remains private; do not count the two as separate works.
+quantum-mechanics-vol5	book	canonical	Mapped source or related material	quantum-mechanics-vol-5-math-ai-one	Quantum Mechanics Vol. 5: Math for Quantum Physics; manuscript and chapters.
+quantum-mechanics-vol4	book	canonical	Mapped source or related material	quantum-computing-ai-one; quantum-mechanics-vol-4-open-systems-ai-one	Quantum Mechanics Vol. 4: Information, Measurement, and Open Systems; manuscript and chapters.
+quantum-mechanics-vol3	book	canonical	Mapped source or related material	quantum-mechanics-vol-3-approximation-ai-one	Quantum Mechanics Vol. 3: Approximation Methods and Real Systems; manuscript and chapters.
+quantum-mechanics-vol2	book	canonical	Mapped source or related material	quantum-mechanics-vol-2-formalism-ai-one	Quantum Mechanics Vol. 2: Formalism and the Three-Dimensional Atom; manuscript and chapters.
+design-of-agentic-systems-with-case-studies	book	canonical	Mapped source or related material	design-of-agentic-systems-ai-one	Design of Agentic Systems with Case Studies; manuscript and chapter-level contributors, not sole authorship.
+quantum-mechanics-vol1	book	canonical	Mapped source or related material	quantum-mechanics-vol-1-foundations-ai-one	Quantum Mechanics Vol. 1: Foundations: The Quantum World; manuscript and chapters.
+quantum-mechanics-a-companion-guide	book	canonical	Mapped source or related material	quantum-mechanics-companion-guide-ai-one	Quantum Mechanics: A Companion Guide; separate book master and chapters.
+physics-quantum-mechanics	book	canonical	Mapped source or related material	quantum-mechanics-interactive-simulations-ai-one	Fuller source of Quantum Mechanics+1: Interactive Simulations with Claude and D3; not the five-volume series.
+math-bayesian-probability	book	canonical	Mapped source or related material	bayesian-probability-ai-one	Bayesian Probability manuscript and chapter tree.
+figma-for-educational-ai	book-course	draft	Mapped source or related material	figma-design-ai-one; figma-for-educational-ai-one	Book, workshop and playlist project with book directory; release status unverified.
+brutalist-figma-claude	book	canonical	Mapped source or related material	creative-direction-ai-one; figma-design-ai-one; figma-for-educational-ai-one	Brutalist Figma + Claude README, book master and chapters; separate from packaged Figma design skills.
+computational-skepticism-for-ai	book	canonical	Mapped source or related material	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Computational Skepticism for AI manuscript and chapters; separate from course delivery.
+cancer-research	book	canonical	Mapped source or related material	cancer-research-ai-one	Cancer Research book master and chapters; repository labels draft.
+cancer-nanomedicine	book	canonical	Mapped source or related material	cancer-nanomedicine-ai-one	Cancer Nanomedicine book master and chapters; repository labels draft.
+cancer-medicine	book	canonical	Mapped source or related material	cancer-biology-and-therapeutics-ai-one; cancer-medicine-ai-one	Cancer Medicine book master and chapters; repository labels draft.
+cancer-biology	book	canonical	Mapped source or related material	cancer-biology-ai-one; cancer-biology-and-therapeutics-ai-one; computational-cancer-biology-ai-one	Cancer Biology book master and chapters; repository labels draft.
+figma-slides	skill	canonical	Mapped source or related material	ai-for-slides-ai-one; figma-design-ai-one; figma-for-educational-ai-one; slide-design-and-authoring-ai-one	Editable Figma teaching decks, slide validation and an animated HTML companion.
+figma-appdesigner	skill	canonical	Mapped source or related material	figma-design-ai-one	Figma phone-app wireframes, design review and approved coding handoffs.
+figma-data-visualization	skill	canonical	Mapped source or related material	ai-for-infographics-ai-one; data-visualization-and-infographics-ai-one; interactive-visualization-with-d3-ai-one	Figma dashboard design and metric-validation workflow with native editable nodes.
+medhavy-videos	other	companion	Outside book queue		Physics and quantum film beat sheets for review; not finished films or a textbook.
+agents-as-graphs	other	companion	Mapped source or related material	agentic-search-and-graphs-ai-one	Runnable graph-algorithm agents and worked examples; overlaps but is separate from canonical manuscript.
+agentic-best-practices	review	candidate	Mapped source or related material	agentic-search-and-graphs-ai-one; design-of-agentic-systems-ai-one	Teaching/practice reference for agentic loops and best practices; not verified as a book master or packaged skill.
+figma-to-godot	skill	canonical	Mapped source or related material	building-virtual-environments-ai-one	Figma frames and variable import to Godot; Walker integration with skill folder.
+brutalist-slides	skill	canonical	Mapped source or related material	ai-for-slides-ai-one; slide-design-and-authoring-ai-one	Evidence-oriented HTML slide decks; root SKILL, agent skills and renderer.
+figma-webdesigner	skill	canonical	Mapped source or related material	creative-direction-ai-one; figma-design-ai-one	Existing-site audit and editable Figma redesign with human approval.
+blender-models	other	companion	Mapped source or related material	animation-with-blender-ai-one; building-virtual-environments-ai-one	Blender model asset collection; not curriculum or a packaged skill.
+brutalist.art	skill	canonical	Mapped source or related material	agentic-filmmaking-ai-one; animation-with-blender-ai-one	Pared-down Brutalist video production toolkit and skills.
+AI-exposure	other	companion	Outside book queue	work-and-ai-one	Data/explainer source about occupational AI exposure; separate from research manuscript.
+figma	other	unrelated	Outside book queue		Figma reference/code collection; no authored pedagogical product identified.
+medhavi-quantum-volume-1-physics-engine	other	duplicate	Edition or alias, reconcile with main source	quantum-mechanics-vol-1-foundations-ai-one	Mirror of Medhavy physics-engine pilot deployment, not manuscript.
+electron-microscopy	book	canonical	Mapped source or related material	electron-microscopy-ai-one	Electron Microscopy book master, chapters and research tree.
+physics-vol-1	other	duplicate	Mapped source or related material	college-physics-mechanics-and-waves-ai-one	Medhavy physics application mirror, not an extra manuscript.
+medhavi-quantum-volume-1	other	duplicate	Edition or alias, reconcile with main source	quantum-mechanics-vol-1-foundations-ai-one	Medhavy app mirror; original manuscript is separate.
+fact-checker	review	candidate	Unresolved inventory, no build		Fact-checking tool/prototype with per-claim evidence and multi-judge review; packaged-skill status unverified.
+agentic-plc-design	book-course	canonical	Mapped source or related material	programmable-logic-controller-design-ai-one; programmable-logic-controllers-and-industrial-automation-ai-one	Agentic PLC Design course with syllabus and hands-on controls design; stand-alone manuscript not established.
+agentic-plc	other	companion	Mapped source or related material	programmable-logic-controller-design-ai-one; programmable-logic-controllers-and-industrial-automation-ai-one	Course website with pinned content sources and evidence.
+INFO_6205_Program_Structure_and_Algorithms	book-course	companion	Mapped source or related material	algorithms-ai-one	Older INFO 6205 course material and syllabus.
+ENGR-0201-Organizing-Academic-Success-AI-for-Personalized-Learning	book-course	candidate	Source discovery, not yet a distinct book		ENGR 0201 learning module/course files; release quality not established.
+CSYE_7270_Building_Virtual_Environments	book-course	companion	Mapped source or related material	building-virtual-environments-ai-one	Older CSYE 7270 syllabus and course resources.
+Cancer-Biology-and-Therapeutics	book	canonical	Mapped source or related material	cancer-biology-and-therapeutics-ai-one	Cancer Biology and Therapeutics is an older distinct title with chapters, outline and appendices.
+ai-in-everyday-life	book-course	canonical	Mapped source or related material	ai-in-everyday-life-ai-one	Hands-on no-code AI in Everyday Life workshop materials; not a separate book.
+info-7375-irreducibly-human	book-course	canonical	Mapped source or related material	irreducibly-human-ai-one	INFO 7375 Irreducibly Human course with syllabus, configuration and chapters; not duplicate of book.
+info-6205-algorithms	book-course	canonical	Mapped source or related material	agentic-search-and-graphs-ai-one; algorithms-ai-one; reinforcement-learning-ai-one	Current INFO 6205 course layer, syllabus and notebooks; separate from Algorithms by Bear books.
+Coursera_INFO_6205_Algorithms	book-course	companion	Mapped source or related material	algorithms-ai-one	Related INFO 6205 teaching repository with course notebooks and the separately licensed textbook subdirectory used for the documented ARC pilot.
+nikbearbrown_com	other	unrelated	Outside book queue		Website implementation, not a manuscript or skill.
+info-7375-branding-and-ai-fall-2026	book-course	canonical	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one	Fall 2026 Branding & AI delivery materials with chapters and assignments.
+walker-local-source-backup	other	backup	Backup, no new book	animation-with-blender-ai-one; building-virtual-environments-ai-one; generative-ai-for-game-development-ai-one	Backup-named repository; do not count as an independent work.
+brutalist-art-bak	skill	backup	Backup, no new book	agentic-filmmaking-ai-one; animation-with-blender-ai-one	Backup-named repository; do not count as an independent work.
+hpc-aicr	skill	canonical	Mapped source or related material	research-computing-ai-one	Research-computing guides, films and agent rules; source is an educational toolkit.
+conducting-ai	book-course	duplicate	Mapped source or related material	ai-in-everyday-life-ai-one; conducting-ai-one	Substantial Conducting AI course/manuscript tree overlaps public course edition; check version before export.
+lectures	other	companion	Outside book queue		Static lecture library; useful distribution layer, not independent books.
+info-7375-conducting-ai	book-course	canonical	Mapped source or related material	ai-in-everyday-life-ai-one; conducting-ai-one	Public Conducting AI course/manuscript source with syllabus, chapter tree and course manifest.
+brutalist-art	skill	companion	Outside book queue	agentic-filmmaking-ai-one; animation-with-blender-ai-one	Earlier/different Brutalist media workflow source, not the public pared-down toolkit.
+musinique-youtube	other	unrelated	Outside book queue		Music/video production source library, not general professorial tooling.
+claude-skills	other	candidate	Outside book queue		Claude project instruction exporter/source archive; contents not established as a coherent published skill collection.
+claude-for-writing	book	duplicate	Mapped source or related material	ai-for-writing-ai-one	Flat Writing Guide: with LLMs chapter export.
+claude-for-statistics	book	duplicate	Mapped source or related material	introductory-statistics-ai-one; statistics-ai-one	Flat Introductory Statistics: with LLMs chapter export.
+claude-for-quantum-mechanics	book	companion	Mapped source or related material	quantum-mechanics-interactive-simulations-ai-one	Mixed quantum volumes and chapter variants in flat aggregation; not one additional book.
+claude-for-prompt-engineering	book	duplicate	Mapped source or related material	coding-agents-and-local-project-workflows-ai-one	Flat composite rooted in Prompt Engineering for CLI AI Coding Agents; additional variants present.
+claude-for-probability	book	duplicate	Mapped source or related material	bayesian-probability-ai-one	Bayesian Probability front matter with mixed related chapter files.
+claude-for-prealgebra	book	duplicate	Mapped source or related material	prealgebra-ai-one	Flat Prealgebra: with LLMs chapters and front matter.
+claude-for-physics	book	companion	Mapped source or related material	classical-mechanics-ai-one; electromagnetism-ai-one; mathematics-for-physics-vol-1-ai-one; mathematics-for-physics-vol-2-ai-one; modern-physics-ai-one; optics-ai-one; thermodynamics-ai-one	Physics bundle includes multiple book subtrees and assets; not another standalone manuscript.
+claude-for-pharmaceutical-marketing	book	duplicate	Mapped source or related material	causal-inference-in-pharmaceutical-marketing-ai-one	Flat book export front matter identifies Pharma Rep Visit Data as an Untapped Causal Dataset.
+claude-for-nanomedicine	book	companion	Mapped source or related material	cancer-nanomedicine-ai-one; imaging-in-cancer-and-nanomedicine-ai-one	Nanomedicine and imaging chapters combined; single standalone title not established.
+claude-for-music	book	companion	Mapped source or related material	music-imitation-and-ai-one	Large Songbook and music material aggregation; not a standalone university textbook.
+claude-for-mathematics	book	duplicate	Mapped source or related material	contemporary-mathematics-ai-one	Flat mathematics assortment led by Contemporary Mathematics: with LLMs.
+claude-for-marketing	book	companion	Mapped source or related material	healthcare-marketing-ai-one	Marketing aggregation led by AI-Driven Programmatic HCP Marketing; multiple separate works mixed.
+claude-for-intellectual-property	book	duplicate	Mapped source or related material	intellectual-property-ai-one; introduction-to-intellectual-property-ai-one	Flat Introduction to Intellectual Property: with LLMs export.
+claude-for-finance	book	companion	Mapped source or related material	computational-finance-ai-one; principles-of-finance-ai-one	Computational Finance with AI front matter plus other finance titles; use primary book repos.
+claude-for-electron-microscopy	book	duplicate	Mapped source or related material	electron-microscopy-ai-one	Flat Electron Microscopy chapter export; canonical source has book master and chapters.
+claude-for-education	book	companion	Mapped source or related material	claude-for-education-ai-one; learning-experience-design-ai-one; notebooklm-for-education-ai-one	Mixed education books, including NotebookLM and learning-experience design; no single extra title.
+claude-for-economics	book	companion	Mapped source or related material	managerial-economics-ai-one; principles-of-economics-ai-one	Principles of Economics front matter with economics and other chapter material; check source title separately.
+claude-for-design	book	duplicate	Mapped source or related material	slide-design-and-authoring-ai-one	Flat Brutalist: Using D3 and HTML to Make Slide Decks chapters; not the renderer skill.
+claude-for-computer-science	book	companion	Mapped source or related material	python-programming-ai-one	Mixed computing chapters and AI+1 source material; not another book called Claude for Computer Science.
+claude-for-codex	book	companion	Mapped source or related material	codex-for-students-ai-one	Codex for Students front matter alongside other Codex manuscript chapters.
+claude-for-claude	book	companion	Mapped source or related material	design-of-agentic-systems-ai-one	Claude Agentic AI front matter alongside several Claude manuscripts.
+claude-for-cancer-biology	book	duplicate	Mapped source or related material	cancer-biology-ai-one	Cancer Biology flat chapter export; fuller source has book master and supplements.
+claude-for-cancer	book	companion	Mapped source or related material	cancer-medicine-ai-one; cancer-research-ai-one	Cancer screening, medicine and Cancer Research extracts; no single stand-alone manuscript.
+claude-for-calculus	book	duplicate	Mapped source or related material	calculus-ai-one	Flat Calculus: with LLMs chapter export.
+claude-for-business-law	book	duplicate	Mapped source or related material	business-law-ai-one	Flat Business Law: with LLMs chapter export.
+claude-for-business-ethics	book	duplicate	Mapped source or related material	business-ethics-ai-one	Flat Business Ethics: with LLMs chapter export.
+claude-for-business	book	companion	Mapped source or related material	business-case-analysis-ai-one; principles-of-management-ai-one	Case Crackers front matter alongside management and other source chapters.
+claude-for-artificial-intelligence	book	companion	Mapped source or related material	intelligence-ai-one; living-models-ai-one	Multiple AI+1 texts and chapters, including Irreducibly Human and Living Models; not another independent book.
+claude-for-algebra	book	duplicate	Mapped source or related material	algebra-ai-one	Flat algebra chapter export; front matter generic Introduction, not proof of a separate polished volume.
+claude-for-accounting	book	candidate	Mapped source or related material	principles-of-accounting-ai-one	Principles of Accounting front matter and chapters; flat export, verify canonical working source before indexing.
+youtubers-bak	other	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+workplace-software-skills-claude-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+visible-learning-x-ai-bak	book	backup	Backup, no new book	when-to-use-ai-in-learning-ai-one	Backup-named repository; do not count as an independent work.
+unknown-unknowns-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+trust-the-teacher-bak	book	backup	Backup, no new book	trust-the-teacher-ai-one	Backup-named repository; do not count as an independent work.
+Topological-Early-Warning-Signals-bak	paper	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+theorist-ai-bak	other	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+the-research-paper-recipe-bak	book	backup	Backup, no new book	research-methods-in-ai-one; research-writing-ai-one	Backup-named repository; do not count as an independent work.
+the-reallocation-engine-bak	book	backup	Backup, no new book		Backup-named repository; do not count as an independent work.
+the-learning-engineer-bak	book	backup	Backup, no new book	the-learning-engineer-ai-one	Backup of local chapter project.
+substack-bak	other	backup	Backup, no new book		Backup namespace; no separate catalog entry.
+social-media-marketing-plus-one-bak	book	backup	Backup, no new book	social-media-marketing-ai-one; social-media-marketing-platforms-ai-one	Backup alias of named edition.
+social-media-marketing-platform-edition-bak	book	backup	Backup, no new book	social-media-marketing-ai-one; social-media-marketing-platforms-ai-one	Backup alias of named edition.
+quantum-mechanics-with-llms-bak	book	backup	Backup, no new book	quantum-mechanics-interactive-simulations-ai-one	Backup alias of named companion.
+quantum-mechanics-vol5-bak	book	backup	Backup, no new book	quantum-mechanics-vol-5-math-ai-one	Volume 5 backup alias.
+quantum-mechanics-vol4-bak	book	backup	Backup, no new book	quantum-computing-ai-one; quantum-mechanics-vol-4-open-systems-ai-one	Volume 4 backup alias.
+quantum-mechanics-vol3-bak	book	backup	Backup, no new book	quantum-mechanics-vol-3-approximation-ai-one	Volume 3 backup alias.
+quantum-mechanics-vol2-bak	book	backup	Backup, no new book	quantum-mechanics-vol-2-formalism-ai-one	Volume 2 backup alias.
+quantum-mechanics-vol1-bak	book	backup	Backup, no new book	quantum-mechanics-vol-1-foundations-ai-one	Volume 1 backup alias.
+physics-plus-one-quantum-mechanics-bak	book	backup	Backup, no new book	quantum-mechanics-interactive-simulations-ai-one	Backup alias of Physics Plus One edition.
+pharma-rep-visit-data-as-an-untapped-causal-dataset-bak	book	backup	Backup, no new book	causal-inference-in-pharmaceutical-marketing-ai-one	Backup of public 13-chapter causal-method book; no published research paper inferred.
+notebooklm-a-practitioners-guide-bak	book	backup	Backup, no new book	notebooklm-ai-one; notebooklm-for-education-ai-one	Backup of documented feature/workflow guide.
+notebook-lm-for-education-a-practitioners-guide-bak	book	backup	Backup, no new book	notebooklm-for-education-ai-one	Backup of separate education-specific title; not merged with generic guide.
+northeasternises-substack-bak	other	backup	Backup, no new book		Newsletter backup by matching live-name candidate.
+mycroft_magazine_v1-bak	book	backup	Backup, no new book		Magazine volume backup; no independent entry.
+Living-Models-bak	book	backup	Backup, no new book	living-models-ai-one	Living Models backup alias; separate living-models-book also exists.
+living-models-book-bak	book	backup	Backup, no new book	living-models-ai-one	Book backup alias.
+learning-when-to-use-and-when-not-to-use-ai-bak	book	backup	Backup, no new book	when-to-use-ai-in-learning-ai-one	Backup of draft labeled Visible Learning x AI.
+learning-experience-design-lxd-bak	book	backup	Backup, no new book	learning-experience-design-ai-one; the-learning-engineer-ai-one	Backup of README-confirmed draft.
+java-in-the-age-of-ai-bak	book	backup	Backup, no new book	application-engineering-and-development-ai-one	Named Java book backup.
+irreducibly-human-vol1-bak	book	backup	Backup, no new book	irreducibly-human-ai-one	Volume 1 backup alias.
+investing-in-quantum-bak	book	backup	Backup, no new book	investing-in-quantum-ai-one	Backup of named book.
+intelligent-textbooks-bak	review	backup	Backup, no new book		Intelligent Textbooks backup; separate non-backup repo not identified in attachment.
+intelligence-fry-bak	book	backup	Backup, no new book	intelligence-ai-one	Named Fry variant backup.
+imaging-in-cancer-and-nanomedicine-bak	book	backup	Backup, no new book	imaging-in-cancer-and-nanomedicine-ai-one	Imaging in Cancer and Nanomedicine backup; no active exact match established.
+hypothetical-ai-bak	book	backup	Backup, no new book	intelligence-ai-one	Named title backup.
+humanitarians-ai-bak	other	backup	Backup, no new book		Organization repository backup.
+how-to-ai-proof-your-job-bak	book	backup	Backup, no new book		Named title backup.
+homes-of-hope-bak	other	backup	Backup, no new book		Backup of named project; not independent teaching evidence.
+homes-of-hope-plus-one-bak	review	backup	Backup, no new book		Backup of named Plus One companion; type not verified.
+github-copilot-cli-for-teachers-bak	book	backup	Backup, no new book	github-copilot-cli-for-teachers-ai-one	Backup of teacher guide by matched slug.
+github-copilot-cli-for-students-bak	book	backup	Backup, no new book	ai-assisted-software-engineering-ai-one; github-copilot-cli-for-students-ai-one	Backup of student guide by matched slug.
+gigo-bak	book	backup	Backup, no new book	data-science-engineering-ai-one	GIGO named backup; no additional catalog entry.
+frictional-bak	review	backup	Backup, no new book		Frictional backup; do not assume it is the current reviewer skill or the renamed book.
+friction-measuring-the-learning-struggle-bak	book	backup	Backup, no new book		Backup of structured Friction textbook, not GLP preprint.
+ethical-play-bak	book	backup	Backup, no new book		Named title backup.
+establishing-the-mentorship-compact-bak	book	backup	Backup, no new book		Named title backup.
+essais-on-learning-vol1-bak	book	backup	Backup, no new book		Named title backup.
+embodied-teaching-bak	book	backup	Backup, no new book		Named title backup.
+embedded-ai-bak	book	backup	Backup, no new book		Backup of README-stub book.
+design-bak	review	backup	Backup, no new book		Ambiguous Design backup; no exact active source established.
+design-of-agentic-systems-bak	book	backup	Backup, no new book	design-of-agentic-systems-ai-one	Named title backup; case-studies edition separate.
+design-of-agentic-systems-with-case-studies-bak	book	backup	Backup, no new book	design-of-agentic-systems-ai-one	Named case-studies edition backup.
+conducting-ai-bak	book	backup	Backup, no new book	ai-in-everyday-life-ai-one; conducting-ai-one	Named book backup; course source separate.
+Computational-Skepticism-bak	book	backup	Backup, no new book		Backup of exact-case title; do not silently merge variants.
+computational-skepticism-for-ai-bak	book	backup	Backup, no new book	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Backup of book variant; course source separate.
+codex-for-teachers-bak	book	backup	Backup, no new book	codex-for-teachers-ai-one	Named teacher guide backup.
+codex-for-students-bak	book	backup	Backup, no new book	ai-assisted-software-engineering-ai-one; codex-for-students-ai-one	Named student guide backup.
+cli-agnostic-ai-tooling-for-local-project-workflows-bak	book	backup	Backup, no new book	coding-agents-and-local-project-workflows-ai-one	Backup of README-confirmed book draft.
+claude-cowork-bak	book	backup	Backup, no new book	coding-agents-and-local-project-workflows-ai-one	Backup of README-confirmed book.
+case-crackers-with-llms-bak	book	backup	Backup, no new book	business-case-analysis-ai-one	Named applied guide backup.
+Cancer-Biology-and-Therapeutics-bak	book	backup	Backup, no new book	cancer-biology-and-therapeutics-ai-one	Backup of named textbook.
+cancer-biology-all-bak	review	backup	Backup, no new book		Cancer biology aggregate backup; exact canonical mapping not established.
+branding-and-ai-bak	book-course	backup	Backup, no new book	branding-and-ai-one; branding-and-marketing-ai-one; creative-direction-ai-one	Backup of graduate course/textbook base.
+botspeak-bak	book	backup	Backup, no new book		Named book backup.
+botspeak-nbb-bak	book	backup	Backup, no new book		Named NBB edition backup.
+boondoggling-bak	review	backup	Backup, no new book		Named project backup; no independent catalog entry.
+biology-plus-one-cancer-biology-bak	book	backup	Backup, no new book	cancer-biology-ai-one	Backup of named Plus One edition.
+biology-cancer-biology-bak	book	backup	Backup, no new book	cancer-biology-ai-one	Backup of named biology-series edition.
+bear-brown-and-company-bak	other	backup	Backup, no new book		Company namespace backup.
+aiphorisms-bak	book	backup	Backup, no new book		Named title backup.
+aimagineering-bak	book	backup	Backup, no new book		Named title backup.
+rocknread	other	candidate	Outside book queue		Local source app with src/docs; not verified as book, course, or research paper.
+madison.humanitarians.ai	other	companion	Outside book queue		Local website package; companion to Madison, not independent book or skill.
+Irreducibly-Human	book-course	companion	Source discovery, not yet a distinct book	irreducibly-human-ai-one	README describes curriculum series and links live companion site irreducibly.xyz; preserve course links.
+zebonastic.com	other	unrelated	Outside book queue		Domain-named Zebonastic site; no qualifying artifact verified.
+claude.humanitarians.ai	other	candidate	Outside book queue		README describes research-tool discovery and ranking app; not an authored paper or user-installable skill on this evidence.
+tldr.talk	other	unrelated	Outside book queue		Domain-named site; no education artifact verified.
+free-ai	other	unrelated	Outside book queue		GitHub reports repository empty.
+INFO-7375-Computational-Skepticism-and-AI	book-course	companion	Mapped source or related material	computational-skepticism-ai-one	README is book-style INFO 7375 outline; keep as legacy course variant, not main course evidence.
+medhavy-youtube	other	companion	Outside book queue		Education media/workflow companion, not a tested Medhavy course catalog or paper.
+INFO_7390_Art_and_Science_of_Data	book-course	canonical	Mapped source or related material	data-science-engineering-ai-one	Local README provides INFO 7390 course topics; canonical for this course.
+embedded-ai	book	draft	Source discovery, not yet a distinct book		README explicitly stub with placeholders; not release-ready.
+branding-and-ai	book-course	canonical	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one; creative-direction-ai-one	README declares Brown/Harris graduate hands-on Branding and AI base; section-specific repos stay separate.
+notebooklm-a-practitioners-guide	book	canonical	Mapped source or related material	notebooklm-ai-one; notebooklm-for-education-ai-one	README states general NotebookLM feature/workflow guide distinct from education-specific title.
+vox	other	unrelated	Outside book queue		Local audiovisual project layout, no educational book/skill verified.
+qm-vol1	other	companion	Outside book queue		Local Next.js Medhavy website package; exact textbook source relationship unverified.
+pharma-rep-visit-data-as-an-untapped-causal-dataset	book	canonical	Mapped source or related material	causal-inference-in-pharmaceutical-marketing-ai-one	README lists 13 chapters, EPUB source and running project exercises; a causal-method book, not a published paper.
+ai-driven-programmatic-hcp-marketing	book	canonical	Mapped source or related material	healthcare-marketing-ai-one	README calls this a field manual on healthcare marketing and evidence; adjacent professional education.
+the-reallocation-engine-summer-2026	book	companion	Source discovery, not yet a distinct book		README confirms book plus working OPT search source; term-specific variant, not independent title.
+unreal-reels	skill	companion	Mapped source or related material	agentic-filmmaking-ai-one	Older production workflow; distinct from companion book and successor toolkit, not primary.
+friction-measuring-the-learning-struggle	book-course	canonical	Source discovery, not yet a distinct book		README structured 11-chapter textbook plus local Canvas module; distinct from Frictional tool and GLP preprint.
+workplace-software-skills-claude	review	candidate	Unresolved inventory, no build		Title suggests workplace Claude training; README inaccessible and no local checkout found.
+visible-learning-x-ai	book	candidate	Source discovery, not yet a distinct book	when-to-use-ai-in-learning-ai-one	Exact-title overlap with alternate repo README Visible Learning x AI; this repo inaccessible, no byte-dedup claim.
+unreal-reels-book	book	canonical	Source discovery, not yet a distinct book		README explicitly practitioners' book about Unreal Reels; not the pipeline itself.
+university-physics-bundle-with-llms	book	canonical	Mapped source or related material	university-physics-ai-one	README identifies calculus-based university physics textbook, distinct introductory sequence.
+trust-the-teacher-fry	book	candidate	Source discovery, not yet a distinct book	trust-the-teacher-ai-one	Fry-labeled variant; canonical README found, variant inaccessible; no exact duplication claimed.
+trust-the-teacher	book	canonical	Mapped source or related material	trust-the-teacher-ai-one	README structured 15-chapter textbook with teacher training appendix.
+the-learning-engineer	book	draft	Mapped source or related material	the-learning-engineer-ai-one	Local chapters contain front matter and one chapter plus summaries; no remote README confirmed.
+physics-with-llms	book	draft	Mapped source or related material	university-physics-ai-one	README physics title/TOC, explicitly missing overview; relationship to University Physics not presumed.
+physics-plus-one-thermodynamics	book	candidate	Mapped source or related material	thermodynamics-ai-one	Plus One topic matches active thermodynamics title; inspect edition and chapter overlap before merging.
+physics-plus-one-quantum-mechanics	book	candidate	Mapped source or related material	quantum-mechanics-interactive-simulations-ai-one	Plus One topic matches active quantum mechanics textbook; separate LLM editions also exist.
+physics-plus-one-modern-physics	book	candidate	Mapped source or related material	modern-physics-ai-one	Plus One topic variant; verify contents before merging.
+physics-plus-one-electromagnetism	book	candidate	Mapped source or related material	electromagnetism-ai-one	Plus One topic variant; verify contents before merging.
+physics-plus-one-classical-mechanics	book	candidate	Mapped source or related material	classical-mechanics-ai-one	Plus One topic variant; verify contents before merging.
+physics-plus-one-astronomy	book	candidate	Mapped source or related material	astronomy-ai-one	Plus One topic variant; verify contents before merging.
+math-for-physics-vol-2	book	canonical	Mapped source or related material	mathematics-for-physics-vol-2-ai-one; quantum-mechanics-vol-5-math-ai-one	README confirms advanced Volume 2 as a distinct textbook.
+learning-when-to-use-and-when-not-to-use-ai	book	draft	Mapped source or related material	when-to-use-ai-in-learning-ai-one	README title Visible Learning x AI and explicitly draft; exact same-title alternate unverified.
+learning-experience-design-lxd	book	draft	Mapped source or related material	learning-experience-design-ai-one; the-learning-engineer-ai-one	README identifies draft; same-date AI for LXD is separately titled.
+facts	other	companion	Outside book queue		README shared factual source dictionary and trust tiers for book verification; no standalone research paper.
+ethical-play	review	candidate	Unresolved inventory, no build		Title may be education/game ethics, but README not accessible; no artifact verified.
+establishing-the-mentorship-compact	review	candidate	Unresolved inventory, no build		Possible mentoring resource; README inaccessible; type/release unverified.
+essais-on-learning-vol1	review	candidate	Unresolved inventory, no build		Potential collected essays about learning; README inaccessible and not a verified paper series.
+embodied-teaching	review	candidate	Unresolved inventory, no build		Possible teaching book; README inaccessible and not verified.
+claude-prompt-engineering	book	canonical	Mapped source or related material	prompt-engineering-and-generative-ai-one	README declares a book with applied verification focus; not the INFO course.
+claude-for-education-a-practitioners-guide	book	canonical	Mapped source or related material	claude-for-education-ai-one	README declares a practitioners' education book; distinct from Claude for Education skill and rough Claude for Educational AI.
+claude-cowork	book	canonical	Mapped source or related material	coding-agents-and-local-project-workflows-ai-one	README declares book; separate AI1 Cowork draft not assumed identical.
+claude-code-for-teachers	book	canonical	Mapped source or related material	claude-code-for-teachers-ai-one	README confirms structured teacher textbook; different scope from generic AI and Codex guides.
+claude-code-for-students	book	canonical	Mapped source or related material	ai-assisted-software-engineering-ai-one; claude-code-for-students-ai-one	README confirms 14-chapter student textbook; not the generic student guide.
+claude-agentic-ai	book	canonical	Mapped source or related material	design-of-agentic-systems-ai-one	README declares agentic AI book; skill and course entries distinct.
+Cancer-Biology-with-LLMs	book	canonical	Mapped source or related material	computational-cancer-biology-ai-one	README explicitly computational cancer biology and verification learning guide, distinct from catalog book by title.
+brutalist-d3-x-claude	book	canonical	Mapped source or related material	data-visualization-and-infographics-ai-one; interactive-visualization-with-d3-ai-one	README says structured 79-chapter book about the D3 renderer module; not the skill.
+biology-plus-one-microbiology	book	candidate	Mapped source or related material	microbiology-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-plus-one-genetics-and-evolution	book	candidate	Mapped source or related material	genetics-and-evolution-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-plus-one-evolution-of-intelligence	book	candidate	Mapped source or related material	evolution-of-intelligence-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-plus-one-diversity-of-life	book	candidate	Mapped source or related material	diversity-of-life-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-plus-one-cancer-biology	book	candidate	Mapped source or related material	cancer-biology-ai-one	Named Plus One variant matches biology-series subject; distinct cancer editions require audit.
+biology-plus-one-biology	book	candidate	Mapped source or related material	biology-ai-one	Title-only general biology Plus One variant; source not verified.
+biology-plus-one-animal-physiology	book	candidate	Mapped source or related material	animal-physiology-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-plus-one-anatomy-physiology	book	candidate	Mapped source or related material	anatomy-and-physiology-ai-one	Named Plus One variant matches base subject; contents not yet compared.
+biology-microbiology	book	candidate	Mapped source or related material	microbiology-ai-one	Probable base biology-series title; no README verification.
+biology-genetics-and-evolution	book	candidate	Mapped source or related material	genetics-and-evolution-ai-one	Probable base biology-series title; no README verification.
+biology-evolution-of-intelligence-fry	book	candidate	Mapped source or related material	evolution-of-intelligence-ai-one	Fry-labeled edition variant; no exact duplication claim.
+biology-evolution-of-intelligence	book	candidate	Mapped source or related material	evolution-of-intelligence-ai-one	Probable base topic book; no verified manuscript.
+biology-diversity-of-life-fry	book	candidate	Mapped source or related material	diversity-of-life-ai-one	Fry-labeled edition variant; no exact duplication claim.
+biology-diversity-of-life	book	candidate	Mapped source or related material	diversity-of-life-ai-one	Probable base topic book; no verified manuscript.
+biology-cancer-biology	book	candidate	Mapped source or related material	cancer-biology-ai-one	Named biology-series topic; do not collapse with other cancer books without evidence.
+biology-bundle-with-llms	book	draft	Mapped source or related material	biology-ai-one	README stubs populated as concept/title only, separate from approved course packages.
+biology-animal-physiology	book	candidate	Mapped source or related material	animal-physiology-ai-one	Probable base topic book; no verified manuscript.
+biology-anatomy-physiology-with-llms	book	candidate	Mapped source or related material	anatomy-and-physiology-ai-one	LLM-labeled edition variant; verify before merging.
+biology-anatomy-physiology	book	candidate	Mapped source or related material	anatomy-and-physiology-ai-one	Probable base topic book; no verified manuscript.
+biology	book	candidate	Mapped source or related material	biology-ai-one; cell-biology-ai-one	General biology title; README inaccessible.
+ai1-cowork	book	draft	Source discovery, not yet a distinct book		README calls it an AI1 Cowork book draft; do not silently merge with Claude Cowork.
+ai-proofing-education	review	candidate	Unresolved inventory, no build		Education-relevant title; README inaccessible and no research publication evidence.
+ai-for-teachers-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-teachers-ai-one; claude-code-for-teachers-ai-one; when-to-use-ai-in-learning-ai-one	README structured AI+1 teacher textbook, distinct from Claude/Codex-specific guides.
+ai-for-students-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-students-ai-one; claude-code-for-students-ai-one; college-success-ai-one; github-copilot-cli-for-students-ai-one; when-to-use-ai-in-learning-ai-one	README confirms 14-chapter student guide, distinct from Claude Code title.
+ai-for-learning-experience-design	book	draft	Mapped source or related material	learning-experience-design-ai-one	README identifies title and draft; distinguish general LXD companion.
+ai-for-graphs-a-practitioners-guide	book	canonical	Mapped source or related material	data-visualization-and-infographics-ai-one; interactive-visualization-with-d3-ai-one	README structured AI+1 graphs guide.
+bbc-reallocation-pipeline	other	unrelated	Outside book queue		README describes internal contract sourcing pipeline, not an educational paper/course.
+quantum-mechanics-videos	other	companion	Outside book queue		Local README confirms Medhavy quantum video production source, not textbook or course exporter.
+info-7375-branding-and-ai-spring-2026	book-course	companion	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one	README same authors/title but spring 2026 edition; preserve actual nested course link.
+qm	other	unrelated	Outside book queue		GitHub reports repository empty; not the quantum textbook.
+info-5100-application-engineering-and-development	book-course	canonical	Mapped source or related material	application-engineering-and-development-ai-one	README confirms INFO 5100 Brown/Bugrara Java textbook with modules.
+cli-agnostic-ai-tooling-for-local-project-workflows	book	draft	Mapped source or related material	coding-agents-and-local-project-workflows-ai-one	README explicitly draft manuscript with book outline; not a deployed standalone skill.
+validating-output-from-ai-systems	book	canonical	Mapped source or related material	ai-systems-validation-ai-one; validating-ai-output-ai-one	README names 13 chapters and capstone on validating AI output
+prompt-engineering-for-cli-ai-coding-agents	review	candidate	Mapped source or related material	coding-agents-and-local-project-workflows-ai-one	CLI prompt-engineering title; manuscript or skill format not verified
+gigo	review	candidate	Mapped source or related material	data-science-engineering-ai-one	Likely GIGO instructional material; book versus exercise not verified
+unknown-unknowns	review	candidate	Unresolved inventory, no build		Book or research candidate; exact README inaccessible
+theorist-ai	other	candidate	Outside book queue		Theorist AI project; book or paper not verified
+prompt-engineering-with-clis	review	candidate	Mapped source or related material	coding-agents-and-local-project-workflows-ai-one	CLI prompting title; relationship to other CLI books not verified
+prompt-engineering	book	canonical	Mapped source or related material	prompt-engineering-and-generative-ai-one	README names institutional textbook and 15 chapters; not identical by title to INFO course
+notebook-lm-for-education-a-practitioners-guide	book	canonical	Mapped source or related material	notebooklm-for-education-ai-one	README names Notebook LM for Education practitioner guide
+northeasternises-substack	other	unrelated	Outside book queue		Substack publication or companion channel; not a standalone textbook
+mba-math	book	canonical	Mapped source or related material	mba-math-ai-one	README identifies MBA Math textbook
+mba-marketing	book	canonical	Mapped source or related material	principles-of-marketing-ai-one	README identifies Principles of Marketing with LLMs; edition relation to older draft unconfirmed
+mba-management	book	canonical	Mapped source or related material	principles-of-management-ai-one	README identifies Principles of Management with LLMs; edition relation to older draft unconfirmed
+mba-intellectual-property	book	canonical	Mapped source or related material	intellectual-property-ai-one; introduction-to-intellectual-property-ai-one	README identifies Introduction to Intellectual Property with LLMs
+mba-finance	book	canonical	Mapped source or related material	principles-of-finance-ai-one	README identifies Principles of Finance with LLMs
+mba-economics	book	canonical	Mapped source or related material	economics-of-happiness-ai-one; managerial-economics-ai-one; principles-of-economics-ai-one	README identifies Principles of Economics
+mba-corporate-finance	book	canonical	Mapped source or related material	corporate-finance-ai-one	README identifies Corporate Finance with AI
+mba-computational-finance	book	canonical	Mapped source or related material	computational-finance-ai-one	README identifies Computational Finance with AI
+mba-case-studies	book	canonical	Mapped source or related material	business-case-analysis-ai-one	README identifies Case Crackers with Claude
+mba-business-law	book	canonical	Mapped source or related material	business-law-ai-one	README identifies Business Law with LLMs
+mba-business-ethics	book	canonical	Mapped source or related material	business-ethics-ai-one	README identifies Business Ethics with LLMs
+mba-accounting	book	canonical	Mapped source or related material	principles-of-accounting-ai-one	README identifies Principles of Accounting
+math-statistics	book	canonical	Mapped source or related material	introductory-statistics-ai-one; statistics-ai-one	README identifies Introductory Statistics with LLMs
+math-prealgebra	book	canonical	Mapped source or related material	prealgebra-ai-one	README identifies Prealgebra with LLMs
+math-contemporary-mathematics	book	canonical	Mapped source or related material	contemporary-mathematics-ai-one	README identifies Contemporary Mathematics with LLMs
+math-college-algebra	book	canonical	Mapped source or related material	college-algebra-ai-one	README identifies College Algebra with LLMs
+math-calculus	book	canonical	Mapped source or related material	calculus-ai-one	README identifies Calculus with LLMs
+math-algebra	review	candidate	Mapped source or related material	algebra-ai-one	Publisher metadata and generic Introduction heading; algebra scope/content not verified
+intelligence	book	canonical	Mapped source or related material	intelligence-ai-one	README identifies 19 core chapters; local authoring front matter is draft
+hypothetical-ai	book	draft	Mapped source or related material	intelligence-ai-one	Local book.md and four chapter-folder files; manuscript draft
+humanitarians-ai	other	unrelated	Outside book queue		Humanitarians AI organization/project material; no separate textbook verified
+how-to-ai-proof-your-job	review	candidate	Unresolved inventory, no build		Candidate career guide; comparison with similar title requires content inspection
+codex-for-teachers	review	candidate	Mapped source or related material	codex-for-teachers-ai-one	Codex teacher guide candidate; content not verified
+codex-for-students	book	canonical	Mapped source or related material	ai-assisted-software-engineering-ai-one; codex-for-students-ai-one	README identifies Codex for Students with author/publisher
+botspeak	other	candidate	Outside book queue		Botspeak project; repository textbook role not verified
+bear-brown-and-company	book	draft	Source discovery, not yet a distinct book		Local book front matter and four chapter files; sample or short draft
+ai-1	book	canonical	Mapped source or related material	conducting-ai-one	README identifies AI+1 authoring text
+sociology	review	candidate	Unresolved inventory, no build		Sociology textbook candidate; exact content not verified
+social-media-marketing-platform-edition	book	canonical	Mapped source or related material	social-media-marketing-ai-one; social-media-marketing-platforms-ai-one	README identifies Social Media Marketing Platform Edition
+political-science	review	candidate	Unresolved inventory, no build		Political science textbook candidate; exact content not verified
+philosophy	review	candidate	Unresolved inventory, no build		Philosophy textbook candidate; exact content not verified
+magnifica-humanitas-the-operational-guide	review	candidate	Unresolved inventory, no build		Candidate operational guide; audience and scope unverified
+history-world-history	review	candidate	Mapped source or related material	world-history-ai-one	World History title candidate; compare world-history-with-llms before counting
+history-us-history	review	candidate	Mapped source or related material	united-states-history-ai-one	US History title candidate; compare us-history-with-llms before counting
+frictional-book	review	candidate	Unresolved inventory, no build		Frictional book candidate; not equated with software or earlier learning-struggle manuscript without evidence
+economics	review	candidate	Mapped source or related material	economics-ai-one	Economics title candidate; relation to MBA Economics not verified
+design-of-agentic-systems	review	candidate	Mapped source or related material	design-of-agentic-systems-ai-one	Agentic Systems manuscript candidate; relation to Design of Agentic Systems with Case Studies unverified
+computational-finance	review	candidate	Mapped source or related material	computational-finance-methods-ai-one	Computational Finance candidate; relationship to MBA title not verified
+causal-reasoning	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal reasoning research-methods candidate; publication and repository contents not verified
+botspeak-nbb	other	candidate	Outside book queue		Botspeak variant indicated by slug; exact scope not verified
+biology-the-cell	review	candidate	Mapped source or related material	cell-biology-ai-one	Cell biology textbook candidate; rights and manuscript not verified
+anthropology	review	candidate	Unresolved inventory, no build		Anthropology textbook candidate; relation to anthropology-plus-one unverified
+algorithms-magazine	other	companion	Outside book queue		Algorithms magazine, not counted as a full book from title alone
+ai-skunkworks	other	candidate	Outside book queue		AI Skunkworks project; book/paper evidence not verified
+ai-proofing-your-job	review	candidate	Unresolved inventory, no build		Career guide candidate; compare how-to-ai-proof-your-job
+ai-for-infographics-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-infographics-ai-one; data-visualization-and-infographics-ai-one	README identifies AI for Infographics practitioner guide
+ai-for-coding-a-practitioners-guide	book	canonical	Mapped source or related material	ai-assisted-software-engineering-ai-one	README identifies AI for Coding practitioner guide
+writing-guide	review	candidate	Mapped source or related material	ai-for-writing-ai-one	Writing guide candidate; compare writing-guide-with-llms
+writing-a-research-paper-a-practitioners-guide	paper	candidate	Mapped source or related material	research-writing-ai-one	Research-writing methods guide candidate; compare Research Paper Recipe, no publication inferred
+unknown-unknowns-fry	review	candidate	Unresolved inventory, no build		FRY-suffixed Unknown Unknowns variant; relationship unverified
+Topological-Early-Warning-Signals	book	canonical	Source discovery, not yet a distinct book		README explicitly presents authored book with table of contents, not a published study
+the-research-paper-recipe	book	canonical	Mapped source or related material	research-methods-in-ai-one; research-writing-ai-one	The README identifies a 14-chapter research writing book and workshop companion, not a research paper.
+substack	other	companion	Outside book queue		Substack publishing/channel repo; not a standalone textbook
+social-media-marketing-plus-one	book	canonical	Mapped source or related material	social-media-marketing-ai-one; social-media-marketing-platforms-ai-one	README identifies Social Media Marketing plus One; keep distinct from Platform Edition pending overlap review
+python-programming	book	canonical	Mapped source or related material	python-programming-ai-one	README identifies Introduction to Python Programming with Claude
+psychology	review	candidate	Unresolved inventory, no build		Psychology textbook candidate; compare psychology-with-llms
+phys-5125-qm	book-course	candidate	Source discovery, not yet a distinct book		PHYS 5125 quantum mechanics course candidate; offering/syllabus unverified
+organic-chemistry	review	candidate	Mapped source or related material	organic-chemistry-ai-one	Organic Chemistry textbook candidate; compare organic-chemistry-with-llms
+mycroft_magazine_v1	other	companion	Outside book queue		Mycroft magazine volume, not independently verified as university textbook
+Living-Models	book	canonical	Mapped source or related material	living-models-ai-one	README identifies Living Models and 20 core chapters; duplicate older same-author draft row 422
+java-programming	review	candidate	Mapped source or related material	application-engineering-and-development-ai-one	Java programming textbook candidate; compare java-in-the-age-of-ai
+intelligence-fry	review	candidate	Mapped source or related material	intelligence-ai-one	FRY-suffixed Intelligence? variant; not proven backup or duplicate
+homes-of-hope	review	candidate	Unresolved inventory, no build		Homes of Hope candidate; relationship to companion unclear
+github-copilot-cli-for-teachers	review	candidate	Mapped source or related material	github-copilot-cli-for-teachers-ai-one	GitHub Copilot CLI teacher guide candidate; contents not verified
+github-copilot-cli-for-students	book	canonical	Mapped source or related material	ai-assisted-software-engineering-ai-one; github-copilot-cli-for-students-ai-one	README names GitHub Copilot CLI for Students
+Computational-Skepticism	review	candidate	Unresolved inventory, no build		Ambiguous Computational Skepticism repo; do not equate book/course/paper without evidence
+college-success	review	candidate	Unresolved inventory, no build		College Success candidate; compare College Success bundle metadata
+Causal-Machine-Learning	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal machine-learning methods candidate; publication not verified
+causal-inference-with-case-studies	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal inference methods/case-study candidate; publication not verified
+Causal-Inference	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal inference methods candidate; publication not verified
+brutalist-using-d3-and-html-to-make-slide-decks	book	canonical	Mapped source or related material	interactive-visualization-with-d3-ai-one; slide-design-and-authoring-ai-one	README identifies authored D3 and HTML slide decks book
+brutalist	other	candidate	Outside book queue		Brutalist brand/tool/style slug; no standalone textbook verified
+astronomy-fry	review	candidate	Mapped source or related material	astronomy-ai-one	FRY-suffixed Astronomy variant; contents and relation unverified
+astronomy	review	candidate	Mapped source or related material	astronomy-ai-one	Astronomy textbook candidate; compare astronomy-with-llms draft
+american-government	review	candidate	Unresolved inventory, no build		American Government textbook candidate; compare american-government-with-llms draft
+algorithms-vol2	book	canonical	Mapped source or related material	algorithms-ai-one	README identifies Algorithms Vol. 2 with LLMs; relation to authoring metadata in row 419 unverified
+algorithms-vol1	book	canonical	Mapped source or related material	algorithms-ai-one	README identifies Algorithms Vol. 1 with LLMs with 13 chapters; relation to older metadata unverified
+aiphorisms	review	candidate	Unresolved inventory, no build		AI aphorisms candidate; likely adjacent prose, no university text verified
+aimagineering	review	candidate	Unresolved inventory, no build		AI Imagineering candidate; scope and manuscript unverified
+ai-sherpa	other	candidate	Outside book queue		AI Sherpa project candidate; textbook not verified
+ai-for-writing-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-writing-ai-one	README identifies AI for Writing practitioner guide
+ai-for-slides-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-slides-ai-one; slide-design-and-authoring-ai-one	README identifies AI for Slides practitioner guide
+ai-for-realtors-nbb	review	candidate	Unresolved inventory, no build		Realtors NBB variant; same-title edition status unknown
+ai-for-realtors	review	candidate	Unresolved inventory, no build		Realtors guide candidate; manuscript and grade level unverified
+ai-for-designers	review	candidate	Unresolved inventory, no build		Designers guide candidate; manuscript and grade level unverified
+ai-for-commercial-real-estate-nbb	review	candidate	Unresolved inventory, no build		Commercial real estate NBB variant; same-title edition status unknown
+ai-for-commercial-real-estate	review	candidate	Unresolved inventory, no build		Commercial real estate guide candidate; manuscript and grade level unverified
+#NAME?	review	unrelated	Not a repository		Spreadsheet error value; no GitHub repository represented.
+boondoggling	other	candidate	Outside book queue		Boondoggling project or publication candidate; not verified book
+ai-1-fry	review	candidate	Unresolved inventory, no build		FRY-suffixed AI+1 variant; relation to AI+1 textbook unverified
+prompt-engineering-old	book	backup	Backup, no new book	prompt-engineering-and-generative-ai-one	Slug explicitly marks old version; exact history not checked
+java-in-the-age-of-ai	review	candidate	Mapped source or related material	application-engineering-and-development-ai-one	Java in the Age of AI book candidate; compare java-programming
+anthropology-plus-one	review	candidate	Unresolved inventory, no build		Anthropology Plus One title candidate; source relationship unverified
+writing-guide-with-llms	book	draft	Mapped source or related material	ai-for-writing-ai-one	README is authoring metadata for named writing guide; full manuscript not verified
+world-history-with-llms	book	draft	Mapped source or related material	world-history-ai-one	README is draft-specific metadata for World History with LLMs
+us-history-with-llms	book	draft	Mapped source or related material	united-states-history-ai-one	README is per-book authoring instructions for US History with LLMs
+psychology-with-llms	book	draft	Mapped source or related material	psychology-ai-one	README is authoring metadata for Psychology with LLMs
+principles-of-management-bundle-with-llms	book	draft	Mapped source or related material	principles-of-management-ai-one	README is authoring metadata; same title family as mba-management, exact edition overlap unverified
+principles-marketing-with-llms	book	draft	Mapped source or related material	principles-of-marketing-ai-one	README is writer metadata; same title family as mba-marketing, exact edition overlap unverified
+principles-finance-with-llms	book	draft	Mapped source or related material	principles-of-finance-ai-one	README is draft metadata; same title family as mba-finance, exact edition overlap unverified
+principles-economics-bundle	book	draft	Mapped source or related material	managerial-economics-ai-one; principles-of-economics-ai-one	README is authoring metadata; related to mba-economics, exact edition overlap unverified
+principles-accounting-bundle	book	draft	Mapped source or related material	principles-of-accounting-ai-one	README is authoring metadata; related to mba-accounting, exact edition overlap unverified
+prealgebra-bundle-with-llms	book	candidate	Mapped source or related material	prealgebra-ai-one	Alternate same-title family or authoring scaffold. Keep out of the main-edition list until a comparison confirms a distinct edition.
+organic-chemistry-with-llms	book	draft	Mapped source or related material	organic-chemistry-ai-one	README is per-book writing guidance; exact content/readiness unverified
+microbiology-with-llms	book	draft	Mapped source or related material	microbiology-ai-one	README is authoring metadata for Microbiology with LLMs
+introductory-statistics-bundle-with-llms	book	draft	Mapped source or related material	introductory-statistics-ai-one; statistics-ai-one	README is authoring metadata; related to math-statistics, exact edition overlap unverified
+intro-finance-with-llms	review	candidate	Mapped source or related material	introduction-to-finance-ai-one	README title only; distinguish intro finance from other finance textbooks
+homes-of-hope-plus-one	book	draft	Source discovery, not yet a distinct book		README identifies named companion manuscript and author; relation to homes-of-hope unverified
+corporate-finance-with-ai	review	candidate	Mapped source or related material	corporate-finance-ai-one	Same normalized title as MBA Corporate Finance; files inaccessible, duplicate not proven
+contemporary-mathematics-with-llms	book	candidate	Mapped source or related material	contemporary-mathematics-ai-one	Alternate same-title family or authoring scaffold. Keep out of the main-edition list until a comparison confirms a distinct edition.
+computational-finance-with-ai	review	candidate	Mapped source or related material	computational-finance-ai-one	Same normalized title as MBA Computational Finance; files inaccessible, duplicate not proven
+college-success-bundle-with-llms	book	draft	Mapped source or related material	ai-for-students-ai-one; college-success-ai-one	README contains book scaffold with TODO
+college-algebra-bundle-with-llms	book	draft	Mapped source or related material	college-algebra-ai-one	README contains book scaffold with TODO, same title family as math-college-algebra
+case-crackers-with-llms	review	candidate	Mapped source or related material	business-case-analysis-ai-one	Same family as mba-case-studies Case Crackers title; manuscript not verified
+calculus-bundle-with-llms	book	candidate	Mapped source or related material	calculus-ai-one	Alternate same-title family or authoring scaffold. Keep out of the main-edition list until a comparison confirms a distinct edition.
+business-law-with-llms	book	draft	Mapped source or related material	business-law-ai-one	README contains book scaffold with TODO; related to mba-business-law
+business-ethics-with-llms	book	draft	Mapped source or related material	business-ethics-ai-one	README contains book scaffold with TODO; related to mba-business-ethics
+bayesian-probability-with-llms	book	candidate	Mapped source or related material	bayesian-probability-ai-one	Same Bayesian Probability title and author as math-bayesian-probability; exact edition overlap not verified
+astronomy-with-llms	book	draft	Mapped source or related material	astronomy-ai-one	README contains book scaffold with TODO
+american-government-with-llms	book	draft	Mapped source or related material	american-government-ai-one	README is authoring metadata for American Government with LLMs
+algorithms-vol2-with-llms	book	candidate	Source discovery, not yet a distinct book	algorithms-ai-one	Alternate same-title family or authoring scaffold. Keep out of the main-edition list until a comparison confirms a distinct edition.
+algorithms-vol1-with-llms	book	candidate	Source discovery, not yet a distinct book	algorithms-ai-one	Alternate same-title family or authoring scaffold. Keep out of the main-edition list until a comparison confirms a distinct edition.
+anatomy-physiology-with-llms	review	candidate	Mapped source or related material	anatomy-and-physiology-ai-one	README title only; coverage, rights and completion not verified
+living-models-book	book	duplicate	Mapped source or related material	living-models-ai-one	Same title, subtitle and authors; README expressly marks this version draft
+claude-cowork-jobs	other	unrelated	Outside book queue		Jobs/project tooling, not counted as textbook
+irreducibly-human-vol1	book	canonical	Mapped source or related material	irreducibly-human-ai-one	README identifies proceedings-style book and theory spine; related course is not duplicate book evidence
+MGEN_Student_Awards_2026	other	unrelated	Outside book queue		Student awards project; do not infer textbook or include student details
+perish_cc	other	unrelated	Outside book queue		Perish.cc web service
+nina_harris_co	other	unrelated	Outside book queue		Personal website project
+80days_dev	other	unrelated	Outside book queue		80 Days development workspace
+mycroft_me	other	unrelated	Outside book queue		Mycroft website/service companion, not book
+moctardatt_com	other	unrelated	Outside book queue		Website repository indicated by slug; no textbook evidence
+boondoggling_ai	other	candidate	Outside book queue		Boondoggling variant/project; no separate textbook evidence
+Computational-Skepticism-for-AI-Notes	other	companion	Outside book queue	ai-systems-validation-ai-one; computational-skepticism-ai-one; validating-ai-output-ai-one	Notes companion by designation, not a separate manuscript
+v0-chef-animation	other	unrelated	Outside book queue		Chef animation web prototype
+musinique_com	other	unrelated	Outside book queue		Musinique website, not textbook
+brutalist-ai	other	candidate	Outside book queue		Brutalist-branded historical repo; relationship to current toolkit unverified
+v0-brutalist-ai	other	candidate	Outside book queue		v0 Brutalist site/prototype, not a verified faculty skill
+walker_bot	other	unrelated	Outside book queue		Walker bot project
+Zebonastic	other	candidate	Outside book queue		Publication brand, not a verified book by repo name alone
+gogh_ai	other	unrelated	Outside book queue		Gogh-branded AI project/site
+ISE	review	candidate	Unresolved inventory, no build		Abbreviation; no education deliverable identified
+mutant_org	other	unrelated	Outside book queue		Organization site/project
+dowee_org	other	unrelated	Outside book queue		Organization site/project
+skunks_ai	other	unrelated	Outside book queue		Organization site/project
+livingmodels_org	other	unrelated	Outside book queue		Organization site/project
+Wilkes	review	candidate	Unresolved inventory, no build		Ambiguous project name
+agentx9_org	other	unrelated	Outside book queue		Organization site/project
+marley	review	candidate	Unresolved inventory, no build		Ambiguous project name
+Popper	review	candidate	Unresolved inventory, no build		Ambiguous project name
+80-Days-HAI	other	unrelated	Outside book queue		Humanitarians AI program
+Nina	review	candidate	Unresolved inventory, no build		Ambiguous personal/project name
+Spirit-Songs	other	unrelated	Outside book queue		Music project
+From-Catalog-to-Circuit	review	candidate	Mapped source or related material	programmable-logic-controller-design-ai-one	Title could be educational writing or research; not confirmed
+Algorithmic-Momentum-and-the-Jend-Strategy	paper	candidate	Outside book queue		Named strategy study; publication unverified
+Musical-Imitation-Game	paper	candidate	Mapped source or related material	music-imitation-and-ai-one	Named music imitation research topic; publication unverified
+Musical-Endogeneity	paper	candidate	Mapped source or related material	music-imitation-and-ai-one	Named music research topic; publication unverified
+Research	review	candidate	Unresolved inventory, no build		Generic research container; no particular paper verified
+BRANDY	other	unrelated	Outside book queue		Brand project
+Google-Ads	other	unrelated	Outside book queue		Advertising project, no course scope verified
+Agentic-Reinforcement-Learning	review	candidate	Mapped source or related material	reinforcement-learning-ai-one	RL title collision; determine relationship to neighboring projects before dedup
+The-Intelligence-of-Smoke	review	candidate	Unresolved inventory, no build		Title-only; not verified as independent book
+Substack-to-React-Converter	other	unrelated	Outside book queue		Substack conversion utility; not a teaching skill
+INFO_7375_Prompt_Engineering_and_Generative_AI	book-course	canonical	Mapped source or related material	prompt-engineering-and-generative-ai-one	Named INFO 7375 course and known teaching line
+Notes	other	unrelated	Outside book queue		Notes container
+BWells	review	candidate	Unresolved inventory, no build		Ambiguous name
+How-to-Speak-Bot-Prompt-Patterns	book	candidate	Source discovery, not yet a distinct book		Bot prompt-pattern title; manuscript not verified
+Computational-Skepticism-The-Asymmetry-of-Bullshit-in-the-Age-of-AI	paper	candidate	Outside book queue		Named computational skepticism essay/research work, not the course; publication unverified
+Biojobs	other	unrelated	Outside book queue		Job-related project
+medhavi_io	other	unrelated	Outside book queue		Medhavi platform site
+Generative-AI-for-Music-Therapy-A-Hands-On-Guide	book	candidate	Source discovery, not yet a distinct book		Hands-on guide title; book completion unverified
+Enhancing-Trust-in-LLMs	review	candidate	Unresolved inventory, no build		Possible sibling of longer LLM interpretability title; no proven duplication
+Is-Protesting-Effective	paper	candidate	Outside book queue		Named research question; publication unverified
+AI_In_Its_Own_Words	book	candidate	Mapped source or related material	intelligence-ai-one	Title suggests book/essay collection; manuscript unverified
+Oz_Songs	other	unrelated	Outside book queue		Songs project
+Journal-Bot	other	unrelated	Outside book queue		Bot project, no evidence of faculty skill
+Getting-the-Data-Right	book	candidate	Mapped source or related material	data-science-engineering-ai-one	Data practice title; verify manuscript
+Confessions-of-an-Indie-Artist	book	candidate	Source discovery, not yet a distinct book		Indie artist writing title; AI education fit unverified
+Reinforcement-Learning-for-Agentic-AI-Theory-Practice-LLMs	book	candidate	Mapped source or related material	reinforcement-learning-ai-one	Theory/practice instructional title; verify against other RL repos
+Corporate-Finance-with-Excel-Python-and-LLMs	book	candidate	Mapped source or related material	corporate-finance-ai-one; corporate-finance-with-excel-and-python-ai-one	Instructional finance title; manuscript unverified
+Computational_Finance_with_Python	book-course	candidate	Mapped source or related material	computational-finance-with-python-ai-one	Computational finance/Python instructional line; inspect course materials
+Educational-Freedom-Project	other	unrelated	Outside book queue		Education initiative, not individual course/book
+INFO-7375-Branding-and-AI	book-course	canonical	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one	Named INFO 7375 course, corroborated by local teaching materials and known assignment
+YouTube	other	unrelated	Outside book queue		YouTube/media container
+Bear-Brown	other	unrelated	Outside book queue		Identity/personal project
+Mycroft-HAI	other	unrelated	Outside book queue		Humanitarians AI project
+musinique_net	other	unrelated	Outside book queue		Music label site
+Reinforcement-Learning-for-Agentic-AI	book	candidate	Mapped source or related material	reinforcement-learning-ai-one	Instructional RL title, compare 459/477 before merging
+The-Crispus-Project	other	unrelated	Outside book queue		Named project, no instructional scope verified
+RAMAN-Effect	other	unrelated	Outside book queue		Humanitarians AI project
+ASML-HOLDING-NV	other	unrelated	Outside book queue		Named company project
+The-AI-BAC-Machine	review	candidate	Unresolved inventory, no build		AI BAC project; deliverable not established
+Fablulous	other	unrelated	Outside book queue		Named application/project
+Bear_Draws_AI	other	unrelated	Outside book queue		Art project
+Conversations-with-Dead-Letters	book	candidate	Source discovery, not yet a distinct book		Creative title; verify manuscript and AI scope
+Vercel_Zero	other	unrelated	Outside book queue		Vercel sample/project
+Synthetic_Personas	review	candidate	Unresolved inventory, no build		Could be methods or demo; no manuscript verified
+Cat_Connection	other	unrelated	Outside book queue		Humanitarians AI project
+Lyrical-Literacy	other	candidate	Outside book queue		Lyrical Literacy education initiative; distinct project not a course/book
+Project-Dewey	other	candidate	Outside book queue		Named project; curriculum deliverable unverified
+ClaudeNEU	other	candidate	Outside book queue		NEU tooling; course status unverified
+The_Economics_of_Happiness	book	candidate	Mapped source or related material	economics-of-happiness-ai-one	Possible authored manuscript; AI education scope not confirmed
+Klee	review	candidate	Unresolved inventory, no build		Ambiguous project name
+Jobs_Database	other	unrelated	Outside book queue		Jobs tooling
+Gogh	review	candidate	Unresolved inventory, no build		Gogh project title; scope unverified
+Generative_AI_Hackathon	other	companion	Outside book queue		Hackathon event/materials, not recurring course by name alone
+Dinobots	other	unrelated	Outside book queue		Named bot project
+Case_Interviews	book-course	candidate	Source discovery, not yet a distinct book		Case interview training material candidate
+BCH-and-Harvard-Medical-School-Project	other	unrelated	Outside book queue		Named collaboration; no specific course/paper identified
+AI_Skunkworks	other	unrelated	Outside book queue		Organization/project
+Social-Media-Scraping	other	unrelated	Outside book queue		Data collection utility candidate, no course/skill verified
+Skills-Mapping	review	candidate	Unresolved inventory, no build		Methods/tooling/skill title ambiguous
+nano-lex	review	candidate	Unresolved inventory, no build		Lexicon/utility scope unverified
+AI-and-Marketing	book-course	candidate	Mapped source or related material	branding-and-marketing-ai-one	AI/marketing teaching candidate; compare known Branding & AI course rather than merge by topic
+AutoML-Agents	review	candidate	Unresolved inventory, no build		AutoML agent implementation vs instructional manuscript unverified
+Exosomes	review	candidate	Unresolved inventory, no build		Scientific topic project; no paper established
+The-Environmental-Cost-of-AI	paper	candidate	Outside book queue		Research topic; publication unverified
+Quantum-Computing	book-course	candidate	Mapped source or related material	quantum-computing-ai-one	Technical teaching topic; materials unverified
+Givelytics	other	unrelated	Outside book queue		Named analytics tool/project
+Enhancing-Trust-in-LLMs-Algorithms-for-Comparing-and-Interpreting-LLMs	paper	candidate	Outside book queue		Possible alternate copy of the similarly titled survey with a verified manuscript; compare contents before deduplicating.
+Discriminating-Terms-for-Identifying-Protein-Production-Research	paper	candidate	Outside book queue		Named screening/methods study; publication unverified
+Reinventing-Digital-Advertising	book	candidate	Source discovery, not yet a distinct book		Advertising instructional/essay title; verify manuscript
+Foundational-AI-for-Software-Engineering	book-course	candidate	Mapped source or related material	ai-assisted-software-engineering-ai-one	Named Humanitarians AI education project; curriculum contents unverified
+Book-Base	other	unrelated	Outside book queue		Book scaffolding/template, not a book title
+Midjourney-Prompt-Patterns	skill	candidate	Outside book queue		Reusable prompt-pattern reference candidate; inspect source before calling tool
+Bear-Fives-Workout	other	unrelated	Outside book queue		Workout project
+AI-in-Interactive-Storytelling	book	candidate	Mapped source or related material	agentic-filmmaking-ai-one; interactive-storytelling-ai-one	Named emerging-tech teaching topic; manuscript not verified
+Zebonastic.ai-Vol1-No1-Winter-2025	other	unrelated	Outside book queue		Named magazine issue, not independent course/skill
+AI-for-Image-Enhancement-in-Branding-and-Marketing	book	candidate	Mapped source or related material	branding-and-ai-one; branding-and-marketing-ai-one	Applied instructional title; manuscript unverified
+html-starter-test	other	unrelated	Outside book queue		HTML starter/test
+nextfolio-a-simple-next-js-portfolio	other	unrelated	Outside book queue		Portfolio starter
+humanitarians-nextjs	other	unrelated	Outside book queue		Humanitarians website implementation
+nextjs-ai-chatbot	other	unrelated	Outside book queue		Chatbot sample/project
+ArtSynth	other	unrelated	Outside book queue		Art tool/project
+Visualization_Lecture	book-course	companion	Mapped source or related material	data-visualization-and-infographics-ai-one	Single visualization lecture, not evidence of a complete course
+Lyrical_Literacy	other	candidate	Outside book queue		Naming variant of Lyrical Literacy; not enough evidence to merge projects
+GIGO_A_Data_Cookbook	book	candidate	Mapped source or related material	data-science-engineering-ai-one	Data cookbook title; verify authored contents
+Stealth_Start-Up_Federated_Chatbot_Development_Challenge	other	unrelated	Outside book queue		Development challenge/project
+Pashtun_Nationalism_and_Cultural_Identity	paper	candidate	Outside book queue		Named study topic, AI scope and publication unverified
+AI_in_Dentistry	paper	candidate	Outside book queue		Named AI domain study topic; publication unverified
+RoshNayya_Movement_Legacy_of_Pir_Roshan	paper	candidate	Outside book queue		Named humanities study topic; AI scope and publication unverified
+Bear_Brown_-_Co_Stealth_Start-Up_Chatbot_Development_Challenge	book-course	companion	Source discovery, not yet a distinct book		README is a standalone chatbot development assignment, not a full course or textbook.
+Application_of_Transformers_to_Deep_Reinforement_Learning	paper	candidate	Outside book queue		Named transformer/RL methods study, publication unverified
+eBay	other	unrelated	Outside book queue		Named commerce project
+AI_in_the_ER	paper	candidate	Outside book queue		AI emergency-care topic; publication unverified
+OncoText	other	unrelated	Outside book queue		Named OncoText tool/project
+Biological-NLP	review	candidate	Unresolved inventory, no build		Bio NLP methods vs implementation unverified
+Generative-AI-and-Electron-Microscopy	paper	candidate	Outside book queue		AI/microscopy research topic; publication unverified
+React-websites-on-Google-Cloud	book-course	candidate	Source discovery, not yet a distinct book		Tutorial/course candidate; inspect materials
+Gregory_AI	other	unrelated	Outside book queue		Named project
+Effective-Prompting-for-Literature-Reviews	skill	candidate	Mapped source or related material	research-methods-in-ai-one	Repeatable prompt workflow candidate; verify SKILL.md or equivalent
+AI_Applications_for_Neurodiverse_Learning	paper	candidate	Outside book queue		AI education application research candidate; publication unverified
+Enhancing_Trust_in_LLMs-_Algorithms_for_Comparing_and_Interpreting_LLMs	paper	draft	Outside book queue		README contains a survey manuscript; publication not verified.
+Building_Chatbots_to_Serve_Non-Profits	book-course	candidate	Source discovery, not yet a distinct book		Named applied training topic; verify curriculum
+The-MIT-Harvard-Broad-NEU-Cellarium-Challenge	other	companion	Outside book queue		Named challenge, not standalone curriculum by name alone
+Gerardos_App	other	unrelated	Outside book queue		Named app
+AI4ED_Book_Generator	other	candidate	Outside book queue		Book-generation tool, not itself a book; skill unverified
+AI4ED_Lex	other	candidate	Outside book queue		Lexicon/catalog utility candidate; not course by title
+CognitiveType	other	unrelated	Outside book queue		CognitiveType project
+CV	other	unrelated	Outside book queue		CV
+INFO_6105_Data_Science_Engineering_Methods	book-course	canonical	Mapped source or related material	data-science-engineering-ai-one; python-programming-ai-one	Explicit numbered Northeastern course repo
+CSYE_INFO_7374_Research_Methods_in_AI	book-course	canonical	Mapped source or related material	research-methods-in-ai-one	Explicit numbered research methods course repo
+CausalAI	review	candidate	Unresolved inventory, no build		Causal AI subject; manuscript vs code unverified
+Streamlit-Stock-Analysis	other	unrelated	Outside book queue		Streamlit stock analysis app
+steamlit-youtube-analysis	other	unrelated	Outside book queue		Streamlit YouTube analysis app
+Challenge-based_Recruiting	review	candidate	Unresolved inventory, no build		Recruiting theme; not verified research or course
+Computational_Consulting	book-course	candidate	Source discovery, not yet a distinct book		Computational consulting instructional candidate
+Computational_Marketing_and_Ad_Tech_with_Python	book-course	candidate	Mapped source or related material	computational-marketing-ai-one	Python marketing/ad tech instructional title
+GIGO_Magazine_Book	book	candidate	Mapped source or related material	data-science-engineering-ai-one	Named magazine/book artifact; inspect contents and compare cookbook
+Crash_Course_in_Forecasting	book-course	candidate	Source discovery, not yet a distinct book		Explicit forecasting crash-course title
+Art_of_AI	book	candidate	Source discovery, not yet a distinct book		Possible art/AI instructional writing repo
+Nazu	review	candidate	Unresolved inventory, no build		Ambiguous named project
+kaggle-competitions-2023	other	companion	Outside book queue		Kaggle competition collections, not a standalone course
+ChatGPT	review	candidate	Unresolved inventory, no build		Generic ChatGPT title; contents unverified
+AI_Deep_Dives	book-course	candidate	Source discovery, not yet a distinct book		Potential lecture/discussion series; verify contents
+Syntax_of_Sketches	book	candidate	Source discovery, not yet a distinct book		Creative/computational writing title; verify manuscript
+BEARxDALLE	other	unrelated	Outside book queue		Art/portfolio project
+Medium	other	unrelated	Outside book queue		Medium writing container
+Mononoke	review	candidate	Unresolved inventory, no build		Ambiguous named project
+Sketching_with_Code	book-course	candidate	Source discovery, not yet a distinct book		Creative coding teaching title; source unverified
+The_Little_Tycoon	book	candidate	Source discovery, not yet a distinct book		Named creative title; AI/teaching scope unverified
+NIKBEARBROWN.COM	other	unrelated	Outside book queue		Personal website

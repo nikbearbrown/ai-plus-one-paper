@@ -30,14 +30,7 @@ Re-check recorded heads and visibility. Pin all actual inputs by full commit. If
 
 Maintain one queue with a row per comparable family: sources and pins, scope, stage, replacement repo, checks, owner decision, and blockers. Use one working family at a time until the first pass is stable. Then start the next blueprint while prior families wait for expert review. Do not start a paid API loop, continuous worker or additional service without a stated budget and user approval.
 
-Suggested next families for **verification** before selection:
-
-- **Principles of Finance:** compare `nikbearbrown/mba-finance` and `nikbearbrown/principles-finance-with-llms`. Keep separate from Corporate Finance.
-- **Computational Finance:** compare `nikbearbrown/mba-computational-finance` and `nikbearbrown/computational-finance-with-ai` (private). Keep the separately scoped `nikbearbrown/computational-finance` out until its scope is confirmed.
-
-- **Introductory Statistics:** compare `nikbearbrown/math-statistics` and `nikbearbrown/introductory-statistics-bundle-with-llms`; confirm the matching chapter names are the same course scope.
-- **Contemporary Mathematics:** compare `nikbearbrown/math-contemporary-mathematics` and `nikbearbrown/contemporary-mathematics-with-llms`.
-- **Algorithms:** compare `nikbearbrown/algorithms-vol1` against `nikbearbrown/algorithms-vol1-with-llms`, and Vol. 2 against `nikbearbrown/algorithms-vol2-with-llms`. Decide separately whether Vols. 1 and 2 are distinct course scopes. Keep the INFO 6205 course material separate unless confirmed otherwise.
+Use the [ordered book queue](book-queue/) and its [machine-readable TSV](book-queue/queue.tsv) as the production order. Corporate Finance is first, followed by the named generic course-to-book priorities and the rest of the mapped families. Treat `ready` as permission to begin the blueprint, `compare` as edition/scope analysis first, and `hold` as planning only. If one row is awaiting a decision, record it and go on to the next actionable row. The [source triage](book-queue/source-triage.tsv) preserves unplaced candidates, aliases and backups without turning each into a new book.
 
 ## Publish AI One, then make the superseded source books private
 
