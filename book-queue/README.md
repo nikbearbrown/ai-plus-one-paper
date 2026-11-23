@@ -4,7 +4,7 @@ Build one standalone **Subject (AI Plus One)** book per genuine course scope. Us
 
 ## Browse all titles
 
-- [All 138 book candidates from existing materials](#138-book-candidates-from-existing-materials)
+- [All 137 book candidates from existing materials](#137-book-candidates-from-existing-materials)
 - [All 84 Fall 2026 and Spring 2027 syllabus blueprints](#84-fall-2026-and-spring-2027-syllabus-blueprints)
 
 The two lists overlap. Ten syllabus blueprints explicitly feed a book in the first list; other scopes marked for comparison may also overlap. Do not add the two counts to get a unique-book total. These are plans, not finished manuscripts.
@@ -30,9 +30,9 @@ GitHub source names are recorded as owner/repository where known. An unqualified
 
 Each approved replacement is public. Only confirmed superseded public **source book** repositories go private, after the new edition is reachable and affected links have been migrated. Private sources stay private. A course site, toolkit, lab companion or app is not retired merely because it contributed material. No deletion. No automatic publication of rough drafts.
 
-## 138 book candidates from existing materials
+## 137 book candidates from existing materials
 
-In working order: **37 ready to scope, 57 to compare, and 44 on hold**. The [working TSV](queue.tsv) gives the primary and related sources and the decision needed for every title. Where a syllabus blueprint already exists, it is linked below.
+In working order: **36 ready to scope, 57 to compare, and 44 on hold**. The [working TSV](queue.tsv) gives the primary and related sources and the decision needed for every title. Where a syllabus blueprint already exists, it is linked below. Queue numbers are stable: former #70 was merged into #37.
 
 | Order | Book | Track | Stage | Syllabus blueprint |
 | ---: | --- | --- | --- | --- |
@@ -72,7 +72,7 @@ In working order: **37 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 34 | Claude Code for Students (AI Plus One) | Education | Ready to scope |  |
 | 35 | Codex for Students (AI Plus One) | Education | Ready to scope |  |
 | 36 | GitHub Copilot CLI for Students (AI Plus One) | Education | Ready to scope |  |
-| 37 | AI for Slides (AI Plus One) | Education | Ready to scope |  |
+| 37 | [Designing Educational Slide Decks with AI (AI Plus One)](designing-educational-slide-decks-with-ai.md) | Education | Compare sources |  |
 | 38 | AI for Infographics (AI Plus One) | Education | Ready to scope |  |
 | 39 | Research Writing (AI Plus One) | Education | Ready to scope |  |
 | 40 | Quantum Mechanics, Volume 1: Foundations (AI Plus One) | Science | Ready to scope |  |
@@ -105,14 +105,13 @@ In working order: **37 ready to scope, 57 to compare, and 44 on hold**. The [wor
 | 67 | Branding and AI (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/12-branding-and-ai/) |
 | 68 | Creative Direction (AI Plus One) | Computing | Compare sources |  |
 | 69 | Data Visualization and Infographics (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/11-data-visualization-and-infographics/) |
-| 70 | Slide Design and Authoring (AI Plus One) | Computing | Compare sources |  |
 | 71 | Interactive Visualization with D3 (AI Plus One) | Computing | Compare sources |  |
 | 72 | Data Science Engineering (AI Plus One) | Computing | Compare sources | [Open plan](syllabus-track/blueprints/10-data-science-engineering/) |
 | 73 | Research Methods in AI (AI Plus One) | Computing | Compare sources |  |
 | 74 | Programmable Logic Controller Design (AI Plus One) | Computing | Compare sources |  |
 | 75 | AI for Course Design (AI Plus One) | Education | Compare sources |  |
 | 76 | Learning Experience Design (AI Plus One) | Education | Compare sources |  |
-| 77 | When to Use AI in Learning AI (AI Plus One) | Education | Compare sources |  |
+| 77 | When to Use AI for Learning (AI Plus One) | Education | Compare sources |  |
 | 78 | AI for Writing (AI Plus One) | Education | Compare sources |  |
 | 79 | Research Computing (AI Plus One) | Education | Compare sources |  |
 | 80 | Validating AI Output (AI Plus One) | Education | Compare sources |  |

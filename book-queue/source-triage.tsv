@@ -66,14 +66,14 @@ cancer-research	book	canonical	Mapped source or related material	cancer-research
 cancer-nanomedicine	book	canonical	Mapped source or related material	cancer-nanomedicine-ai-one	Cancer Nanomedicine book master and chapters; repository labels draft.
 cancer-medicine	book	canonical	Mapped source or related material	cancer-biology-and-therapeutics-ai-one; cancer-medicine-ai-one	Cancer Medicine book master and chapters; repository labels draft.
 cancer-biology	book	canonical	Mapped source or related material	cancer-biology-ai-one; cancer-biology-and-therapeutics-ai-one; computational-cancer-biology-ai-one	Cancer Biology book master and chapters; repository labels draft.
-figma-slides	skill	canonical	Mapped source or related material	ai-for-slides-ai-one; figma-design-ai-one; figma-for-educational-ai-one; slide-design-and-authoring-ai-one	Editable Figma teaching decks, slide validation and an animated HTML companion.
+figma-slides	skill	canonical	Mapped source or related material	designing-educational-slide-decks-with-ai-one; figma-design-ai-one; figma-for-educational-ai-one	Editable Figma teaching decks, slide validation and an animated HTML companion.
 figma-appdesigner	skill	canonical	Mapped source or related material	figma-design-ai-one	Figma phone-app wireframes, design review and approved coding handoffs.
 figma-data-visualization	skill	canonical	Mapped source or related material	ai-for-infographics-ai-one; data-visualization-and-infographics-ai-one; interactive-visualization-with-d3-ai-one	Figma dashboard design and metric-validation workflow with native editable nodes.
 medhavy-videos	other	companion	Outside book queue		Physics and quantum film beat sheets for review; not finished films or a textbook.
 agents-as-graphs	other	companion	Mapped source or related material	agentic-search-and-graphs-ai-one	Runnable graph-algorithm agents and worked examples; overlaps but is separate from canonical manuscript.
 agentic-best-practices	review	candidate	Mapped source or related material	agentic-search-and-graphs-ai-one; design-of-agentic-systems-ai-one	Teaching/practice reference for agentic loops and best practices; not verified as a book master or packaged skill.
 figma-to-godot	skill	canonical	Mapped source or related material	building-virtual-environments-ai-one	Figma frames and variable import to Godot; Walker integration with skill folder.
-brutalist-slides	skill	canonical	Mapped source or related material	ai-for-slides-ai-one; slide-design-and-authoring-ai-one	Evidence-oriented HTML slide decks; root SKILL, agent skills and renderer.
+brutalist-slides	skill	canonical	Mapped source or related material	designing-educational-slide-decks-with-ai-one	Evidence-oriented HTML slide decks; root SKILL, agent skills and renderer.
 figma-webdesigner	skill	canonical	Mapped source or related material	creative-direction-ai-one; figma-design-ai-one	Existing-site audit and editable Figma redesign with human approval.
 blender-models	other	companion	Mapped source or related material	animation-with-blender-ai-one; building-virtual-environments-ai-one	Blender model asset collection; not curriculum or a packaged skill.
 brutalist.art	skill	canonical	Mapped source or related material	agentic-filmmaking-ai-one; animation-with-blender-ai-one	Pared-down Brutalist video production toolkit and skills.
@@ -122,7 +122,7 @@ claude-for-finance	book	companion	Mapped source or related material	computationa
 claude-for-electron-microscopy	book	duplicate	Mapped source or related material	electron-microscopy-ai-one	Flat Electron Microscopy chapter export; canonical source has book master and chapters.
 claude-for-education	book	companion	Mapped source or related material	claude-for-education-ai-one; learning-experience-design-ai-one; notebooklm-for-education-ai-one	Mixed education books, including NotebookLM and learning-experience design; no single extra title.
 claude-for-economics	book	companion	Mapped source or related material	managerial-economics-ai-one; principles-of-economics-ai-one	Principles of Economics front matter with economics and other chapter material; check source title separately.
-claude-for-design	book	duplicate	Mapped source or related material	slide-design-and-authoring-ai-one	Flat Brutalist: Using D3 and HTML to Make Slide Decks chapters; not the renderer skill.
+claude-for-design	book	duplicate	Mapped source or related material	designing-educational-slide-decks-with-ai-one	Flat Brutalist: Using D3 and HTML to Make Slide Decks chapters; not the renderer skill.
 claude-for-computer-science	book	companion	Mapped source or related material	python-programming-ai-one	Mixed computing chapters and AI+1 source material; not another book called Claude for Computer Science.
 claude-for-codex	book	companion	Mapped source or related material	codex-for-students-ai-one	Codex for Students front matter alongside other Codex manuscript chapters.
 claude-for-claude	book	companion	Mapped source or related material	design-of-agentic-systems-ai-one	Claude Agentic AI front matter alongside several Claude manuscripts.
@@ -368,7 +368,7 @@ college-success	review	candidate	Unresolved inventory, no build		College Success
 Causal-Machine-Learning	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal machine-learning methods candidate; publication not verified
 causal-inference-with-case-studies	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal inference methods/case-study candidate; publication not verified
 Causal-Inference	paper	candidate	Mapped source or related material	causal-inference-ai-one	Causal inference methods candidate; publication not verified
-brutalist-using-d3-and-html-to-make-slide-decks	book	canonical	Mapped source or related material	interactive-visualization-with-d3-ai-one; slide-design-and-authoring-ai-one	README identifies authored D3 and HTML slide decks book
+brutalist-using-d3-and-html-to-make-slide-decks	book	canonical	Mapped source or related material	interactive-visualization-with-d3-ai-one; designing-educational-slide-decks-with-ai-one	README identifies authored D3 and HTML slide decks book
 brutalist	other	candidate	Outside book queue		Brutalist brand/tool/style slug; no standalone textbook verified
 astronomy-fry	review	candidate	Mapped source or related material	astronomy-ai-one	FRY-suffixed Astronomy variant; contents and relation unverified
 astronomy	review	candidate	Mapped source or related material	astronomy-ai-one	Astronomy textbook candidate; compare astronomy-with-llms draft
@@ -379,7 +379,7 @@ aiphorisms	review	candidate	Unresolved inventory, no build		AI aphorisms candida
 aimagineering	review	candidate	Unresolved inventory, no build		AI Imagineering candidate; scope and manuscript unverified
 ai-sherpa	other	candidate	Outside book queue		AI Sherpa project candidate; textbook not verified
 ai-for-writing-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-writing-ai-one	README identifies AI for Writing practitioner guide
-ai-for-slides-a-practitioners-guide	book	canonical	Mapped source or related material	ai-for-slides-ai-one; slide-design-and-authoring-ai-one	README identifies AI for Slides practitioner guide
+ai-for-slides-a-practitioners-guide	book	canonical	Mapped source or related material	designing-educational-slide-decks-with-ai-one	README identifies AI for Slides practitioner guide
 ai-for-realtors-nbb	review	candidate	Unresolved inventory, no build		Realtors NBB variant; same-title edition status unknown
 ai-for-realtors	review	candidate	Unresolved inventory, no build		Realtors guide candidate; manuscript and grade level unverified
 ai-for-designers	review	candidate	Unresolved inventory, no build		Designers guide candidate; manuscript and grade level unverified
