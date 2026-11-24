@@ -215,7 +215,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | --- | --- | --- |
 | Accounting and Budgeting for Engineers (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/84-accounting-and-budgeting-for-engineers/) |
 | Computational Finance (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/09-computational-finance-ai-one.md) · [Consolidated scope](computational-finance.md) · [mba-computational-finance](https://github.com/nikbearbrown/mba-computational-finance) |
-| Corporate Finance (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/01-corporate-finance-ai-one.md) · [mba-corporate-finance](https://github.com/nikbearbrown/mba-corporate-finance) · [corporate-finance-with-ai](https://github.com/nikbearbrown/corporate-finance-with-ai) |
+| Corporate Finance (AI Plus One) | Compare sources | [Public draft excerpt](https://github.com/nikbearbrown/corporate-finance-ai-one) · [Blueprint](editorial-blueprints/01-corporate-finance-ai-one.md) · [mba-corporate-finance](https://github.com/nikbearbrown/mba-corporate-finance) · [corporate-finance-with-ai](https://github.com/nikbearbrown/corporate-finance-with-ai) |
 | Fintech and Financial Innovation (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/79-fintech-and-financial-innovation/) |
 | Introduction to Finance (AI Plus One) | On hold | [Blueprint](editorial-blueprints/99-introduction-to-finance-ai-one.md) · [intro-finance-with-llms](https://github.com/nikbearbrown/intro-finance-with-llms) |
 | Principles of Accounting (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/15-principles-of-accounting-ai-one.md) · [mba-accounting](https://github.com/nikbearbrown/mba-accounting) |

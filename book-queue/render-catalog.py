@@ -160,12 +160,42 @@ def indexed_tsv(path, key):
     return result
 
 
+def verified_draft_links(queue, blueprints):
+    # Explicit publication receipts only. A proposed target or verified
+    # private seed in the migration register must not make a public link.
+    drafts = indexed_tsv(ROOT / "public-drafts.tsv", "id")
+    if not drafts:
+        return {}
+    targets = indexed_tsv(ROOT / "repo-migration" / "catalog-migration-plan.tsv", "id")
+    allowed = {f"queue:{key}": queue[key]["Book title"] for key in queue}
+    allowed.update({
+        f"syllabus:{key}": row["title"]
+        for key, row in blueprints.items()
+        if not row["canonical book queue row"] and row["draft route"] != "workshop-reference"
+    })
+    labels = {"excerpt": "Public draft excerpt", "manuscript": "Public rough draft"}
+    links, used_slugs = {}, set()
+    for key, row in drafts.items():
+        slug = row["repo_slug"]
+        assert key in allowed and key in targets, f"Not a canonical course draft: {key}"
+        assert targets[key]["title"] == allowed[key], f"Wrong draft title for: {key}"
+        assert re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*-ai-one", slug), f"Invalid draft slug: {slug}"
+        assert slug == targets[key]["destination_slug"], f"Wrong draft slug for: {key}"
+        assert slug not in used_slugs, f"Draft repository listed twice: {slug}"
+        assert re.fullmatch(r"[0-9a-f]{40}", row["verified_commit"]), f"Invalid verified commit for: {key}"
+        assert row["coverage"] in labels, f"Unknown draft coverage for: {key}"
+        used_slugs.add(slug)
+        links[key] = f"[{labels[row['coverage']]}](https://github.com/nikbearbrown/{slug})"
+    return links
+
+
 def catalog():
     queue = indexed_tsv(ROOT / "queue.tsv", "Order")
     other = indexed_tsv(ROOT / "other-formats.tsv", "Order")
     assert not set(queue) & set(other)
     entries = queue | other
     blueprints = indexed_tsv(BLUEPRINTS / "index.tsv", "blueprint id")
+    draft_links = verified_draft_links(queue, blueprints)
     mapped = {}
     for row in blueprints.values():
         parent = row["canonical book queue row"]
@@ -203,6 +233,8 @@ def catalog():
             links.extend(blueprint_link(b, "Course reference") for b in mapped.get(key, [])
                          if b["draft route"] == "workshop-reference")
             links.extend(["[AI Readiness skill](https://github.com/nikbearbrown/ai-readiness)"] if key == "75" else repo_links(q["Primary source(s)"]))
+            if f"queue:{key}" in draft_links:
+                links.insert(0, draft_links[f"queue:{key}"])
             assert links, key
             rows.append((q["Book title"], QUEUE_STATUS[q["Plan stage"]], links, q.get("Format", "Course")))
         for key in b_ids.split():
@@ -210,7 +242,10 @@ def catalog():
             used_b.add(key)
             b = blueprints[key]
             assert not b["canonical book queue row"], key
-            rows.append((b["title"], BLUEPRINT_STATUS[b["draft route"]], [blueprint_link(b)], "Course"))
+            links = [blueprint_link(b)]
+            if f"syllabus:{key}" in draft_links:
+                links.insert(0, draft_links[f"syllabus:{key}"])
+            rows.append((b["title"], BLUEPRINT_STATUS[b["draft route"]], links, "Course"))
         sections.append((topic, sorted(rows, key=lambda row: row[0].casefold())))
 
     assert used_editorial == set(EDITORIAL_BLUEPRINTS.glob("[0-9]*.md")), (
