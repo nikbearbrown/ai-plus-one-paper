@@ -219,7 +219,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Fintech and Financial Innovation (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/79-fintech-and-financial-innovation/) |
 | Introduction to Finance (AI Plus One) | On hold | [Blueprint](editorial-blueprints/99-introduction-to-finance-ai-one.md) · [intro-finance-with-llms](https://github.com/nikbearbrown/intro-finance-with-llms) |
 | Principles of Accounting (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/15-principles-of-accounting-ai-one.md) · [mba-accounting](https://github.com/nikbearbrown/mba-accounting) |
-| Principles of Finance (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/05-principles-of-finance-ai-one.md) · [mba-finance](https://github.com/nikbearbrown/mba-finance) |
+| Principles of Finance (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/principles-of-finance-ai-one) · [Blueprint](editorial-blueprints/05-principles-of-finance-ai-one.md) · [mba-finance](https://github.com/nikbearbrown/mba-finance) |
 | Trading System Engineering (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/64-trading-system-engineering/) |
 | Verified Finance with Agents (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/48-verified-finance-with-agents-ai-one.md) · [mycroft](https://github.com/nikbearbrown/mycroft) |
 
