@@ -1,4 +1,5 @@
 id	repo_slug	verified_commit	coverage
-queue:1	corporate-finance-ai-one	965c9c8b139fd786a2d7d3f14119d8848a7ece75	compact
+queue:1	corporate-finance-ai-one	0586206bd2dd222548bd499c236e975a424c47a8	manuscript
 queue:2	prompt-engineering-and-generative-ai-one	02dcbd5e973e0bb72c2bdf19752a324817c6fc13	manuscript
 queue:3	validating-ai-one	6729118fc32834576228b0d58ee5970e0f6cb0e4	compact
+queue:4	algorithms-ai-one	4f4fad10373628c437ca747697e6c06bbf845e5c	compact
