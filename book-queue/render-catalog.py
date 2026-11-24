@@ -15,11 +15,12 @@ BLUEPRINTS = ROOT / "syllabus-track" / "blueprints"
 # blueprints inherit the canonical queue title's subject and get no extra row.
 TOPICS = {
     "AI and agent systems": (
-        "2 3 11 57 58 61 62 63 80 109 139",
+        "2 3 11 57 58 61 63 80 109",
         "1 3 4 5 17 28 36 37 38 56 63 65 66 71 72 74 75 78",
     ),
+    "Artificial intelligence and real intelligence": ("62 81 93 139", ""),
     "Biology, medicine, and health": (
-        "93 94 95 124 125 126 127 128 129 130 131 132 133 134 135 136",
+        "94 95 124 125 126 127 128 129 130 131 132 133 134 135 136",
         "73 80 86",
     ),
     "Business, economics, and law": (
@@ -55,7 +56,7 @@ TOPICS = {
         "",
     ),
     "Humanities and social sciences": (
-        "81 115 117 118 119 120",
+        "115 117 118 119 120",
         "",
     ),
     "Marketing and branding": (

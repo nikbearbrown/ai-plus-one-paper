@@ -12,35 +12,23 @@ For production: [course and textbook queue](queue.tsv) · [syllabus blueprint in
 
 General-audience books. No course structure or AI Plus One branding.
 
-- [AI and agent systems](#books-ai-and-agent-systems) (2)
-- [Biology, medicine, and health](#books-biology-medicine-and-health) (1)
+- [Artificial intelligence and real intelligence](#books-artificial-intelligence-and-real-intelligence) (4)
 - [Education and learning](#books-education-and-learning) (1)
-- [Humanities and social sciences](#books-humanities-and-social-sciences) (1)
 
-### Books: AI and agent systems
+### Books: Artificial intelligence and real intelligence
 
 | Title | Status | Available material |
 | --- | --- | --- |
 | Computational Skepticism | Compare sources | [Popular-book plan](computational-skepticism.md) · [computational-skepticism-for-ai](https://github.com/nikbearbrown/computational-skepticism-for-ai) |
-| Intelligence | Compare sources | [intelligence](https://github.com/nikbearbrown/intelligence) |
-
-### Books: Biology, medicine, and health
-
-| Title | Status | Available material |
-| --- | --- | --- |
 | Evolution of Intelligence | Compare sources | [biology-evolution-of-intelligence](https://github.com/nikbearbrown/biology-evolution-of-intelligence) |
+| Intelligence | Compare sources | [intelligence](https://github.com/nikbearbrown/intelligence) |
+| Irreducibly Human | Compare sources | [irreducibly-human-book](https://github.com/nikbearbrown/irreducibly-human-book) · [irreducibly-human-vol1](https://github.com/nikbearbrown/irreducibly-human-vol1) |
 
 ### Books: Education and learning
 
 | Title | Status | Available material |
 | --- | --- | --- |
 | Trust the Teacher | Ready to scope | [trust-the-teacher](https://github.com/nikbearbrown/trust-the-teacher) |
-
-### Books: Humanities and social sciences
-
-| Title | Status | Available material |
-| --- | --- | --- |
-| Irreducibly Human | Compare sources | [irreducibly-human-book](https://github.com/nikbearbrown/irreducibly-human-book) · [irreducibly-human-vol1](https://github.com/nikbearbrown/irreducibly-human-vol1) |
 
 ## Courses and textbooks
 
