@@ -236,7 +236,7 @@ def catalog():
     out.extend(f"- [{name}](#{anchor(name)}) ({totals[fmt]})" for name, fmt, _ in formats)
     out += [
         "",
-        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
+        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [title repo migration](repo-migration/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
         "",
     ]
     for name, fmt, description in formats:

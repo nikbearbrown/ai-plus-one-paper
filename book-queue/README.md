@@ -6,7 +6,7 @@ Browse by format. Within each format, titles are alphabetized by topic. Every en
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
 
-For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.
+For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [title repo migration](repo-migration/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.
 
 ## Popular books
 

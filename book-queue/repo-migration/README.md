@@ -1,0 +1,12 @@
+# Title repository migration
+
+[Migration register](catalog-migration-plan.tsv) covers the 209 titles in the [catalog](../): popular books, courses/textbooks, and workshops. It uses the catalog title and authoritative Blueprint, not every backup or teaching source as a separate product. The proposed slugs are lowercase and hyphenated; courses retain the AI Plus One suffix, while popular books and workshops keep their display names. Existing target names are collision leads, not permission to overwrite or rename a repo.
+
+## Migrate one title at a time
+
+1. Confirm exact scope and destination, and verify same-name ownership, content, and purpose. Record the revision of every source used. An existing target can be reused only if it is the verified edition and no work is lost; otherwise set a clear title-based alternative. A syllabus is not itself manuscript material.
+2. Start the destination as a private editorial workspace. Copy the approved original Blueprint and small, authorized written source files. Keep competing drafts separately attributed and pin the source and SHA-256 for each copy. Do not copy a Git history, executable hooks or workflows, hidden data, student material, dependency trees, confidential material, pantry assets, or vendor/third-party content of uncertain reuse rights. Exclude MP3, MP4, WAV, AVI, other media or binaries, generated exports and bulk data. Start with an allowlist of small text files and review exceptions individually.
+3. Verify remote commit, copied-file counts and checksums, destination visibility, and access. A Blueprint-only starter is accurately labeled as such, including the blocker for the source text. Do not count a repo as seeded until its Blueprint is on the remote.
+4. Review for release separately. AI Plus One editions are intended to be public when the approved content can be released; do not expose private review material. Do not retire a source just because it is referenced. Once a true predecessor is fully superseded, verify the replacement's intended audience can open it, migrate inbound links, check Pages, integrations, forks, and collaborators, and confirm any unexpected impact before making the old public source private. Sources that were private stay private. Companion books, tools, course sites, and shared or unresolved sources are not retired.
+
+The register is a private editorial tracker. The source condition, slot-filling, review, later text rework, and public cutover are separate operations. Entries marked pending are not created or migrated.
