@@ -173,7 +173,7 @@ def verified_draft_links(queue, blueprints):
         for key, row in blueprints.items()
         if not row["canonical book queue row"] and row["draft route"] != "workshop-reference"
     })
-    labels = {"excerpt": "Public draft excerpt", "manuscript": "Public rough draft"}
+    labels = {"excerpt": "Public draft excerpt", "compact": "Public compact rough draft", "manuscript": "Public rough draft"}
     links, used_slugs = {}, set()
     for key, row in drafts.items():
         slug = row["repo_slug"]
