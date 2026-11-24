@@ -9,7 +9,7 @@ blueprint id	title	directory	draft route	evidence status	canonical book queue ro
 8	Building Virtual Environments (AI Plus One)	08-building-virtual-environments	existing-book	tentative-source	8	existing	8	5
 9	Application Engineering and Development (AI Plus One)	09-application-engineering-and-development	existing-book	matched-source	7	existing	9	5
 10	Data Science Engineering (AI Plus One)	10-data-science-engineering	existing-book	matched-source	72	existing	10	6
-11	Data Visualization and Infographics (AI Plus One)	11-data-visualization-and-infographics	existing-book	matched-source	69	existing	11	5
+11	Data Visualization and Infographics	11-data-visualization-and-infographics	workshop-reference	matched-source	69	existing	11	5
 12	Branding and AI (AI Plus One)	12-branding-and-ai	existing-book	matched-source	67	existing	12	5
 13	Validating AI (AI Plus One)	13-validating-ai	existing-book	matched-source	3	existing	13	5
 14	Prompt Engineering and Generative AI (AI Plus One)	14-prompt-engineering-and-generative-ai	existing-book	matched-source	2	existing	14	5

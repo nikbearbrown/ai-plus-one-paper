@@ -1,6 +1,6 @@
-# Data Visualization and Infographics (AI Plus One)
+# Data Visualization and Infographics
 
-**Private Blueprint only. Draft route: `existing-book`. Evidence: `matched-source`. No sign-off.**
+**Private Blueprint only. Draft route: `workshop-reference`. Evidence: `matched-source`. No sign-off.**
 
 **Proposed spine:** A visual makes a claim: design the chart around a specific comparison and verify that the data, encoding, annotation and accessible fallback still support it.
 

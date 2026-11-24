@@ -5,12 +5,12 @@
 - [Machine-readable handoff](index.tsv) and [prior syllabus queue](../syllabus-queue.tsv).
 - [Consolidation decisions](merge-log.md).
 - Counts by evidence: 59 matched-source, 16 no-usable-source, 9 tentative-source.
-- Counts by route: 1 reuse-private-pilot, 17 compare-scope, 31 ready-for-draft-review, 25 hold-source, 10 existing-book.
-- Input assignments use the physical row number of the prior TSV (excluding header), not the first numeric column. The [prior ordered book queue](../../queue.tsv) remains unchanged.
+- Counts by route: 1 reuse-private-pilot, 17 compare-scope, 31 ready-for-draft-review, 25 hold-source, 9 existing-book, 1 workshop-reference.
+- Input assignments use the physical row number of the prior TSV (excluding header), not the first numeric column. Use the [ordered course queue](../../queue.tsv) for drafting. The [other-format inventory](../../other-formats.tsv) preserves the workshop link.
 
 ## How the drafting session should use this packet
 
-1. Reuse the Knowledge Graphs pilot and attach `existing-book` plans to the corresponding existing manuscripts. Read the actual manuscript and source rights before adapting.
+1. Reuse the Knowledge Graphs pilot and attach `existing-book` plans to their course material. Keep `workshop-reference` for short workshop design only; do not run it as a full course. Read the actual manuscript and source rights before adapting.
 2. In the original syllabus order, take `ready-for-draft-review` plans as private drafting candidates after checking the actual source, rights and open decisions. For `compare-scope`, decide whether to assimilate or use a separate book based on comparable learner outcomes, prerequisite level and assessed artifact, not titles. Use the top-level [Codex handoff](../../../codex-handoff.md).
 3. Do not draft from `hold-source` entries. They have candidate architecture and original exercises but no sufficient source match, or an explicit scope conflict. Unavailable and unassigned index entries are not silently treated as new courses.
 4. No public release, institutional attribution as author, administrative or grading content, signatures, or manuscript approvals are implied. Do not copy or publicly attach source syllabi.
@@ -29,7 +29,7 @@
 | 8 | [Building Virtual Environments (AI Plus One)](08-building-virtual-environments/) | `existing-book` | tentative-source | 8 |
 | 9 | [Application Engineering and Development (AI Plus One)](09-application-engineering-and-development/) | `existing-book` | matched-source | 7 |
 | 10 | [Data Science Engineering (AI Plus One)](10-data-science-engineering/) | `existing-book` | matched-source | 72 |
-| 11 | [Data Visualization and Infographics (AI Plus One)](11-data-visualization-and-infographics/) | `existing-book` | matched-source | 69 |
+| 11 | [Data Visualization and Infographics](11-data-visualization-and-infographics/) | `workshop-reference` | matched-source | 69 |
 | 12 | [Branding and AI (AI Plus One)](12-branding-and-ai/) | `existing-book` | matched-source | 67 |
 | 13 | [Validating AI (AI Plus One)](13-validating-ai/) | `existing-book` | matched-source | 3 |
 | 14 | [Prompt Engineering and Generative AI (AI Plus One)](14-prompt-engineering-and-generative-ai/) | `existing-book` | matched-source | 2 |

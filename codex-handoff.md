@@ -2,6 +2,12 @@
 
 Start with Corporate Finance. Then keep working through one comparable course-book family at a time. The deliverable is one maintained **Subject (AI Plus One)** edition per course scope, not a pile of clones and not another parallel copy of the same book. Use the lowercase kebab-case repo slug in the queue (these end in `-ai-one`). Keep the course number in source references, not the book title. Keep “AI” where it is part of the subject name, as in **Validating AI (AI Plus One)**.
 
+## Select the format first
+
+Use the [catalog](book-queue/) to distinguish the three formats. This workflow runs only the [course and textbook queue](book-queue/queue.tsv) and eligible syllabus blueprints. Do not run the [other-format inventory](book-queue/other-formats.tsv), its legacy family keys, or a `workshop-reference` blueprint through full-course production. Popular books are general-audience author projects, without AI Plus One branding. Workshops are short practical sessions or series, sometimes self-study and often noncredit; scope them around a task, a worked example, and a takeaway, not a semester. Work on those formats only under their own editorial brief.
+
+**Validating AI** is the course. **Computational Skepticism** is a separate [popular-book plan](book-queue/computational-skepticism.md) that may share source ideas without replacing or retiring the course.
+
 ## Get the inputs
 
 Use the signed-in GitHub account. Do not print credentials. Clone into separate workspaces; never fetch over local author edits.
@@ -30,11 +36,11 @@ Re-check recorded heads and visibility. Pin all actual inputs by full commit. If
 
 Maintain one queue with a row per comparable family: sources and pins, scope, stage, replacement repo, checks, owner decision, and blockers. Use one working family at a time until the first pass is stable. Then start the next blueprint while prior families wait for expert review. Do not start a paid API loop, continuous worker or additional service without a stated budget and user approval.
 
-Use the [ordered book queue](book-queue/) and its [machine-readable TSV](book-queue/queue.tsv) as the production order. Corporate Finance is first, followed by the named generic course-to-book priorities and the rest of the mapped families. Treat `ready` as permission to begin the blueprint, `compare` as edition/scope analysis first, and `hold` as planning only. If one row is awaiting a decision, record it and go on to the next actionable row. The [source triage](book-queue/source-triage.tsv) preserves unplaced candidates, aliases and backups without turning each into a new book.
+Use the [course and textbook TSV](book-queue/queue.tsv) as the production order. Corporate Finance is first, followed by the named generic course-to-book priorities and the rest of the mapped families. Treat `ready` as permission to begin the blueprint, `compare` as edition/scope analysis first, and `hold` as planning only. If one row is awaiting a decision, record it and go on to the next actionable row. The [source triage](book-queue/source-triage.tsv) preserves unplaced candidates, aliases and backups without turning each into a new book.
 
 ## Syllabus-only subjects from Fall 2026 and Spring 2027
 
-Use the [84 completed syllabus Blueprints](book-queue/syllabus-track/blueprints/) as the next candidate pool after the existing queue. Start from the existing-book mapping, compare routes, and source holds there rather than rerunning every Blueprint. Use the [syllabus track](book-queue/syllabus-track/) for provenance and the original inventory. Map each group to an existing manuscript or course first. If only a usable syllabus is available, create an original scope brief, run Blueprint `/scaffold silent`, then write the first draft in a private workspace and run the normal fact-check, AI Readiness, revision, figures and proof sequence. Silent mode skips conversational intake, not human release approval. Do not create one book per CRN, republish syllabi or claim drafting from a title alone. Log holds and keep going with the next eligible group.
+Use the [84 completed syllabus Blueprints](book-queue/syllabus-track/blueprints/) as the next candidate pool after the course queue. Skip any plan labeled `workshop-reference` in full-course production. Start from the existing-book mapping, compare routes, and source holds there rather than rerunning every Blueprint. Use the [syllabus track](book-queue/syllabus-track/) for provenance and the original inventory. Map each group to an existing manuscript or course first. If only a usable syllabus is available, create an original scope brief, run Blueprint `/scaffold silent`, then write the first draft in a private workspace and run the normal fact-check, AI Readiness, revision, figures and proof sequence. Silent mode skips conversational intake, not human release approval. Do not create one book per CRN, republish syllabi or claim drafting from a title alone. Log holds and keep going with the next eligible group.
 
 ## Publish AI Plus One, then make the superseded source books private
 

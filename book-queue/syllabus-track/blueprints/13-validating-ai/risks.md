@@ -8,4 +8,4 @@
 - **Overlap rule:** Existing Validating AI/Computational Skepticism assimilation target; adjacent design-of-agentic systems and output-validation titles only merge after method depth and practitioner goals match.
 - **Course data and rights:** Keep only factual scope signals; do not republish the syllabus, its assignments, or term and instructor details. Use original examples; check technical assertions against independent primary sources at the drafting stage.
 
-- Queue row **3**, **Validating AI (AI Plus One)**: nikbearbrown/computational-skepticism-for-ai.
+- Queue row **3**, **Validating AI (AI Plus One)**: nikbearbrown/info-7375-computational-skepticism-for-ai. The standalone manuscript also informs the distinct popular-book plan.

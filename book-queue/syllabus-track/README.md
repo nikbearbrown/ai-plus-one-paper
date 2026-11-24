@@ -6,7 +6,7 @@ This track extends the ordered book queue without turning each section into a bo
 - [Newton subjects](newton-subjects.tsv): one row per course code and named special topic, with a proposed reader-facing title or a reference to the existing book queue. Identical proposed titles across rows are one comparison group, not multiple new books.
 - [Other Fall leads](other-fall-leads.tsv): separate public-course pages and external sources from the earlier search; historical samples, presence-only catalog rows and unlabeled third-party copies do not become draft inputs.
 - [Completed private Blueprint handoff](blueprints/): 84 consolidated plans for the drafting session, including exact existing-book targets and source holds. Use this as the current route map.
-- [Syllabus queue](syllabus-queue.tsv): grouped subjects in a numbered handoff. Run the numbered existing book queue first as already instructed; proceed with eligible syllabus-led groups as time allows. Keep rows on hold when actual outline evidence is absent. Do not claim that a proposed title is a completed book.
+- [Syllabus queue](syllabus-queue.tsv): grouped subjects in a numbered handoff. Run the numbered course-and-textbook queue first; proceed with eligible syllabus-led groups as time allows. Do not turn a workshop reference into a full course. Keep rows on hold when actual outline evidence is absent. Do not claim that a proposed title is a completed book.
 
 ## Evidence counts
 

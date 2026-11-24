@@ -41,7 +41,7 @@ INFO 7374	Interdisc. Industry Proj Pract	Industry Project Practicum (AI Plus One
 INFO 7374	Machine Learning Med Devices	Machine Learning for Medical Devices (AI Plus One)	16540		hold-review-evidence		Expert review required; validate against Medical Device Software Engineering rather than merging by topic
 INFO 7374	ST: Adv Techniques With LLM	Advanced Language Models (AI Plus One)	16539,16544	35512,35516	compare-scope	2;57	Separate only if model training/adaptation and technical evaluation differ
 INFO 7374	ST: Cybersecure Audit & Comply	Cybersecurity Governance, Risk, and Compliance (AI Plus One)	16543		verify-syllabus-first		Compare Spring security GRC; defensive governance only
-INFO 7374	ST: Data Visualization	Data Visualization and Infographics (AI Plus One)	16541		existing-queue	69;71	Use relevant coverage, check programming variant
+INFO 7374	ST: Data Visualization	Data Visualization and Infographics	16541		existing-queue	69;71	Use relevant coverage, check programming variant
 INFO 7374	ST: Security GRC in the AI Era	Cybersecurity Governance, Risk, and Compliance (AI Plus One)		35515	verify-syllabus-first		Combine with Fall cybersecurity audit unless defensible specialized outcomes
 INFO 7374	ST: Trading System Engineering	Trading System Engineering (AI Plus One)	22537	42124,42718	compare-scope	9;105	Market data, simulation and system architecture if distinct; no live trading
 INFO 7374	UX Masterclass for Engineers	User Experience Design and Testing (AI Plus One)	16537		compare-scope	12;66	Compare with CSYE 7280 and Design Engineering

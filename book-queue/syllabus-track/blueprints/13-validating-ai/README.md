@@ -2,6 +2,8 @@
 
 **Private Blueprint only. Draft route: `existing-book`. Evidence: `matched-source`. No sign-off.**
 
+This is the course blueprint. [Computational Skepticism](../../../computational-skepticism.md) is a separate general-audience book plan.
+
 Check catalog scope, adoption level, and existing manuscript outcomes before creating a separate edition.
 
 Existing canonical queue row **3**, target `validating-ai-one`. Input source-queue row IDs: 13 (physical data rows in the earlier syllabus queue).

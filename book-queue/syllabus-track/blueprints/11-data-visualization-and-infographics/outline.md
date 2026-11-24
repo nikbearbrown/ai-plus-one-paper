@@ -1,6 +1,6 @@
-# Data Visualization and Infographics (AI Plus One): outline
+# Data Visualization and Infographics: outline
 
-**Private Blueprint only. Draft route: `existing-book`. Evidence: `matched-source`. No sign-off.**
+**Private Blueprint only. Draft route: `workshop-reference`. Evidence: `matched-source`. No sign-off.**
 
 1. Put one decision at the center
 2. Choose an encoding the data can support

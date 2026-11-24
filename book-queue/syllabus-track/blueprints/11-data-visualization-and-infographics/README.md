@@ -1,6 +1,8 @@
-# Data Visualization and Infographics (AI Plus One)
+# Data Visualization and Infographics
 
-**Private Blueprint only. Draft route: `existing-book`. Evidence: `matched-source`. No sign-off.**
+**Private Blueprint only. Draft route: `workshop-reference`. Evidence: `matched-source`. No sign-off.**
+
+This is source material for the **Data Visualization and Infographics workshop series**, not a separate course or textbook. Choose short, independently usable workshop modules from the chapter plan.
 
 Check catalog scope, adoption level, and existing manuscript outcomes before creating a separate edition.
 

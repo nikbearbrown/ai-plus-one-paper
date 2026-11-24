@@ -1,6 +1,6 @@
 # Vision and positioning
 
-**Private Blueprint only. Draft route: `existing-book`. Evidence: `matched-source`. No sign-off.**
+**Private Blueprint only. Draft route: `workshop-reference`. Evidence: `matched-source`. No sign-off.**
 
 ## Evidence from the syllabus
 

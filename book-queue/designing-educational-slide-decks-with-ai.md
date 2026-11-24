@@ -1,8 +1,8 @@
-# Designing Educational Slide Decks with AI (AI Plus One)
+# Designing Educational Slide Decks with AI
 
-**One textbook, queue #37.** Combines the former *AI for Slides* and *Slide Design and Authoring* entries. Readers are teachers, faculty, and instructional designers who want to turn course materials into decks that teach, whether or not they write code.
+**One workshop series, inventory #37.** Combines the former *AI for Slides* and *Slide Design and Authoring* entries. Readers are teachers, faculty, and instructional designers who want to turn course materials into decks that teach, whether or not they write code.
 
-## Keep one teaching spine
+## Keep one teaching sequence
 
 The two [AI for Slides](https://github.com/nikbearbrown/ai-for-slides-a-practitioners-guide) and [Brutalist HTML/D3](https://github.com/nikbearbrown/brutalist-using-d3-and-html-to-make-slide-decks) source READMEs list the same 12 chapter topics in the same order, from overloaded slide-documents through a diagnostic checklist. Their descriptions differ. At drafting, compare the actual chapters and examples at pinned commits before choosing a base. Select one explanation and one strong example for each shared concept; keep materially different techniques as alternatives, not duplicate chapters. The tool repositories are examples and implementation resources, not extra books.
 
@@ -16,4 +16,4 @@ The two [AI for Slides](https://github.com/nikbearbrown/ai-for-slides-a-practiti
 
 **Worked example:** Turn one dense course handout on correlation versus causation into a six-slide mini-lesson. Students predict what a scatterplot shows before the data labels appear, compare two explanations, and answer a short transfer question. Check the generated plot against the underlying synthetic data, then supply a text equivalent and notes that make the self-study version usable without a presenter.
 
-The original books and [Brutalist Slides](https://github.com/nikbearbrown/brutalist-slides) and [Figma Slides](https://github.com/nikbearbrown/figma-slides) tool repositories stay unchanged. This is the consolidated scope for the [drafting session](../codex-handoff.md), not a combined manuscript or publication.
+The original books and [Brutalist Slides](https://github.com/nikbearbrown/brutalist-slides) and [Figma Slides](https://github.com/nikbearbrown/figma-slides) tool repositories stay unchanged. Use the units as short practical sessions or self-study modules, with one deck as the shared project. This is a workshop plan, not a course, merged manuscript, or scheduled event.
