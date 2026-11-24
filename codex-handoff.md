@@ -34,6 +34,10 @@ Re-check recorded heads and visibility. Pin all actual inputs by full commit. If
 5. **Make figures and previews.** Use CAJAL to plan teaching visuals; validate accuracy, captions, accessibility, and rights separately from design/layout. Use the default design or an authorized replacement profile. Produce requested Markdown, EPUB, LaTeX, standalone HTML and IMSCC review proofs where supported. Do not claim Canvas import from a manifest or run a live import.
 6. **Hand off to the expert.** Put the editable source, supporting evidence, figures, preview links, and unresolved issues in the new review repo, starting with `corporate-finance-ai-one`. The title is **Corporate Finance (AI Plus One)**. The AI Plus One repository is the public replacement. Prepare review materials in a private workspace. Create or publish the new repo as **public**, with only the approved, rights-cleared edition and public-safe evidence. Never publish the private review packet or private source history. MCP is a handoff channel only if the service is actually configured and verified; otherwise hand off the same packet in the repo. The final pass belongs to the human expert.
 
+## Standardize the book README
+
+Use the [book README standard](book-queue/readme-standard.md) for every book repository. Check the reader-facing table of contents against the actual chapter files before linking a new draft from the catalog.
+
 ## Keep the queue moving without breaking old links
 
 Maintain one queue with a row per comparable family: sources and pins, scope, stage, replacement repo, checks, owner decision, and blockers. Use one working family at a time until the first pass is stable. Then start the next blueprint while prior families wait for expert review. Do not start a paid API loop, continuous worker or additional service without a stated budget and user approval.
