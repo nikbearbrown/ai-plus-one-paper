@@ -1,0 +1,5 @@
+Source	Role	Link	Status
+AI Readiness skill	Tool description and boundaries	https://github.com/nikbearbrown/ai-readiness	Reference only; no workshop tool execution
+AI Readiness framework	Six readiness questions and human decisions	https://github.com/nikbearbrown/ai-readiness/blob/2c0c51ef090230aacaf0d45e0b2a141c39e125b6/docs/framework.md	Read during planning; recheck on the day of facilitation
+Author direction	Format		Short workshop, not a full course or book; skill separate
+Synthetic valuation example	Workshop exercise	chapters-spec.md	Original example; arithmetic independently checked

@@ -1,0 +1,6 @@
+id	type	locator	observed	use_boundary
+1	publisher	https://link.springer.com/book/10.1007/979-8-8688-2439-5	First edition by Shesh Narayan Gupta; Apress; eBook ISBN matches local filename; 25 chapters	Bibliography and topic scope only; no inferred license
+2	local source	bear-textbooks/books/generative-ai-for-game-development/979-8-8688-2439-5.epub; bear-textbooks/books/generative-ai-for-game-development/979-8-8688-2439-5.pdf	Commercial-format reading copies; no standalone author-owned master verified	Preserve; do not transfer or republish
+3	local media source	bear-textbooks/books/generative-ai-for-game-development/GenerativeAIForGaming/GenerativeAIForGaming.md; youtube/SERIES-PLAN.md	Narration compilation and media map distinct from the commercial book and from an editorial Blueprint	Confirm scope only; no excerpts, examples or assets reused
+4	queue companion	book-queue/queue.tsv #64; #108	Prior scope boundaries and overlap leads	Alignment only; no inferred edition or rights
+5	internal comparison	Game AI; Game Reinforcement Learning; CSYE 7270; Walker	Conceptual neighboring materials	Do not merge or copy; inspect exact chapters before later drafting

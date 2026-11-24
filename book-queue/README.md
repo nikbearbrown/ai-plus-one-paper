@@ -6,7 +6,7 @@ Browse by format. Within each format, titles are alphabetized by topic. Links po
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
 
-For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.
+For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.
 
 ## Popular books
 
@@ -230,9 +230,9 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Agentic Filmmaking (AI Plus One) | Compare sources | [agentic-filmmaking-book](https://github.com/nikbearbrown/agentic-filmmaking-book) · [ai-filmmaking](https://github.com/nikbearbrown/ai-filmmaking) |
 | Building Virtual Environments (AI Plus One) | Ready to scope | [Blueprint](syllabus-track/blueprints/08-building-virtual-environments/) · [csye-7270-building-virtual-environments](https://github.com/nikbearbrown/csye-7270-building-virtual-environments) |
 | Creative Direction (AI Plus One) | Compare sources | [agentic-creative-direction](https://github.com/nikbearbrown/agentic-creative-direction) |
-| Game AI (AI Plus One) | Compare sources | [game-ai](https://github.com/nikbearbrown/game-ai) · Local material (no GitHub copy linked) |
-| Game Reinforcement Learning (AI Plus One) | On hold | Local material (no GitHub copy linked) |
-| Generative AI for Game Development (AI Plus One) | Compare sources | Local material (no GitHub copy linked) |
+| Game AI (AI Plus One) | Compare sources | [Existing Blueprint and handoff](local-blueprints/13-game-ai/) · [game-ai](https://github.com/nikbearbrown/game-ai) · Local material (no GitHub copy linked) |
+| Game Reinforcement Learning (AI Plus One) | On hold | [Existing local Blueprint handoff](local-blueprints/14-game-reinforcement-learning/) · Local material (no GitHub copy linked) |
+| Generative AI for Game Development (AI Plus One) | Compare sources | [New Blueprint](local-blueprints/64-generative-ai-for-game-development/) · Local material (no GitHub copy linked) |
 | Interactive Storytelling (AI Plus One) | On hold | [AI-in-Interactive-Storytelling](https://github.com/nikbearbrown/AI-in-Interactive-Storytelling) |
 
 ### Humanities and social sciences
@@ -343,7 +343,7 @@ Short, practical sessions or series. Some are self-study, often without credit; 
 
 | Title | Status | Available material |
 | --- | --- | --- |
-| AI for Course Design | Compare sources | [ai-readiness](https://github.com/nikbearbrown/ai-readiness) |
+| AI Readiness | Ready to scope | [Workshop Blueprint](workshop-blueprints/75-ai-readiness/) · [AI Readiness skill](https://github.com/nikbearbrown/ai-readiness) |
 | Claude Code for Students | Ready to scope | [claude-code-for-students](https://github.com/nikbearbrown/claude-code-for-students) |
 | Claude Code for Teachers | Ready to scope | [claude-code-for-teachers](https://github.com/nikbearbrown/claude-code-for-teachers) |
 | Claude for Education | Ready to scope | [claude-for-education-a-practitioners-guide](https://github.com/nikbearbrown/claude-for-education-a-practitioners-guide) |
@@ -367,7 +367,7 @@ Short, practical sessions or series. Some are self-study, often without credit; 
 
 | Title | Status | Available material |
 | --- | --- | --- |
-| Animation with Blender | On hold | Local material (no GitHub copy linked) |
+| Animation with Blender | On hold | [Existing workshop Blueprint handoff](local-blueprints/107-animation-with-blender/) · Local material (no GitHub copy linked) |
 | Music, Imitation, and AI | On hold | [Musical-Imitation-Game](https://github.com/nikbearbrown/Musical-Imitation-Game) · [Musical-Endogeneity](https://github.com/nikbearbrown/Musical-Endogeneity) |
 
 ### Workshops: Humanities and social sciences

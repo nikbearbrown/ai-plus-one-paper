@@ -21,6 +21,8 @@ Use the signed-in GitHub account. Do not print credentials. Clone into separate 
 | [Corporate Finance with Excel, Python and LLMs](https://github.com/nikbearbrown/Corporate-Finance-with-Excel-Python-and-LLMs) | Treat as a source lead for the consolidated [Computational Finance](book-queue/computational-finance.md) labs; consult for Corporate Finance-specific examples where appropriate. The TOC differs and the draft has one substantive chapter plus extras. Do not infer retirement or reuse rights. At inventory time main began at `5dcd6841`. |
 | [AI for Education](https://github.com/nikbearbrown/ai-for-education) | Use its book and course indexes to discover candidates, not as proof of duplication or reuse rights. |
 
+Check the [local Blueprint inventory](book-queue/local-blueprints/) before scaffolding again. Reuse existing full plans and transfer only authorized source material.
+
 Re-check recorded heads and visibility. Pin all actual inputs by full commit. If you lack access to a possible source, report that honestly, do not fabricate its contribution, and keep any retirement decision pending.
 
 ## Run a single family

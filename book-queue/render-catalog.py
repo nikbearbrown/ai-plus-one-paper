@@ -77,6 +77,11 @@ BRIEFS = {
     "9": ("Consolidated scope", "computational-finance.md"),
     "31": ("Revised opening and plan", "gemini-notebook-for-education.md"),
     "37": ("Consolidated scope", "designing-educational-slide-decks-with-ai.md"),
+    "13": ("Existing Blueprint and handoff", "local-blueprints/13-game-ai/"),
+    "14": ("Existing local Blueprint handoff", "local-blueprints/14-game-reinforcement-learning/"),
+    "64": ("New Blueprint", "local-blueprints/64-generative-ai-for-game-development/"),
+    "75": ("Workshop Blueprint", "workshop-blueprints/75-ai-readiness/"),
+    "107": ("Existing workshop Blueprint handoff", "local-blueprints/107-animation-with-blender/"),
     "139": ("Popular-book plan", "computational-skepticism.md"),
 }
 QUEUE_STATUS = {"ready": "Ready to scope", "compare": "Compare sources", "hold": "On hold"}
@@ -147,10 +152,11 @@ def catalog():
             links = []
             if key in BRIEFS:
                 label, link = BRIEFS[key]
-                assert (ROOT / link).is_file(), link
+                target = ROOT / link
+                assert target.is_file() or (target / "README.md").is_file(), link
                 links.append(f"[{label}]({link})")
             links.extend(blueprint_link(b, "Blueprint reference" if key in other else "Blueprint") for b in mapped.get(key, []))
-            links.extend(repo_links(q["Primary source(s)"]))
+            links.extend(["[AI Readiness skill](https://github.com/nikbearbrown/ai-readiness)"] if key == "75" else repo_links(q["Primary source(s)"]))
             assert links, key
             rows.append((q["Book title"], QUEUE_STATUS[q["Plan stage"]], links, q.get("Format", "Course")))
         for key in b_ids.split():
@@ -181,7 +187,7 @@ def catalog():
     out.extend(f"- [{name}](#{anchor(name)}) ({totals[fmt]})" for name, fmt, _ in formats)
     out += [
         "",
-        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
+        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
         "",
     ]
     for name, fmt, description in formats:
