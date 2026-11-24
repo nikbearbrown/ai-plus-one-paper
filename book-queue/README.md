@@ -76,7 +76,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Reinforcement Learning (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/63-reinforcement-learning-ai-one.md) · [Reinforcement-Learning-for-Agentic-AI](https://github.com/nikbearbrown/Reinforcement-Learning-for-Agentic-AI) |
 | Self-Improving AI (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/72-self-improving-ai/) |
 | Semantic Intelligence in Language Models (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/38-semantic-intelligence-in-language-models/) |
-| Validating AI (AI Plus One) | Compare sources | [Blueprint](syllabus-track/blueprints/13-validating-ai/) · [info-7375-computational-skepticism-for-ai](https://github.com/nikbearbrown/info-7375-computational-skepticism-for-ai) |
+| Validating AI (AI Plus One) | Compare sources | [Public compact rough draft](https://github.com/nikbearbrown/validating-ai-one) · [Blueprint](syllabus-track/blueprints/13-validating-ai/) · [info-7375-computational-skepticism-for-ai](https://github.com/nikbearbrown/info-7375-computational-skepticism-for-ai) |
 | Validating AI Output (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/80-validating-ai-output-ai-one.md) · [validating-output-from-ai-systems](https://github.com/nikbearbrown/validating-output-from-ai-systems) |
 
 ### Biology, medicine, and health
