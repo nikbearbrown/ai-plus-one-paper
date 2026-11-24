@@ -10,6 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 BLUEPRINTS = ROOT / "syllabus-track" / "blueprints"
+EDITORIAL_BLUEPRINTS = ROOT / "editorial-blueprints"
 
 # Human-assigned subjects, not inherited from production tracks. Mapped
 # blueprints inherit the canonical queue title's subject and get no extra row.
@@ -77,12 +78,19 @@ BRIEFS = {
     "9": ("Consolidated scope", "computational-finance.md"),
     "31": ("Revised opening and plan", "gemini-notebook-for-education.md"),
     "37": ("Consolidated scope", "designing-educational-slide-decks-with-ai.md"),
-    "13": ("Existing Blueprint and handoff", "local-blueprints/13-game-ai/"),
-    "14": ("Existing local Blueprint handoff", "local-blueprints/14-game-reinforcement-learning/"),
-    "64": ("New Blueprint", "local-blueprints/64-generative-ai-for-game-development/"),
-    "75": ("Workshop Blueprint", "workshop-blueprints/75-ai-readiness/"),
-    "107": ("Existing workshop Blueprint handoff", "local-blueprints/107-animation-with-blender/"),
-    "139": ("Popular-book plan", "computational-skepticism.md"),
+    "139": ("Editorial brief", "computational-skepticism.md"),
+}
+# Existing complete plans (or verified handoffs to complete local plans).
+# These are distinct from source briefs and reference-only syllabus blueprints.
+EXISTING_PLANS = {
+    "13": "local-blueprints/13-game-ai/",
+    "14": "local-blueprints/14-game-reinforcement-learning/",
+    "55": "local-blueprints/55-bayesian-probability.md",
+    "64": "local-blueprints/64-generative-ai-for-game-development/",
+    "65": "local-blueprints/65-agentic-filmmaking.md",
+    "66": "local-blueprints/66-creative-engineering.md",
+    "75": "workshop-blueprints/75-ai-readiness/",
+    "107": "local-blueprints/107-animation-with-blender/",
 }
 QUEUE_STATUS = {"ready": "Ready to scope", "compare": "Compare sources", "hold": "On hold"}
 BLUEPRINT_STATUS = {
@@ -122,18 +130,42 @@ def repo_links(value):
     return links
 
 
+def plan_link(path, label="Blueprint"):
+    assert (ROOT / path).is_file() or (ROOT / path / "README.md").is_file(), path
+    return f"[{label}]({path})"
+
+
 def blueprint_link(row, label="Blueprint"):
     path = BLUEPRINTS / row["directory"]
-    assert (path / "README.md").is_file(), path
-    return f"[{label}]({path.relative_to(ROOT).as_posix()}/)"
+    for required in ("README.md", "vision.md", "architecture.md", "outline.md",
+                     "chapters-spec.md", "risks.md", "sources.tsv"):
+        assert (path / required).is_file(), (path, required)
+    return plan_link(path.relative_to(ROOT).as_posix() + "/", label)
+
+
+def editorial_plan_path(key, row, legacy_name=False):
+    slug = row.get("Public target repo slug") or row.get("Legacy source-family key")
+    if not slug and key == "139":
+        slug = "computational-skepticism"
+    if row.get("Format") and not legacy_name:
+        slug = re.sub(r"[^a-z0-9]+", "-", row["Book title"].lower()).strip("-")
+    assert slug and re.fullmatch(r"[a-z0-9-]+", slug), (key, slug)
+    return EDITORIAL_BLUEPRINTS / f"{int(key):02d}-{slug}.md"
+
+
+def indexed_tsv(path, key):
+    rows = read_tsv(path)
+    result = {row[key]: row for row in rows}
+    assert len(rows) == len(result) and "" not in result, (path, "Missing or duplicate identifier")
+    return result
 
 
 def catalog():
-    queue = {row["Order"]: row for row in read_tsv(ROOT / "queue.tsv")}
-    other = {row["Order"]: row for row in read_tsv(ROOT / "other-formats.tsv")}
+    queue = indexed_tsv(ROOT / "queue.tsv", "Order")
+    other = indexed_tsv(ROOT / "other-formats.tsv", "Order")
     assert not set(queue) & set(other)
     entries = queue | other
-    blueprints = {row["blueprint id"]: row for row in read_tsv(BLUEPRINTS / "index.tsv")}
+    blueprints = indexed_tsv(BLUEPRINTS / "index.tsv", "blueprint id")
     mapped = {}
     for row in blueprints.values():
         parent = row["canonical book queue row"]
@@ -142,6 +174,8 @@ def catalog():
             assert (parent in other) == (row["draft route"] == "workshop-reference"), row
             mapped.setdefault(parent, []).append(row)
 
+    assert EXISTING_PLANS.keys() <= entries.keys()
+    used_editorial = set()
     used_q, used_b, sections = set(), set(), []
     for topic, (q_ids, b_ids) in TOPICS.items():
         rows = []
@@ -149,13 +183,25 @@ def catalog():
             assert key not in used_q, key
             used_q.add(key)
             q = entries[key]
-            links = []
+            full_plans = [b for b in mapped.get(key, []) if b["draft route"] != "workshop-reference"]
+            if key in EXISTING_PLANS:
+                assert not full_plans, key
+                links = [plan_link(EXISTING_PLANS[key])]
+            elif full_plans:
+                links = [blueprint_link(b) for b in full_plans]
+            else:
+                path = editorial_plan_path(key, q)
+                assert path.is_file(), f"Missing editorial blueprint: #{key} {path.name}"
+                contents = path.read_text(encoding="utf-8")
+                assert contents.startswith(f"# {q['Book title']}\n"), f"Wrong title: {path.name}"
+                assert len(contents) > 500, f"Blueprint is too short to be useful: {path.name}"
+                used_editorial.add(path)
+                links = [plan_link(path.relative_to(ROOT).as_posix())]
             if key in BRIEFS:
                 label, link = BRIEFS[key]
-                target = ROOT / link
-                assert target.is_file() or (target / "README.md").is_file(), link
-                links.append(f"[{label}]({link})")
-            links.extend(blueprint_link(b, "Blueprint reference" if key in other else "Blueprint") for b in mapped.get(key, []))
+                links.append(plan_link(link, label))
+            links.extend(blueprint_link(b, "Course reference") for b in mapped.get(key, [])
+                         if b["draft route"] == "workshop-reference")
             links.extend(["[AI Readiness skill](https://github.com/nikbearbrown/ai-readiness)"] if key == "75" else repo_links(q["Primary source(s)"]))
             assert links, key
             rows.append((q["Book title"], QUEUE_STATUS[q["Plan stage"]], links, q.get("Format", "Course")))
@@ -167,6 +213,9 @@ def catalog():
             rows.append((b["title"], BLUEPRINT_STATUS[b["draft route"]], [blueprint_link(b)], "Course"))
         sections.append((topic, sorted(rows, key=lambda row: row[0].casefold())))
 
+    assert used_editorial == set(EDITORIAL_BLUEPRINTS.glob("[0-9]*.md")), (
+        "Unlinked editorial blueprints", set(EDITORIAL_BLUEPRINTS.glob("[0-9]*.md")) - used_editorial
+    )
     assert used_q == set(entries), (set(entries) - used_q, used_q - set(entries))
     assert used_b == {key for key, row in blueprints.items() if not row["canonical book queue row"]}
     titles = [x[0].casefold() for _, rows in sections for x in rows]
@@ -181,13 +230,13 @@ def catalog():
     out = [
         "# Books, courses, and workshops",
         "",
-        "Browse by format. Within each format, titles are alphabetized by topic. Links point to available sources or plans, not promised releases. Some sources require GitHub access. Local material is labeled.",
+        "Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.",
         "",
     ]
     out.extend(f"- [{name}](#{anchor(name)}) ({totals[fmt]})" for name, fmt, _ in formats)
     out += [
         "",
-        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
+        "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
         "",
     ]
     for name, fmt, description in formats:
@@ -198,7 +247,7 @@ def catalog():
         out.extend(f"- [{topic}](#{anchor(prefix + topic)}) ({len(rows)})" for topic, rows in active)
         out.append("")
         for topic, rows in active:
-            out += [f"### {prefix}{topic}", "", "| Title | Status | Available material |", "| --- | --- | --- |"]
+            out += [f"### {prefix}{topic}", "", "| Title | Status | Blueprint and source material |", "| --- | --- | --- |"]
             for title, status, links, _ in rows:
                 out.append(f"| {cell(title)} | {status} | {' · '.join(links)} |")
             out.append("")

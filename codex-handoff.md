@@ -21,7 +21,7 @@ Use the signed-in GitHub account. Do not print credentials. Clone into separate 
 | [Corporate Finance with Excel, Python and LLMs](https://github.com/nikbearbrown/Corporate-Finance-with-Excel-Python-and-LLMs) | Treat as a source lead for the consolidated [Computational Finance](book-queue/computational-finance.md) labs; consult for Corporate Finance-specific examples where appropriate. The TOC differs and the draft has one substantive chapter plus extras. Do not infer retirement or reuse rights. At inventory time main began at `5dcd6841`. |
 | [AI for Education](https://github.com/nikbearbrown/ai-for-education) | Use its book and course indexes to discover candidates, not as proof of duplication or reuse rights. |
 
-Check the [local Blueprint inventory](book-queue/local-blueprints/) before scaffolding again. Reuse existing full plans and transfer only authorized source material.
+Start with the Blueprint link in the catalog row. The [editorial blueprint set](book-queue/editorial-blueprints/) fills planning gaps; the syllabus plans and [local Blueprint inventory](book-queue/local-blueprints/) point to more developed work. Reuse existing full plans rather than scaffolding again. For a compact plan, compare the actual sources, confirm outcomes and assessment, then expand the plan where needed before drafting. Transfer only authorized source material.
 
 Re-check recorded heads and visibility. Pin all actual inputs by full commit. If you lack access to a possible source, report that honestly, do not fabricate its contribution, and keep any retirement decision pending.
 
@@ -38,7 +38,7 @@ Re-check recorded heads and visibility. Pin all actual inputs by full commit. If
 
 Maintain one queue with a row per comparable family: sources and pins, scope, stage, replacement repo, checks, owner decision, and blockers. Use one working family at a time until the first pass is stable. Then start the next blueprint while prior families wait for expert review. Do not start a paid API loop, continuous worker or additional service without a stated budget and user approval.
 
-Use the [course and textbook TSV](book-queue/queue.tsv) as the production order. Corporate Finance is first, followed by the named generic course-to-book priorities and the rest of the mapped families. Treat `ready` as permission to begin the blueprint, `compare` as edition/scope analysis first, and `hold` as planning only. If one row is awaiting a decision, record it and go on to the next actionable row. The [source triage](book-queue/source-triage.tsv) preserves unplaced candidates, aliases and backups without turning each into a new book.
+Use the [course and textbook TSV](book-queue/queue.tsv) as the production order. Corporate Finance is first, followed by the named generic course-to-book priorities and the rest of the mapped families. Treat `ready` as ready for Blueprint review and source pinning, `compare` as edition/scope analysis first, and `hold` as planning only. A Blueprint does not change the route or sign the author gate. If one row is awaiting a decision, record it and go on to the next actionable row. The [source triage](book-queue/source-triage.tsv) preserves unplaced candidates, aliases and backups without turning each into a new book.
 
 ## Syllabus-only subjects from Fall 2026 and Spring 2027
 
