@@ -228,7 +228,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Title | Status | Blueprint and source material |
 | --- | --- | --- |
 | Agentic Filmmaking (AI Plus One) | Compare sources | [Blueprint](local-blueprints/65-agentic-filmmaking.md) · [agentic-filmmaking-book](https://github.com/nikbearbrown/agentic-filmmaking-book) · [ai-filmmaking](https://github.com/nikbearbrown/ai-filmmaking) |
-| Building Virtual Environments (AI Plus One) | Ready to scope | [Blueprint](syllabus-track/blueprints/08-building-virtual-environments/) · [csye-7270-building-virtual-environments](https://github.com/nikbearbrown/csye-7270-building-virtual-environments) |
+| Building Virtual Environments (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/building-virtual-environments-ai-one) · [Blueprint](syllabus-track/blueprints/08-building-virtual-environments/) · [csye-7270-building-virtual-environments](https://github.com/nikbearbrown/csye-7270-building-virtual-environments) |
 | Creative Direction (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/68-creative-direction-ai-one.md) · [agentic-creative-direction](https://github.com/nikbearbrown/agentic-creative-direction) |
 | Game AI (AI Plus One) | Compare sources | [Blueprint](local-blueprints/13-game-ai/) · [game-ai](https://github.com/nikbearbrown/game-ai) · Local material (no GitHub copy linked) |
 | Game Reinforcement Learning (AI Plus One) | On hold | [Blueprint](local-blueprints/14-game-reinforcement-learning/) · Local material (no GitHub copy linked) |
