@@ -165,7 +165,7 @@ def verified_draft_links(queue, blueprints):
     # private seed in the migration register must not make a public link.
     drafts = indexed_tsv(ROOT / "public-drafts.tsv", "id")
     if not drafts:
-        return {}
+        return {}, []
     targets = indexed_tsv(ROOT / "repo-migration" / "catalog-migration-plan.tsv", "id")
     allowed = {f"queue:{key}": queue[key]["Book title"] for key in queue}
     allowed.update({
@@ -174,7 +174,7 @@ def verified_draft_links(queue, blueprints):
         if not row["canonical book queue row"] and row["draft route"] != "workshop-reference"
     })
     labels = {"excerpt": "Public draft excerpt", "compact": "Public compact rough draft", "manuscript": "Public rough draft"}
-    links, used_slugs = {}, set()
+    links, used_slugs, reading_rows = {}, set(), []
     for key, row in drafts.items():
         slug = row["repo_slug"]
         assert key in allowed and key in targets, f"Not a canonical course draft: {key}"
@@ -185,8 +185,17 @@ def verified_draft_links(queue, blueprints):
         assert re.fullmatch(r"[0-9a-f]{40}", row["verified_commit"]), f"Invalid verified commit for: {key}"
         assert row["coverage"] in labels, f"Unknown draft coverage for: {key}"
         used_slugs.add(slug)
-        links[key] = f"[{labels[row['coverage']]}](https://github.com/nikbearbrown/{slug})"
-    return links
+        base = f"https://github.com/nikbearbrown/{slug}"
+        links[key] = f"[{labels[row['coverage']]}]({base})"
+        chapter = row.get("start_path", "")
+        assert re.fullmatch(r"chapters/[0-9]+-[a-z0-9]+(?:-[a-z0-9]+)*[.]md", chapter), f"Missing or invalid first chapter for: {key}"
+        chapter_title = row.get("start_title", "").strip()
+        focus = row.get("reader_focus", "").strip()
+        assert chapter_title and focus, f"Missing reader metadata for: {key}"
+        assert not re.match(r"Chapter\s+\d+[ :]", chapter_title, re.I), f"Repeated chapter number for: {key}"
+        assert all(not re.search(r"[\[\]<>|\r\n]", value) for value in (chapter_title, focus)), f"Invalid reading list text for: {key}"
+        reading_rows.append((allowed[key], base, chapter, chapter_title, focus))
+    return links, reading_rows
 
 
 def catalog():
@@ -195,7 +204,7 @@ def catalog():
     assert not set(queue) & set(other)
     entries = queue | other
     blueprints = indexed_tsv(BLUEPRINTS / "index.tsv", "blueprint id")
-    draft_links = verified_draft_links(queue, blueprints)
+    draft_links, reading_rows = verified_draft_links(queue, blueprints)
     mapped = {}
     for row in blueprints.values():
         parent = row["canonical book queue row"]
@@ -268,12 +277,26 @@ def catalog():
         "Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.",
         "",
     ]
+    if reading_rows:
+        out.append(f"- [Read the public drafts](#read-the-public-drafts) ({len(reading_rows)})")
     out.extend(f"- [{name}](#{anchor(name)}) ({totals[fmt]})" for name, fmt, _ in formats)
     out += [
         "",
         "For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [title repo migration](repo-migration/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.",
         "",
     ]
+    if reading_rows:
+        out += [
+            "## Read the public drafts",
+            "",
+            "Start with a chapter or open the book for its full contents. These are working drafts; the planning statuses below describe source and production decisions.",
+            "",
+            "| Book | Start reading | What you will work on |",
+            "| --- | --- | --- |",
+        ]
+        for title, base, chapter, chapter_title, focus in reading_rows:
+            out.append(f"| [{cell(title)}]({base}) | [{chapter_title}]({base}/blob/main/{chapter}) | {focus} |")
+        out.append("")
     for name, fmt, description in formats:
         out += [f"## {name}", "", description, ""]
         active = [(topic, [r for r in rows if r[3] == fmt]) for topic, rows in sections]

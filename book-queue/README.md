@@ -2,11 +2,29 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
+- [Read the public drafts](#read-the-public-drafts) (10)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
 
 For production: [course and textbook queue](queue.tsv) · [syllabus blueprint index](syllabus-track/blueprints/) · [popular book and workshop inventory](other-formats.tsv) · [editorial blueprints](editorial-blueprints/) · [local Blueprint inventory](local-blueprints/) · [title repo migration](repo-migration/) · [source triage](source-triage.tsv) · [Codex handoff](../codex-handoff.md). A hold is planning only; no row implies rights clearance, publication, or enrollment.
+
+## Read the public drafts
+
+Start with a chapter or open the book for its full contents. These are working drafts; the planning statuses below describe source and production decisions.
+
+| Book | Start reading | What you will work on |
+| --- | --- | --- |
+| [Corporate Finance (AI Plus One)](https://github.com/nikbearbrown/corporate-finance-ai-one) | [A Good Investment the Firm Cannot Yet Make](https://github.com/nikbearbrown/corporate-finance-ai-one/blob/main/chapters/01-price-the-decision.md) | Evaluate investments and funding choices inside a firm. |
+| [Prompt Engineering and Generative AI (AI Plus One)](https://github.com/nikbearbrown/prompt-engineering-and-generative-ai-one) | [Describe the task before writing prompts](https://github.com/nikbearbrown/prompt-engineering-and-generative-ai-one/blob/main/chapters/01-describe-the-task.md) | Specify tasks, ground answers in evidence, and check generative workflows. |
+| [Validating AI (AI Plus One)](https://github.com/nikbearbrown/validating-ai-one) | [Make the claim small enough to check](https://github.com/nikbearbrown/validating-ai-one/blob/main/chapters/01-make-the-claim-testable.md) | Test an AI claim and decide what the evidence supports. |
+| [Algorithms (AI Plus One)](https://github.com/nikbearbrown/algorithms-ai-one) | [Write the contract and count the work](https://github.com/nikbearbrown/algorithms-ai-one/blob/main/chapters/01-contract.md) | State an algorithm’s contract, prove correctness, and count the work. |
+| [Principles of Finance (AI Plus One)](https://github.com/nikbearbrown/principles-of-finance-ai-one) | [Find the Finance Decision](https://github.com/nikbearbrown/principles-of-finance-ai-one/blob/main/chapters/01-find-the-finance-decision.md) | Start with statements, cash flows, valuation, and risk. |
+| [Introductory Statistics (AI Plus One)](https://github.com/nikbearbrown/introductory-statistics-ai-one) | [Ask what the data can represent](https://github.com/nikbearbrown/introductory-statistics-ai-one/blob/main/chapters/01-representation.md) | Check what the data can represent and what an inference supports. |
+| [Application Engineering and Development (AI Plus One)](https://github.com/nikbearbrown/application-engineering-and-development-ai-one) | [Turn a user need into a domain model](https://github.com/nikbearbrown/application-engineering-and-development-ai-one/blob/main/chapters/01-model-the-work.md) | Model, build, and check a small Java application. |
+| [Building Virtual Environments (AI Plus One)](https://github.com/nikbearbrown/building-virtual-environments-ai-one) | [Make a scene you can reason about](https://github.com/nikbearbrown/building-virtual-environments-ai-one/blob/main/chapters/01-scene.md) | Build and inspect a 3D scene with an optional Godot project. |
+| [Computational Finance (AI Plus One)](https://github.com/nikbearbrown/computational-finance-ai-one) | [Specify the Financial Question Before Building the Model](https://github.com/nikbearbrown/computational-finance-ai-one/blob/main/chapters/01-specify-the-financial-question.md) | Build and cross-check instrument, risk, and portfolio models in Excel or Python. |
+| [Contemporary Mathematics (AI Plus One)](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) | [Count what you can serve](https://github.com/nikbearbrown/contemporary-mathematics-ai-one/blob/main/chapters/01-count-what-you-can-serve.md) | Make five quantitative decisions for one fictional community event. |
 
 ## Popular books
 
@@ -264,7 +282,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Algebra (AI Plus One) | On hold | [Blueprint](editorial-blueprints/106-algebra-ai-one.md) · [math-algebra](https://github.com/nikbearbrown/math-algebra) |
 | Calculus (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/22-calculus-ai-one.md) · [math-calculus](https://github.com/nikbearbrown/math-calculus) |
 | College Algebra (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/21-college-algebra-ai-one.md) · [math-college-algebra](https://github.com/nikbearbrown/math-college-algebra) |
-| Contemporary Mathematics (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/10-contemporary-mathematics-ai-one.md) · [math-contemporary-mathematics](https://github.com/nikbearbrown/math-contemporary-mathematics) |
+| Contemporary Mathematics (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) · [Blueprint](editorial-blueprints/10-contemporary-mathematics-ai-one.md) · [math-contemporary-mathematics](https://github.com/nikbearbrown/math-contemporary-mathematics) |
 | Discrete Structures (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/15-discrete-structures/) |
 | Elliptic Curves and Modular Forms (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/41-elliptic-curves-and-modular-forms/) |
 | Mathematics for Physics Volume 1 (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/56-mathematics-for-physics-vol-1-ai-one.md) · [math-for-physics](https://github.com/nikbearbrown/math-for-physics) |

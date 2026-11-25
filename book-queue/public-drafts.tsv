@@ -1,10 +1,11 @@
-id	repo_slug	verified_commit	coverage
-queue:1	corporate-finance-ai-one	25b89db49b3bcc92fee35a79d185ee0c6edcb07c	manuscript
-queue:2	prompt-engineering-and-generative-ai-one	9068b7f7bbbdddbfecffd191f236963abfee96ba	manuscript
-queue:3	validating-ai-one	cb1fdcbdfb19c0092d23413f8a42beae12c408cf	compact
-queue:4	algorithms-ai-one	7651319a5ca92f7164bdfac166c18d7a3b061706	compact
-queue:5	principles-of-finance-ai-one	6af7a84e35894cffcbfe8154d2997eff60ece769	compact
-queue:6	introductory-statistics-ai-one	9632e01ad6077fc41e9903d9683db6886b70f8f0	compact
-queue:7	application-engineering-and-development-ai-one	7e94f12ebc8d806aad87f01fa683e0c014e29793	compact
-queue:8	building-virtual-environments-ai-one	d23cd36a398f913511c703aff067bb2f15418043	compact
-queue:9	computational-finance-ai-one	af20edf279caba35094572bcda8ddcf6f1dcbea9	compact
+id	repo_slug	verified_commit	coverage	start_path	start_title	reader_focus
+queue:1	corporate-finance-ai-one	25b89db49b3bcc92fee35a79d185ee0c6edcb07c	manuscript	chapters/01-price-the-decision.md	A Good Investment the Firm Cannot Yet Make	Evaluate investments and funding choices inside a firm.
+queue:2	prompt-engineering-and-generative-ai-one	9068b7f7bbbdddbfecffd191f236963abfee96ba	manuscript	chapters/01-describe-the-task.md	Describe the task before writing prompts	Specify tasks, ground answers in evidence, and check generative workflows.
+queue:3	validating-ai-one	cb1fdcbdfb19c0092d23413f8a42beae12c408cf	compact	chapters/01-make-the-claim-testable.md	Make the claim small enough to check	Test an AI claim and decide what the evidence supports.
+queue:4	algorithms-ai-one	7651319a5ca92f7164bdfac166c18d7a3b061706	compact	chapters/01-contract.md	Write the contract and count the work	State an algorithm’s contract, prove correctness, and count the work.
+queue:5	principles-of-finance-ai-one	6af7a84e35894cffcbfe8154d2997eff60ece769	compact	chapters/01-find-the-finance-decision.md	Find the Finance Decision	Start with statements, cash flows, valuation, and risk.
+queue:6	introductory-statistics-ai-one	9632e01ad6077fc41e9903d9683db6886b70f8f0	compact	chapters/01-representation.md	Ask what the data can represent	Check what the data can represent and what an inference supports.
+queue:7	application-engineering-and-development-ai-one	7e94f12ebc8d806aad87f01fa683e0c014e29793	compact	chapters/01-model-the-work.md	Turn a user need into a domain model	Model, build, and check a small Java application.
+queue:8	building-virtual-environments-ai-one	d23cd36a398f913511c703aff067bb2f15418043	compact	chapters/01-scene.md	Make a scene you can reason about	Build and inspect a 3D scene with an optional Godot project.
+queue:9	computational-finance-ai-one	af20edf279caba35094572bcda8ddcf6f1dcbea9	compact	chapters/01-specify-the-financial-question.md	Specify the Financial Question Before Building the Model	Build and cross-check instrument, risk, and portfolio models in Excel or Python.
+queue:10	contemporary-mathematics-ai-one	fb768be4d575e2ed0e9ea2645c3be37dd28b5323	compact	chapters/01-count-what-you-can-serve.md	Count what you can serve	Make five quantitative decisions for one fictional community event.
