@@ -2,6 +2,7 @@
 
 An author-review draft about the existing AI+1 approach and a proposed extension for drafting and auditing an AI-ready chapter.
 
+- [Help write the paper](CONTRIBUTING.md): what the paper needs, how to submit, and how credit works.
 - [Manuscript](manuscript.md): research question, architecture, and proposed evaluation.
 - [Chapter-drafting protocol](workflow.md): the proposed authoring steps and the required AI Readiness evidence.
 - [Skill and evidence inventory](sources.md): what we can reuse and what still needs verification.
