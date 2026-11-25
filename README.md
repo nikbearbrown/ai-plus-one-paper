@@ -2,9 +2,29 @@
 
 An author-review draft about the existing AI+1 approach and a proposed extension for drafting and auditing an AI-ready chapter.
 
-**Where it stands:** a draft manuscript and one pilot chapter exist. The proposed evaluation has not been run.
+## Abstract
 
-**For contributors:** read [CONTRIBUTING.md](CONTRIBUTING.md). It lists what the paper needs, how to submit, and how credit and authorship work.
+A textbook chapter can explain a subject accurately without preparing students to work with AI in that subject. Adding a generic prompt does little to close the gap. We propose a chapter authoring workflow that takes an instructor's brief and permitted sources and produces a first draft, a claim ledger, a disciplinary exercise, an independent check, and an AI Readiness evidence report. The design adapts PaperOrchestra's staged drafting, source synthesis, optional figure work, and refinement to teaching. It retains AI+1's human authorship and approval gates. We specify how to compare the workflow with a single-pass draft and the existing AI+1 workflow, holding the underlying model and source access fixed. A local mechanical test is reported separately; it does not establish that the proposed workflow produces better chapters or that students learn more.
+
+## Where the draft is
+
+The draft is [manuscript.md](manuscript.md). It is an author-review draft and reports no comparative results.
+
+## What needs to be done
+
+- Pilot the proposed evaluation to set its statistical power, rubric anchors and cost limits.
+- Run the comparison the manuscript specifies. It has not been run.
+- Try the chapter-drafting protocol on more chapters and report what evidence it produces.
+- Verify the items in the inventory that are still unconfirmed.
+
+## How to contribute
+
+Read the [contributor guide](CONTRIBUTING.md). It lists each kind of contribution with where to start and what to send, the rules for this repo, how to submit, and how credit and authorship work.
+
+- **A quick contribution:** open an issue about one claim, source or decision. You don't need to review the whole paper.
+- **To become an author:** take on a component of the work, help write the paper, approve the final version and agree to be accountable for it. The guide explains each step.
+
+## What is here
 
 - [Manuscript](manuscript.md): research question, architecture, and proposed evaluation.
 - [Chapter-drafting protocol](workflow.md): the proposed authoring steps and the required AI Readiness evidence.
