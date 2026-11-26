@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (15)
+- [Read the public drafts](#read-the-public-drafts) (16)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -30,6 +30,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Principles of Marketing (AI Plus One)](https://github.com/nikbearbrown/principles-of-marketing-ai-one) | [Find the borrowing problem](https://github.com/nikbearbrown/principles-of-marketing-ai-one/blob/main/chapters/01-find-the-borrowing-problem.md) | Build a testable offer with a supported promise, realistic costs, and a measured rollout. |
 | [Introduction to Intellectual Property (AI Plus One)](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one) | [Inventory the contributions](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one/blob/main/chapters/01-inventory-the-contributions.md) | Trace provenance, permissions and disclosure for a fictional app release. |
 | [MBA Math (AI Plus One)](https://github.com/nikbearbrown/mba-math-ai-one) | [Give every rate a denominator](https://github.com/nikbearbrown/mba-math-ai-one/blob/main/chapters/01-give-every-rate-a-denominator.md) | Build and check a capacity decision using rates, break-even and scenario weights. |
+| [Prealgebra (AI Plus One)](https://github.com/nikbearbrown/prealgebra-ai-one) | [Track the signed balance](https://github.com/nikbearbrown/prealgebra-ai-one/blob/main/chapters/01-track-the-signed-balance.md) | Check signed balances, ratios, a reserve equation and a chart using one household puzzle. |
 
 ## Popular books
 
@@ -294,7 +295,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Mathematics for Physics Volume 2 (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/23-mathematics-for-physics-vol-2-ai-one.md) · [math-for-physics-vol-2](https://github.com/nikbearbrown/math-for-physics-vol-2) |
 | MBA Math (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/mba-math-ai-one) · [Blueprint](editorial-blueprints/19-mba-math-ai-one.md) · [mba-math](https://github.com/nikbearbrown/mba-math) |
 | Number Theory (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/39-number-theory/) |
-| Prealgebra (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/20-prealgebra-ai-one.md) · [math-prealgebra](https://github.com/nikbearbrown/math-prealgebra) |
+| Prealgebra (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/prealgebra-ai-one) · [Blueprint](editorial-blueprints/20-prealgebra-ai-one.md) · [math-prealgebra](https://github.com/nikbearbrown/math-prealgebra) |
 
 ### Physics, chemistry, and quantum science
 
