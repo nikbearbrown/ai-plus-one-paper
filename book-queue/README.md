@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (11)
+- [Read the public drafts](#read-the-public-drafts) (12)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -26,6 +26,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Computational Finance (AI Plus One)](https://github.com/nikbearbrown/computational-finance-ai-one) | [Specify the Financial Question Before Building the Model](https://github.com/nikbearbrown/computational-finance-ai-one/blob/main/chapters/01-specify-the-financial-question.md) | Build and cross-check instrument, risk, and portfolio models in Excel or Python. |
 | [Contemporary Mathematics (AI Plus One)](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) | [Count what you can serve](https://github.com/nikbearbrown/contemporary-mathematics-ai-one/blob/main/chapters/01-count-what-you-can-serve.md) | Make five quantitative decisions for one fictional community event. |
 | [Principles of Accounting (AI Plus One)](https://github.com/nikbearbrown/principles-of-accounting-ai-one) | [Trace a transaction twice](https://github.com/nikbearbrown/principles-of-accounting-ai-one/blob/main/chapters/01-trace-a-transaction-twice.md) | Close a fictional repair shop’s books and catch a cutoff error that balanced statements miss. |
+| [Principles of Management (AI Plus One)](https://github.com/nikbearbrown/principles-of-management-ai-one) | [Count the handoff, not just the preparation](https://github.com/nikbearbrown/principles-of-management-ai-one/blob/main/chapters/01-count-the-handoff.md) | Diagnose one stalled volunteer operation and design a reversible trial. |
 
 ## Popular books
 
@@ -138,7 +139,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Managing Information Systems Development (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/53-managing-information-systems-development/) |
 | Operational Risk Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/32-operational-risk-engineering/) |
 | Principles of Economics (AI Plus One) | On hold | [Blueprint](editorial-blueprints/97-principles-of-economics-ai-one.md) · [mba-economics](https://github.com/nikbearbrown/mba-economics) · [principles-economics-bundle](https://github.com/nikbearbrown/principles-economics-bundle) |
-| Principles of Management (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/16-principles-of-management-ai-one.md) · [mba-management](https://github.com/nikbearbrown/mba-management) |
+| Principles of Management (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/principles-of-management-ai-one) · [Blueprint](editorial-blueprints/16-principles-of-management-ai-one.md) · [mba-management](https://github.com/nikbearbrown/mba-management) |
 
 ### Computer science and software engineering
 
