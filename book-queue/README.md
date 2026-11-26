@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (13)
+- [Read the public drafts](#read-the-public-drafts) (14)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -28,6 +28,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Principles of Accounting (AI Plus One)](https://github.com/nikbearbrown/principles-of-accounting-ai-one) | [Trace a transaction twice](https://github.com/nikbearbrown/principles-of-accounting-ai-one/blob/main/chapters/01-trace-a-transaction-twice.md) | Close a fictional repair shop’s books and catch a cutoff error that balanced statements miss. |
 | [Principles of Management (AI Plus One)](https://github.com/nikbearbrown/principles-of-management-ai-one) | [Count the handoff, not just the preparation](https://github.com/nikbearbrown/principles-of-management-ai-one/blob/main/chapters/01-count-the-handoff.md) | Diagnose one stalled volunteer operation and design a reversible trial. |
 | [Principles of Marketing (AI Plus One)](https://github.com/nikbearbrown/principles-of-marketing-ai-one) | [Find the borrowing problem](https://github.com/nikbearbrown/principles-of-marketing-ai-one/blob/main/chapters/01-find-the-borrowing-problem.md) | Build a testable offer with a supported promise, realistic costs, and a measured rollout. |
+| [Introduction to Intellectual Property (AI Plus One)](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one) | [Inventory the contributions](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one/blob/main/chapters/01-inventory-the-contributions.md) | Trace provenance, permissions and disclosure for a fictional app release. |
 
 ## Popular books
 
@@ -135,7 +136,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Causal Modeling for Business Decisions (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/25-living-models-ai-one.md) · [Living-Models](https://github.com/nikbearbrown/Living-Models) |
 | Economics (AI Plus One) | On hold | [Blueprint](editorial-blueprints/104-economics-ai-one.md) · [economics](https://github.com/nikbearbrown/economics) |
 | Intellectual Property (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/84-intellectual-property-ai-one.md) · [mba-intellectual-property](https://github.com/nikbearbrown/mba-intellectual-property) |
-| Introduction to Intellectual Property (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/18-introduction-to-intellectual-property-ai-one.md) · [mba-intellectual-property](https://github.com/nikbearbrown/mba-intellectual-property) |
+| Introduction to Intellectual Property (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one) · [Blueprint](editorial-blueprints/18-introduction-to-intellectual-property-ai-one.md) · [mba-intellectual-property](https://github.com/nikbearbrown/mba-intellectual-property) |
 | Managerial Economics (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/83-managerial-economics-ai-one.md) · [mba-economics](https://github.com/nikbearbrown/mba-economics) |
 | Managing Information Systems Development (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/53-managing-information-systems-development/) |
 | Operational Risk Engineering (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/32-operational-risk-engineering/) |
