@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (12)
+- [Read the public drafts](#read-the-public-drafts) (13)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -27,6 +27,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Contemporary Mathematics (AI Plus One)](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) | [Count what you can serve](https://github.com/nikbearbrown/contemporary-mathematics-ai-one/blob/main/chapters/01-count-what-you-can-serve.md) | Make five quantitative decisions for one fictional community event. |
 | [Principles of Accounting (AI Plus One)](https://github.com/nikbearbrown/principles-of-accounting-ai-one) | [Trace a transaction twice](https://github.com/nikbearbrown/principles-of-accounting-ai-one/blob/main/chapters/01-trace-a-transaction-twice.md) | Close a fictional repair shop’s books and catch a cutoff error that balanced statements miss. |
 | [Principles of Management (AI Plus One)](https://github.com/nikbearbrown/principles-of-management-ai-one) | [Count the handoff, not just the preparation](https://github.com/nikbearbrown/principles-of-management-ai-one/blob/main/chapters/01-count-the-handoff.md) | Diagnose one stalled volunteer operation and design a reversible trial. |
+| [Principles of Marketing (AI Plus One)](https://github.com/nikbearbrown/principles-of-marketing-ai-one) | [Find the borrowing problem](https://github.com/nikbearbrown/principles-of-marketing-ai-one/blob/main/chapters/01-find-the-borrowing-problem.md) | Build a testable offer with a supported promise, realistic costs, and a measured rollout. |
 
 ## Popular books
 
@@ -273,7 +274,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Causal Inference in Pharmaceutical Marketing (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/54-causal-inference-in-pharmaceutical-marketing-ai-one.md) · [pharma-rep-visit-data-as-an-untapped-causal-dataset](https://github.com/nikbearbrown/pharma-rep-visit-data-as-an-untapped-causal-dataset) |
 | Computational Marketing (AI Plus One) | On hold | [Blueprint](editorial-blueprints/102-computational-marketing-ai-one.md) · [Computational_Marketing_and_Ad_Tech_with_Python](https://github.com/nikbearbrown/Computational_Marketing_and_Ad_Tech_with_Python) |
 | Healthcare Marketing (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/53-healthcare-marketing-ai-one.md) · [ai-driven-programmatic-hcp-marketing](https://github.com/nikbearbrown/ai-driven-programmatic-hcp-marketing) |
-| Principles of Marketing (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/17-principles-of-marketing-ai-one.md) · [mba-marketing](https://github.com/nikbearbrown/mba-marketing) |
+| Principles of Marketing (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/principles-of-marketing-ai-one) · [Blueprint](editorial-blueprints/17-principles-of-marketing-ai-one.md) · [mba-marketing](https://github.com/nikbearbrown/mba-marketing) |
 | Social Media Marketing (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/51-social-media-marketing-ai-one.md) · [social-media-marketing-plus-one](https://github.com/nikbearbrown/social-media-marketing-plus-one) |
 | Social Media Marketing Platforms (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/52-social-media-marketing-platforms-ai-one.md) · [social-media-marketing-platform-edition](https://github.com/nikbearbrown/social-media-marketing-platform-edition) |
 
