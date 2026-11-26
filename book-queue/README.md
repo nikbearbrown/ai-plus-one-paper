@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (10)
+- [Read the public drafts](#read-the-public-drafts) (11)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -25,6 +25,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Building Virtual Environments (AI Plus One)](https://github.com/nikbearbrown/building-virtual-environments-ai-one) | [Make a scene you can reason about](https://github.com/nikbearbrown/building-virtual-environments-ai-one/blob/main/chapters/01-scene.md) | Build and inspect a 3D scene with an optional Godot project. |
 | [Computational Finance (AI Plus One)](https://github.com/nikbearbrown/computational-finance-ai-one) | [Specify the Financial Question Before Building the Model](https://github.com/nikbearbrown/computational-finance-ai-one/blob/main/chapters/01-specify-the-financial-question.md) | Build and cross-check instrument, risk, and portfolio models in Excel or Python. |
 | [Contemporary Mathematics (AI Plus One)](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) | [Count what you can serve](https://github.com/nikbearbrown/contemporary-mathematics-ai-one/blob/main/chapters/01-count-what-you-can-serve.md) | Make five quantitative decisions for one fictional community event. |
+| [Principles of Accounting (AI Plus One)](https://github.com/nikbearbrown/principles-of-accounting-ai-one) | [Trace a transaction twice](https://github.com/nikbearbrown/principles-of-accounting-ai-one/blob/main/chapters/01-trace-a-transaction-twice.md) | Close a fictional repair shop’s books and catch a cutoff error that balanced statements miss. |
 
 ## Popular books
 
@@ -236,7 +237,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | Corporate Finance (AI Plus One) | Compare sources | [Public rough draft](https://github.com/nikbearbrown/corporate-finance-ai-one) · [Blueprint](editorial-blueprints/01-corporate-finance-ai-one.md) · [mba-corporate-finance](https://github.com/nikbearbrown/mba-corporate-finance) · [corporate-finance-with-ai](https://github.com/nikbearbrown/corporate-finance-with-ai) |
 | Fintech and Financial Innovation (AI Plus One) | Blueprint; on hold | [Blueprint](syllabus-track/blueprints/79-fintech-and-financial-innovation/) |
 | Introduction to Finance (AI Plus One) | On hold | [Blueprint](editorial-blueprints/99-introduction-to-finance-ai-one.md) · [intro-finance-with-llms](https://github.com/nikbearbrown/intro-finance-with-llms) |
-| Principles of Accounting (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/15-principles-of-accounting-ai-one.md) · [mba-accounting](https://github.com/nikbearbrown/mba-accounting) |
+| Principles of Accounting (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/principles-of-accounting-ai-one) · [Blueprint](editorial-blueprints/15-principles-of-accounting-ai-one.md) · [mba-accounting](https://github.com/nikbearbrown/mba-accounting) |
 | Principles of Finance (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/principles-of-finance-ai-one) · [Blueprint](editorial-blueprints/05-principles-of-finance-ai-one.md) · [mba-finance](https://github.com/nikbearbrown/mba-finance) |
 | Trading System Engineering (AI Plus One) | Blueprint; compare scope | [Blueprint](syllabus-track/blueprints/64-trading-system-engineering/) |
 | Verified Finance with Agents (AI Plus One) | Compare sources | [Blueprint](editorial-blueprints/48-verified-finance-with-agents-ai-one.md) · [mycroft](https://github.com/nikbearbrown/mycroft) |
