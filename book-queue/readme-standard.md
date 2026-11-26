@@ -1,36 +1,24 @@
 # Book README standard
 
-Use the same reader-facing structure in every book repository, based on [Computational Skepticism for AI](https://github.com/nikbearbrown/computational-skepticism-for-ai). Keep the headings below in this order. Repo layout, credits, and draft status may differ; the reader's route through the page should not.
+A rough draft is not done until its README helps a first-time reader start. Apply this checklist to every assigned book; do not copy generic prose between books.
 
-```markdown
-# Book title
+## Inspect first
 
-**Status:** Working draft
+Pin the branch you inspect. List the whole tracked tree, not just expected folders. Read the manuscript, chapter headings, blueprint, detailed outline, teaching materials, assessments, assets, and exports that actually exist. Reconcile numbering against the intended reading copy. Compare competing versions using navigation, content, status and source evidence. Flag unresolved duplicates; do not delete, relocate, rename or silently select them.
 
-## About the book
+## Root README
 
-Say what the book teaches, who it is for, and what they should already know.
+Use the book’s normal title case and these six headings in order:
 
-## Learning outcomes
+1. **About the book.** A book-specific paragraph with subject, intended reader, concrete outcome, prerequisites when known, and edition status: blueprint, partial manuscript, rough draft, or reviewed edition.
+2. **Start reading.** Direct links to the first written chapter, the complete guide and any usable web/download edition. If no chapter is written, say so and link the blueprint.
+3. **Chapter guide.** List every chapter in intended order, grouped in parts. Use the manuscript title without a duplicate number, add one sentence on what it teaches, and link written files directly. Mark outline-only chapters **planned** without fictitious paths. Keep appendices, front matter and alternate material distinct. Put a long guide in `chapters/README.md` and link it prominently.
+4. **How to teach or study it.** Explain the sequence, what learners do, and how they demonstrate learning. Link the actual blueprint, outline, syllabus or guide where present. Label a proposed plan as proposed.
+5. **What’s in this repo.** Use `Resource | Link | Coverage | Status`, reporting verified counts or ranges for chapters, slides, exercises, quizzes and assessments, answer keys, figures, videos, code, datasets and exports. Distinguish overview decks from chapter decks, plans from finished videos, and web source from a verified live site. Say **not found** when absent; use **planned** only with a plan.
+6. **Credits, license, and corrections.** Name only confirmed contributors or maintainers. Link the actual rights notice or license, or state none was found. Give a concrete correction route.
 
-- Describe something readers will be able to explain, calculate, build, or check.
+## Layout and verification
 
-## Read the book
+Use lowercase kebab-case for new repo names, folders and content files; keep `README.md` and `LICENSE` conventional. Every content folder needs a short README with a real starting point; do not create empty placeholders. Do not rename existing repos or move manuscripts to fit this convention.
 
-Link to the introduction or first chapter and, where useful, the chapters folder.
-
-### Optional thematic part title
-
-1. [Actual chapter title](chapters/01-actual-filename.md)
-2. [Actual chapter title](chapters/02-actual-filename.md): Optional one-sentence description.
-
-## Resources
-
-Link to existing exercises, worked examples, labs, references, supplementary chapters, or license and authoring notes.
-```
-
-- Keep verified author, publisher, edition, and rights notices. Use draft, excerpt, blueprint, or source snapshot labels where they apply; do not imply a finished or published edition.
-- Use headings from the actual chapter files, excluding comments and numbering prefixes. Number each chapter once via the ordered list. Use named links rather than chapter numbers for front matter, supplemental chapters, alternate versions, and capstones that are not numbered chapters.
-- Give substantive linked items their real repo-relative paths. Check them against the target branch. If only an outline exists, link it as a plan and do not create chapter links to missing files. Keep source snapshots clearly labeled and separate from newly authored chapters.
-- Put contributor workflows and progress matrices in separate notes. Keep setup commands in Resources only when relevant to the reader, and label any unverified build instructions.
-- Before publishing, verify the heading order, readable chapter titles and numbering, relative link targets, and accurate credits and status.
+Verify every relative link and anchor, reading order, and table count against the target tree. Test a usable edition before calling it live. Check the root as a new reader: within 30 seconds, can you tell what the book is, where to start, and what teaching material exists? Preserve changes to manuscripts, assets and visibility outside this docs scope. Report updated repos and unresolved manuscript or resource questions.
