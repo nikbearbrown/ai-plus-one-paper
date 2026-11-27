@@ -2,7 +2,7 @@
 
 Browse by format. Within each format, titles are alphabetized by topic. Every entry has a Blueprint. Source links and planning status do not imply a promised release. Some sources require GitHub access. Local material is labeled.
 
-- [Read the public drafts](#read-the-public-drafts) (16)
+- [Read the public drafts](#read-the-public-drafts) (17)
 - [Popular books](#popular-books) (5)
 - [Courses and textbooks](#courses-and-textbooks) (178)
 - [Workshops](#workshops) (26)
@@ -31,6 +31,7 @@ Start with a chapter or open the book for its full contents. These are working d
 | [Introduction to Intellectual Property (AI Plus One)](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one) | [Inventory the contributions](https://github.com/nikbearbrown/introduction-to-intellectual-property-ai-one/blob/main/chapters/01-inventory-the-contributions.md) | Trace provenance, permissions and disclosure for a fictional app release. |
 | [MBA Math (AI Plus One)](https://github.com/nikbearbrown/mba-math-ai-one) | [Give every rate a denominator](https://github.com/nikbearbrown/mba-math-ai-one/blob/main/chapters/01-give-every-rate-a-denominator.md) | Build and check a capacity decision using rates, break-even and scenario weights. |
 | [Prealgebra (AI Plus One)](https://github.com/nikbearbrown/prealgebra-ai-one) | [Track the signed balance](https://github.com/nikbearbrown/prealgebra-ai-one/blob/main/chapters/01-track-the-signed-balance.md) | Check signed balances, ratios, a reserve equation and a chart using one household puzzle. |
+| [College Algebra (AI Plus One)](https://github.com/nikbearbrown/college-algebra-ai-one) | [Functions as mappings](https://github.com/nikbearbrown/college-algebra-ai-one/blob/main/chapters/01-functions-as-mappings.md) | Fit piecewise demand, reject out-of-domain roots and defend a price under capacity limits. |
 
 ## Popular books
 
@@ -287,7 +288,7 @@ Full courses with substantial learning material, including AI Plus One textbooks
 | --- | --- | --- |
 | Algebra (AI Plus One) | On hold | [Blueprint](editorial-blueprints/106-algebra-ai-one.md) · [math-algebra](https://github.com/nikbearbrown/math-algebra) |
 | Calculus (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/22-calculus-ai-one.md) · [math-calculus](https://github.com/nikbearbrown/math-calculus) |
-| College Algebra (AI Plus One) | Ready to scope | [Blueprint](editorial-blueprints/21-college-algebra-ai-one.md) · [math-college-algebra](https://github.com/nikbearbrown/math-college-algebra) |
+| College Algebra (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/college-algebra-ai-one) · [Blueprint](editorial-blueprints/21-college-algebra-ai-one.md) · [math-college-algebra](https://github.com/nikbearbrown/math-college-algebra) |
 | Contemporary Mathematics (AI Plus One) | Ready to scope | [Public compact rough draft](https://github.com/nikbearbrown/contemporary-mathematics-ai-one) · [Blueprint](editorial-blueprints/10-contemporary-mathematics-ai-one.md) · [math-contemporary-mathematics](https://github.com/nikbearbrown/math-contemporary-mathematics) |
 | Discrete Structures (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/15-discrete-structures/) |
 | Elliptic Curves and Modular Forms (AI Plus One) | Blueprint; candidate for drafting | [Blueprint](syllabus-track/blueprints/41-elliptic-curves-and-modular-forms/) |
