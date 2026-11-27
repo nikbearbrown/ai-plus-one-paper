@@ -1,6 +1,6 @@
 # AI+1: An Auditable Workflow for Drafting AI-Ready Textbook Chapters
 
-[Read the draft](manuscript.md) · [Help with the paper](CONTRIBUTING.md) · [Chapter-drafting protocol](workflow.md)
+[Revised rough draft and Critique review](critiq-output/) · [Original draft](manuscript.md) · [Help with the paper](CONTRIBUTING.md) · [Chapter-drafting protocol](workflow.md)
 
 **We're inviting collaborators.** Review one claim, check a source, or take on one of the tasks listed below. You don't need to review the whole paper to help. To join, follow [Getting started](CONTRIBUTING.md#getting-started) in the contributor guide.
 
@@ -12,7 +12,7 @@ A textbook chapter can explain a subject accurately without preparing students t
 
 ## Where the draft is
 
-The draft is [manuscript.md](manuscript.md). It is an author-review draft and reports no comparative results.
+Start with the [revised rough draft](critiq-output/ai-plus-one-draft.md) and [Critique review](critiq-output/ai-plus-one-review.md). The [original manuscript](manuscript.md) is preserved. Both report no comparative results.
 
 ## What needs to be done
 
